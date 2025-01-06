@@ -1,0 +1,762 @@
+{
+  "UserEvents": {
+    "jerem": [
+      {
+        "NewName": "StageIntro",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2025-01-05T08:07:26.6837192Z"
+      },
+      {
+        "NewName": "StageIntro.TextInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:07:30.2011709Z"
+      },
+      {
+        "NewName": "StageIntro.WorldNumber",
+        "OldName": "StageIntro.TextInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:07:58.1691663Z"
+      },
+      {
+        "NewName": "StageIntro.ContainerInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:09:54.0467774Z"
+      },
+      {
+        "NewName": "StageIntro.LivesContainer",
+        "OldName": "StageIntro.ContainerInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:09:58.5597092Z"
+      },
+      {
+        "NewName": "StageIntro.SpriteInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:10:02.7566215Z"
+      },
+      {
+        "NewName": "StageIntro.TextInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:10:06.3205889Z"
+      },
+      {
+        "NewName": "StageIntro.TextInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:10:08.278021Z"
+      },
+      {
+        "NewName": "StageIntro.XText",
+        "OldName": "StageIntro.TextInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:10:14.8610858Z"
+      },
+      {
+        "NewName": "StageIntro.LivesText",
+        "OldName": "StageIntro.TextInstance1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:10:18.2803363Z"
+      },
+      {
+        "NewName": "StageIntro.FRBMan",
+        "OldName": "StageIntro.SpriteInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:10:24.2711726Z"
+      },
+      {
+        "NewName": "StageIntro.SpriteFRBMan",
+        "OldName": "StageIntro.FRBMan",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:10:29.785085Z"
+      },
+      {
+        "NewName": "StageIntro.FRBManSprite",
+        "OldName": "StageIntro.SpriteFRBMan",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:10:41.1649781Z"
+      },
+      {
+        "NewName": "StageIntro.SpriteInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:19:29.4418198Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "StageIntro.Sprite SpriteInstance in StageIntro",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:22:29.1227367Z"
+      },
+      {
+        "NewName": "StageIntro.ContainerInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:26:02.4784173Z"
+      },
+      {
+        "NewName": "GameScreenHud",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2025-01-05T08:28:14.949825Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldNumber",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:30:45.4288061Z"
+      },
+      {
+        "NewName": "GameScreenHud.ContainerInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:31:00.0244788Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldNumber1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:31:21.0227143Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldNumber2",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:31:21.3339307Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldNumber3",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:31:21.9410799Z"
+      },
+      {
+        "NewName": "GameScreenHud.FRBPoints",
+        "OldName": "GameScreenHud.WorldNumber",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:32:08.7361357Z"
+      },
+      {
+        "NewName": "GameScreenHud.Coins",
+        "OldName": "GameScreenHud.WorldNumber1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:32:15.3371249Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldNumber",
+        "OldName": "GameScreenHud.WorldNumber2",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:32:22.8453636Z"
+      },
+      {
+        "NewName": "GameScreenHud.Time",
+        "OldName": "GameScreenHud.WorldNumber3",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:32:28.1645322Z"
+      },
+      {
+        "NewName": "GameScreenHud.LivesContainer",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:33:13.4298546Z"
+      },
+      {
+        "NewName": "GameScreenHud.FRBManSprite",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:33:13.4438533Z"
+      },
+      {
+        "NewName": "GameScreenHud.XText",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:33:13.4538533Z"
+      },
+      {
+        "NewName": "GameScreenHud.LivesText",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:33:13.4708533Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Text Coins in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:33:16.5517617Z"
+      },
+      {
+        "NewName": "GameScreenHud.CoinsContainer",
+        "OldName": "GameScreenHud.LivesContainer",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:33:29.1653745Z"
+      },
+      {
+        "NewName": "GameScreenHud.CoinSprite",
+        "OldName": "GameScreenHud.FRBManSprite",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:34:56.3308002Z"
+      },
+      {
+        "NewName": "GameScreenHud.ContainerInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:38:03.0820085Z"
+      },
+      {
+        "NewName": "dddddd",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2025-01-05T08:39:20.5055026Z"
+      },
+      {
+        "NewName": "dddddd.ContainerInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:39:23.8517348Z"
+      },
+      {
+        "NewName": "dddddd.FRBPoints",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:39:23.8547343Z"
+      },
+      {
+        "NewName": "dddddd.CoinsContainer",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:39:23.8667349Z"
+      },
+      {
+        "NewName": "dddddd.WorldNumber",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:39:23.8727368Z"
+      },
+      {
+        "NewName": "dddddd.Time",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:39:23.8817346Z"
+      },
+      {
+        "NewName": "dddddd.CoinSprite",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:39:23.8927346Z"
+      },
+      {
+        "NewName": "dddddd.XText",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:39:23.9037345Z"
+      },
+      {
+        "NewName": "dddddd.LivesText",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:39:23.9157345Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Container ContainerInstance in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:42:46.1344641Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Container ContainerInstance1 in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:42:54.3017755Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Text FRBPoints in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:42:54.3057765Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Container CoinsContainer in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:42:54.3137758Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Text XText in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:42:54.3197749Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Text LivesText in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:42:54.3247752Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Text WorldNumber in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:42:54.3297759Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Text Time in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:42:54.3347749Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Sprite CoinSprite in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:42:54.339775Z"
+      },
+      {
+        "NewName": "GameScreenHud.ContainerInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:42:57.5021944Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Container ContainerInstance1 in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:43:00.9940493Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "dddddd.Container ContainerInstance1 in dddddd",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:43:02.7040791Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "dddddd.Text FRBPoints in dddddd",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:43:02.9140791Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "dddddd.Container CoinsContainer in dddddd",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:43:02.9240789Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "dddddd.Text WorldNumber in dddddd",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:43:02.9310785Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "dddddd.Text Time in dddddd",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:43:02.9370781Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "dddddd.Sprite CoinSprite in dddddd",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:43:02.9420786Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "dddddd.Text XText in dddddd",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:43:02.947079Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "dddddd.Text LivesText in dddddd",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T08:43:02.9500779Z"
+      },
+      {
+        "NewName": "GameScreenHud.ContainerInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:43:04.3198144Z"
+      },
+      {
+        "NewName": "GameScreenHud.FRBPoints",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:43:04.3238158Z"
+      },
+      {
+        "NewName": "GameScreenHud.CoinsContainer",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:43:04.3328139Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldNumber",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:43:04.3418145Z"
+      },
+      {
+        "NewName": "GameScreenHud.Time",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:43:04.3508145Z"
+      },
+      {
+        "NewName": "GameScreenHud.CoinSprite",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:43:04.360814Z"
+      },
+      {
+        "NewName": "GameScreenHud.XText",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:43:04.3728144Z"
+      },
+      {
+        "NewName": "GameScreenHud.LivesText",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:43:04.3848144Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "dddddd",
+        "ElementType": "Screens",
+        "EventType": 1,
+        "TimestampUtc": "2025-01-05T08:43:07.8269729Z"
+      },
+      {
+        "NewName": "StageIntro.ContainerInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:58:04.6194573Z"
+      },
+      {
+        "NewName": "StageIntro.WorldNumber1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T08:58:22.9436871Z"
+      },
+      {
+        "NewName": "StageIntro.WorldLabel",
+        "OldName": "StageIntro.WorldNumber1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T08:58:31.3224869Z"
+      },
+      {
+        "NewName": "GameScreenHud.ContainerInstance2",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T09:03:03.3998131Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldLabel",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T09:03:03.4198135Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldNumber1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T09:03:03.4368134Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Text WorldNumber in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T09:03:05.9462933Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldContainer",
+        "OldName": "GameScreenHud.ContainerInstance2",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T09:07:34.1246483Z"
+      },
+      {
+        "NewName": "StageIntro.WorldContainer",
+        "OldName": "StageIntro.ContainerInstance1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T09:07:39.8994831Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldNumber",
+        "OldName": "GameScreenHud.WorldNumber1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T09:11:33.4407169Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldContainer1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T09:11:47.1205938Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldLabel1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T09:11:47.140594Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldNumber1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T09:11:47.1695939Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Text WorldNumber1 in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T09:11:58.3822524Z"
+      },
+      {
+        "NewName": "GameScreenHud.FRBPointsLabel",
+        "OldName": "GameScreenHud.WorldLabel1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T09:12:12.4283559Z"
+      },
+      {
+        "NewName": "GameScreenHud.PointsContainer",
+        "OldName": "GameScreenHud.WorldContainer1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T09:14:08.8994499Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldContainer1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T09:14:13.3465375Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldLabel1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T09:14:13.3735375Z"
+      },
+      {
+        "NewName": "GameScreenHud.WorldNumber1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T09:14:13.3975376Z"
+      },
+      {
+        "NewName": "GameScreenHud.TimeContainer",
+        "OldName": "GameScreenHud.WorldContainer1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T09:14:21.5814588Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenHud.Text Time in GameScreenHud",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-05T09:14:33.8154837Z"
+      },
+      {
+        "NewName": "GameScreenHud.TimeLabel",
+        "OldName": "GameScreenHud.WorldLabel1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T09:15:13.0694397Z"
+      },
+      {
+        "NewName": "GameScreenHud.TimeNumber",
+        "OldName": "GameScreenHud.WorldNumber1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T09:15:17.9594354Z"
+      },
+      {
+        "NewName": "GameScreenHud.CoinsNumber",
+        "OldName": "GameScreenHud.LivesText",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-05T09:33:13.3748782Z"
+      },
+      {
+        "NewName": "comp1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-01-05T22:29:49.4995894Z"
+      },
+      {
+        "NewName": "comp1 (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T22:29:51.4527477Z"
+      },
+      {
+        "NewName": "comp",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-01-05T23:32:41.0803419Z"
+      },
+      {
+        "NewName": "comp (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T23:32:45.459125Z"
+      },
+      {
+        "NewName": "comp (Container).ContainerInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T23:32:50.9600533Z"
+      },
+      {
+        "NewName": "comp (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-05T23:33:07.9232176Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "comp",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2025-01-06T00:12:10.4800222Z"
+      },
+      {
+        "NewName": "Example",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-01-06T00:19:25.7536508Z"
+      },
+      {
+        "NewName": "Example (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T00:19:27.9802817Z"
+      },
+      {
+        "NewName": "Example (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T00:19:31.104725Z"
+      },
+      {
+        "NewName": "Example (Container).TextInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T00:19:32.9190235Z"
+      },
+      {
+        "NewName": "Example (Container).TextInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T00:19:34.5610265Z"
+      },
+      {
+        "NewName": "Example (Container).TextInstance3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T00:19:35.708455Z"
+      }
+    ]
+  }
+}
