@@ -53,7 +53,7 @@ partial class GameScreenHudRuntime : Gum.Wireframe.BindableGue, MonogameGumScree
         if (Keyboard.GetState().IsKeyDown(Keys.P))
         {
             totalPoints += 5;
-            this.FRBPoints.Text = ((int)totalPoints).ToString("D8");
+            this.FRBPoints.Text = ((int)totalPoints).ToString("D6");
         }
     }
 }
