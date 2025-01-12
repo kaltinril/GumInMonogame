@@ -756,6 +756,279 @@
         "ElementType": "Components",
         "EventType": 5,
         "TimestampUtc": "2025-01-06T00:19:35.708455Z"
+      },
+      {
+        "NewName": "comp1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-01-06T05:02:56.2095954Z"
+      },
+      {
+        "NewName": "comp1 (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T05:03:19.1873641Z"
+      },
+      {
+        "NewName": "comp2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-01-06T05:04:58.6455166Z"
+      },
+      {
+        "NewName": "comp2 (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T05:05:00.7545149Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "comp2",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2025-01-06T05:06:02.3704268Z"
+      },
+      {
+        "NewName": "comp1 (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T05:11:30.7532229Z"
+      },
+      {
+        "NewName": "Screen1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2025-01-06T05:50:16.2206267Z"
+      },
+      {
+        "NewName": "Screen1.comp1Instance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T05:50:17.8949126Z"
+      },
+      {
+        "NewName": "Screen1.ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T05:50:19.3424047Z"
+      },
+      {
+        "NewName": "Screen1.ContainerInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T05:50:21.0708799Z"
+      },
+      {
+        "NewName": "Screen1.ColoredRectangleInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T05:50:22.3174003Z"
+      },
+      {
+        "NewName": "comp2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-01-06T05:50:48.707182Z"
+      },
+      {
+        "NewName": "comp2 (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-06T05:50:50.6183416Z"
+      },
+      {
+        "NewName": null,
+        "OldName": ".Rectangle RectangleInstance",
+        "ElementType": null,
+        "EventType": 6,
+        "TimestampUtc": "2025-01-06T05:50:57.0041307Z"
+      },
+      {
+        "NewName": "comp1 (Container).BlueBackground",
+        "OldName": "comp1 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T05:19:35.2878407Z"
+      },
+      {
+        "NewName": "comp1 (Container).BlueBackground",
+        "OldName": "comp1 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T05:19:35.2918416Z"
+      },
+      {
+        "NewName": "comp1 (Container).BlueBackground",
+        "OldName": "comp1 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T05:19:35.296841Z"
+      },
+      {
+        "NewName": "comp2 (Container).WhiteBox",
+        "OldName": "comp2 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T05:19:41.8602214Z"
+      },
+      {
+        "NewName": "comp2 (Container).WhiteBox",
+        "OldName": "comp2 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T05:19:41.8642217Z"
+      },
+      {
+        "NewName": "comp2 (Container).WhiteBox",
+        "OldName": "comp2 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T05:19:41.8712217Z"
+      },
+      {
+        "NewName": "comp2 (Container).WhiteBox",
+        "OldName": "comp2 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T05:19:41.8762208Z"
+      },
+      {
+        "NewName": "comp2 (Container).WhiteBox",
+        "OldName": "comp2 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T05:19:41.881223Z"
+      },
+      {
+        "NewName": "Screen1.comp2Instance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-07T05:39:07.006258Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "comp2",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2025-01-07T05:48:17.8484956Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Screen1.comp2 comp2Instance in Screen1",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-01-07T05:48:24.7824033Z"
+      },
+      {
+        "NewName": "Comp2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-01-07T05:48:27.8232381Z"
+      },
+      {
+        "NewName": "Comp2 (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-07T05:48:30.1421157Z"
+      },
+      {
+        "NewName": "Comp2 (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-07T06:10:17.6770147Z"
+      },
+      {
+        "NewName": "Screen1.Comp2Instance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-07T06:16:40.6766985Z"
+      },
+      {
+        "NewName": "Comp2 (Container).WhiteBox",
+        "OldName": "Comp2 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T06:34:16.8586976Z"
+      },
+      {
+        "NewName": "Comp2 (Container).WhiteBox",
+        "OldName": "Comp2 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T06:34:16.8607016Z"
+      },
+      {
+        "NewName": "Comp2 (Container).WhiteBox",
+        "OldName": "Comp2 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T06:34:16.867697Z"
+      },
+      {
+        "NewName": "Comp2 (Container).WhiteBox",
+        "OldName": "Comp2 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T06:34:16.8736974Z"
+      },
+      {
+        "NewName": "Comp2 (Container).WhiteBox",
+        "OldName": "Comp2 (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-07T06:34:16.8786975Z"
+      },
+      {
+        "NewName": "Screen1.Comp2Instance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-07T06:35:04.0576258Z"
+      },
+      {
+        "NewName": "Comp3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-01-08T01:43:39.9200409Z"
+      },
+      {
+        "NewName": "Comp3 (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-08T01:43:42.6447756Z"
+      },
+      {
+        "NewName": "Comp3 (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-08T01:43:44.275153Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Example",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2025-01-12T01:52:29.7015533Z"
       }
     ]
   }

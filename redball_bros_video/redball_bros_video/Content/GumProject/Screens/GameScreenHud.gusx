@@ -484,6 +484,19 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>bool</Type>
+      <Name>IsOverrideInCodeGen</Name>
+      <Value xsi:type="xsd:boolean">false</Value>
+      <Category>Xamarin Forms</Category>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>bool</Type>
+      <Name>IsXamarinFormsControl</Name>
+      <Category>Xamarin Forms</Category>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>int</Type>
       <Name>PointsContainer.AutoGridHorizontalCells</Name>
       <Value xsi:type="xsd:int">1</Value>
@@ -1033,12 +1046,6 @@
       <Type>PositionUnitType</Type>
       <Name>WorldNumber.Y Units</Name>
       <Value xsi:type="xsd:int">5</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>int</Type>
-      <Name>XText.FontSize</Name>
-      <Value xsi:type="xsd:int">12</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
