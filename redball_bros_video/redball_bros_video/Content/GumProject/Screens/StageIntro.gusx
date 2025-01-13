@@ -48,18 +48,6 @@
     </Variable>
     <Variable>
       <Type>int</Type>
-      <Name>FRBManSprite.Texture Left</Name>
-      <Value xsi:type="xsd:int">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>int</Type>
-      <Name>FRBManSprite.Texture Top</Name>
-      <Value xsi:type="xsd:int">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>int</Type>
       <Name>FRBManSprite.Texture Width</Name>
       <Value xsi:type="xsd:int">16</Value>
       <SetsValue>true</SetsValue>
@@ -126,12 +114,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>float</Type>
-      <Name>LivesContainer.X</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>HorizontalAlignment</Type>
       <Name>LivesContainer.X Origin</Name>
       <Value xsi:type="xsd:int">1</Value>
@@ -141,37 +123,6 @@
       <Type>PositionUnitType</Type>
       <Name>LivesContainer.X Units</Name>
       <Value xsi:type="xsd:int">6</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>float</Type>
-      <Name>LivesContainer.Y</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>VerticalAlignment</Type>
-      <Name>LivesContainer.Y Origin</Name>
-      <Value xsi:type="xsd:int">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>PositionUnitType</Type>
-      <Name>LivesContainer.Y Units</Name>
-      <Value xsi:type="xsd:int">1</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <IsFont>true</IsFont>
-      <Type>string</Type>
-      <Name>LivesText.Font</Name>
-      <Value xsi:type="xsd:string">Press Start 2P</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>int</Type>
-      <Name>LivesText.FontSize</Name>
-      <Value xsi:type="xsd:int">18</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -223,6 +174,72 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>int</Type>
+      <Name>StageIntroBackgroundRectangle.Blue</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>StageIntroBackgroundRectangle.Green</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StageIntroBackgroundRectangle.Height</Name>
+      <Value xsi:type="xsd:float">-0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>StageIntroBackgroundRectangle.Height Units</Name>
+      <Value xsi:type="xsd:int">2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>StageIntroBackgroundRectangle.Red</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StageIntroBackgroundRectangle.Width</Name>
+      <Value xsi:type="xsd:float">-0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>StageIntroBackgroundRectangle.Width Units</Name>
+      <Value xsi:type="xsd:int">2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>HorizontalAlignment</Type>
+      <Name>StageIntroBackgroundRectangle.X Origin</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>StageIntroBackgroundRectangle.X Units</Name>
+      <Value xsi:type="xsd:int">6</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>VerticalAlignment</Type>
+      <Name>StageIntroBackgroundRectangle.Y Origin</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>StageIntroBackgroundRectangle.Y Units</Name>
+      <Value xsi:type="xsd:int">7</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>ChildrenLayout</Type>
       <Name>StageIntroContainer.Children Layout</Name>
       <Value xsi:type="xsd:int">1</Value>
@@ -253,12 +270,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>float</Type>
-      <Name>StageIntroContainer.X</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>HorizontalAlignment</Type>
       <Name>StageIntroContainer.X Origin</Name>
       <Value xsi:type="xsd:int">1</Value>
@@ -268,12 +279,6 @@
       <Type>PositionUnitType</Type>
       <Name>StageIntroContainer.X Units</Name>
       <Value xsi:type="xsd:int">6</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>float</Type>
-      <Name>StageIntroContainer.Y</Name>
-      <Value xsi:type="xsd:float">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -337,19 +342,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>PositionUnitType</Type>
-      <Name>WorldContainer.X Units</Name>
-      <Value xsi:type="xsd:int">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <IsFont>true</IsFont>
-      <Type>string</Type>
-      <Name>WorldLabel.Font</Name>
-      <Value xsi:type="xsd:string">Press Start 2P</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>float</Type>
       <Name>WorldLabel.Height</Name>
       <Value xsi:type="xsd:float">0</Value>
@@ -398,30 +390,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>float</Type>
-      <Name>WorldLabel.X</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>HorizontalAlignment</Type>
-      <Name>WorldLabel.X Origin</Name>
-      <Value xsi:type="xsd:int">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>PositionUnitType</Type>
-      <Name>WorldLabel.X Units</Name>
-      <Value xsi:type="xsd:int">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>float</Type>
-      <Name>WorldLabel.Y</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>VerticalAlignment</Type>
       <Name>WorldLabel.Y Origin</Name>
       <Value xsi:type="xsd:int">3</Value>
@@ -431,13 +399,6 @@
       <Type>PositionUnitType</Type>
       <Name>WorldLabel.Y Units</Name>
       <Value xsi:type="xsd:int">5</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <IsFont>true</IsFont>
-      <Type>string</Type>
-      <Name>WorldNumber.Font</Name>
-      <Value xsi:type="xsd:string">Press Start 2P</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -489,12 +450,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>float</Type>
-      <Name>WorldNumber.X</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>HorizontalAlignment</Type>
       <Name>WorldNumber.X Origin</Name>
       <Value xsi:type="xsd:int">2</Value>
@@ -507,12 +462,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>float</Type>
-      <Name>WorldNumber.Y</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>VerticalAlignment</Type>
       <Name>WorldNumber.Y Origin</Name>
       <Value xsi:type="xsd:int">3</Value>
@@ -522,13 +471,6 @@
       <Type>PositionUnitType</Type>
       <Name>WorldNumber.Y Units</Name>
       <Value xsi:type="xsd:int">5</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <IsFont>true</IsFont>
-      <Type>string</Type>
-      <Name>XText.Font</Name>
-      <Value xsi:type="xsd:string">Press Start 2P</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -558,7 +500,7 @@
     <Variable>
       <Type>string</Type>
       <Name>XText.Text</Name>
-      <Value xsi:type="xsd:string">  X   </Value>
+      <Value xsi:type="xsd:string">  X  </Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -589,84 +531,6 @@
       <Type>PositionUnitType</Type>
       <Name>XText.Y Units</Name>
       <Value xsi:type="xsd:int">5</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>int</Type>
-      <Name>StageIntroBackgroundRectangle.Red</Name>
-      <Value xsi:type="xsd:int">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>int</Type>
-      <Name>StageIntroBackgroundRectangle.Green</Name>
-      <Value xsi:type="xsd:int">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>int</Type>
-      <Name>StageIntroBackgroundRectangle.Blue</Name>
-      <Value xsi:type="xsd:int">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>float</Type>
-      <Name>StageIntroBackgroundRectangle.X</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>HorizontalAlignment</Type>
-      <Name>StageIntroBackgroundRectangle.X Origin</Name>
-      <Value xsi:type="xsd:int">1</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>PositionUnitType</Type>
-      <Name>StageIntroBackgroundRectangle.X Units</Name>
-      <Value xsi:type="xsd:int">6</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>float</Type>
-      <Name>StageIntroBackgroundRectangle.Y</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>VerticalAlignment</Type>
-      <Name>StageIntroBackgroundRectangle.Y Origin</Name>
-      <Value xsi:type="xsd:int">1</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>PositionUnitType</Type>
-      <Name>StageIntroBackgroundRectangle.Y Units</Name>
-      <Value xsi:type="xsd:int">7</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>float</Type>
-      <Name>StageIntroBackgroundRectangle.Width</Name>
-      <Value xsi:type="xsd:float">-0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>DimensionUnitType</Type>
-      <Name>StageIntroBackgroundRectangle.Width Units</Name>
-      <Value xsi:type="xsd:int">2</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>float</Type>
-      <Name>StageIntroBackgroundRectangle.Height</Name>
-      <Value xsi:type="xsd:float">-0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>DimensionUnitType</Type>
-      <Name>StageIntroBackgroundRectangle.Height Units</Name>
-      <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <VariableList xsi:type="VariableListSaveOfString">

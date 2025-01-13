@@ -28,12 +28,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>float</Type>
-      <Name>BackgroundContainer.X</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>HorizontalAlignment</Type>
       <Name>BackgroundContainer.X Origin</Name>
       <Value xsi:type="xsd:int">1</Value>
@@ -43,12 +37,6 @@
       <Type>PositionUnitType</Type>
       <Name>BackgroundContainer.X Units</Name>
       <Value xsi:type="xsd:int">6</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>float</Type>
-      <Name>BackgroundContainer.Y</Name>
-      <Value xsi:type="xsd:float">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -101,12 +89,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>float</Type>
-      <Name>BackgroundSprite.X</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>HorizontalAlignment</Type>
       <Name>BackgroundSprite.X Origin</Name>
       <Value xsi:type="xsd:int">1</Value>
@@ -116,12 +98,6 @@
       <Type>PositionUnitType</Type>
       <Name>BackgroundSprite.X Units</Name>
       <Value xsi:type="xsd:int">6</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>float</Type>
-      <Name>BackgroundSprite.Y</Name>
-      <Value xsi:type="xsd:float">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -297,12 +273,6 @@
       <Type>int</Type>
       <Name>CoinSprite.Texture Height</Name>
       <Value xsi:type="xsd:int">16</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>int</Type>
-      <Name>CoinSprite.Texture Left</Name>
-      <Value xsi:type="xsd:int">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -515,12 +485,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>float</Type>
-      <Name>GameScreenHudContainer.X</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>HorizontalAlignment</Type>
       <Name>GameScreenHudContainer.X Origin</Name>
       <Value xsi:type="xsd:int">1</Value>
@@ -533,21 +497,9 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>float</Type>
-      <Name>GameScreenHudContainer.Y</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>VerticalAlignment</Type>
       <Name>GameScreenHudContainer.Y Origin</Name>
       <Value xsi:type="xsd:int">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>PositionUnitType</Type>
-      <Name>GameScreenHudContainer.Y Units</Name>
-      <Value xsi:type="xsd:int">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -756,12 +708,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>float</Type>
-      <Name>TimeLabel.X</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>HorizontalAlignment</Type>
       <Name>TimeLabel.X Origin</Name>
       <Value xsi:type="xsd:int">1</Value>
@@ -771,12 +717,6 @@
       <Type>PositionUnitType</Type>
       <Name>TimeLabel.X Units</Name>
       <Value xsi:type="xsd:int">6</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>float</Type>
-      <Name>TimeLabel.Y</Name>
-      <Value xsi:type="xsd:float">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -840,12 +780,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>float</Type>
-      <Name>TimeNumber.X</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>HorizontalAlignment</Type>
       <Name>TimeNumber.X Origin</Name>
       <Value xsi:type="xsd:int">2</Value>
@@ -855,12 +789,6 @@
       <Type>PositionUnitType</Type>
       <Name>TimeNumber.X Units</Name>
       <Value xsi:type="xsd:int">4</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>float</Type>
-      <Name>TimeNumber.Y</Name>
-      <Value xsi:type="xsd:float">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
