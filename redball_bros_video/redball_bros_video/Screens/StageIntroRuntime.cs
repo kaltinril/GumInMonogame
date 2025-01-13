@@ -1,19 +1,11 @@
-using Gum.Converters;
-using Gum.DataTypes;
 using Gum.Managers;
-using Gum.Wireframe;
-
-using RenderingLibrary.Graphics;
-
-using System.Linq;
-
-using MonoGameGum.GueDeriving;
 using GumRuntime;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework;
 using redball_bros_video;
 using redball_bros_video.Screens;
-partial class StageIntroRuntime : Gum.Wireframe.BindableGue, MonogameGumScreen
+
+partial class StageIntroRuntime : Gum.Wireframe.BindableGue, IMonogameGumScreen
 {
     int totalCoints = 0;
     double inputDelaySeconds = 0.2;

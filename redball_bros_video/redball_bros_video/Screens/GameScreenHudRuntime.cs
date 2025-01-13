@@ -1,19 +1,11 @@
-using Gum.Converters;
-using Gum.DataTypes;
 using Gum.Managers;
-using Gum.Wireframe;
-
-using RenderingLibrary.Graphics;
-
-using System.Linq;
-
-using MonoGameGum.GueDeriving;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using redball_bros_video;
 using GumRuntime;
 using redball_bros_video.Screens;
-partial class GameScreenHudRuntime : Gum.Wireframe.BindableGue, MonogameGumScreen
+
+partial class GameScreenHudRuntime : Gum.Wireframe.BindableGue, IMonogameGumScreen
 {
     int totalCoins = 0;
     int totalPoints = 0;

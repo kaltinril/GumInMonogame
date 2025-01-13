@@ -51,7 +51,7 @@ namespace redball_bros_video
             // To create a common method on both "Screen" classes we create an interface
             // and then each screen implements the interface (MonogameGumScreen)
             // This allows us to call Update on them
-            var convertedRoot = (MonogameGumScreen)Root;
+            var convertedRoot = (IMonogameGumScreen)Root;
             convertedRoot.Update(gameTime);
 
             base.Update(gameTime);
