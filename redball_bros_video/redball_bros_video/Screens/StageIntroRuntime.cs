@@ -7,7 +7,6 @@ using redball_bros_video.Screens;
 
 partial class StageIntroRuntime : Gum.Wireframe.BindableGue, IMonogameGumScreen
 {
-    int totalCoints = 0;
     double inputDelaySeconds = 0.2;
     double currentDelaySeconds = 0.0;
     partial void CustomInitialize()
@@ -25,15 +24,18 @@ partial class StageIntroRuntime : Gum.Wireframe.BindableGue, IMonogameGumScreen
 
         // Next Level simulation "Press enter" to load the Game play screen UI
         if (Keyboard.GetState().IsKeyDown(Keys.Enter))
-        { 
-            Game1.Root.RemoveFromManagers();                // Clear old screen
+        {
+            // 1. Clear old screen
+            Game1.Root.RemoveFromManagers();
 
+            // 2. Find the other screen
             var screen = ObjectFinder.Self.GumProjectSave.Screens.Find(
-                item => item.Name == "GameScreenHud");      // Find the other screen
+                item => item.Name == "GameScreenHud");
 
+            // 3. Switch the root out to the other screen
             Game1.Root = screen.ToGraphicalUiElement(
                 RenderingLibrary.SystemManagers.Default
-                , addToManagers: true);                     // Switch the root out
+                , addToManagers: true);
         }
     }
 }
