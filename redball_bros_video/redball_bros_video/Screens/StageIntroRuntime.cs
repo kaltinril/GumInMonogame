@@ -31,13 +31,17 @@ partial class StageIntroRuntime : Gum.Wireframe.BindableGue, MonogameGumScreen
         if (currentDelaySeconds < inputDelaySeconds)
             return;
 
-        // Next Level simulation "Press enter"
+        // Next Level simulation "Press enter" to load the Game play screen UI
         if (Keyboard.GetState().IsKeyDown(Keys.Enter))
-        {
-            // Clear old screen, find other screen, switch
-            Game1.Root.RemoveFromManagers();
-            var screen = ObjectFinder.Self.GumProjectSave.Screens.Find(item => item.Name == "GameScreenHud");
-            Game1.Root = screen.ToGraphicalUiElement(RenderingLibrary.SystemManagers.Default, addToManagers: true);
+        { 
+            Game1.Root.RemoveFromManagers();                // Clear old screen
+
+            var screen = ObjectFinder.Self.GumProjectSave.Screens.Find(
+                item => item.Name == "GameScreenHud");      // Find the other screen
+
+            Game1.Root = screen.ToGraphicalUiElement(
+                RenderingLibrary.SystemManagers.Default
+                , addToManagers: true);                     // Switch the root out
         }
     }
 }

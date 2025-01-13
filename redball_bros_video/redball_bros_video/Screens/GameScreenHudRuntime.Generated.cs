@@ -16,7 +16,7 @@ public partial class GameScreenHudRuntime:Gum.Wireframe.BindableGue
     {
         GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("GameScreenHud", typeof(GameScreenHudRuntime));
     }
-    public ContainerRuntime ContainerInstance1 { get; protected set; }
+    public ContainerRuntime GameScreenHudContainer { get; protected set; }
     public ContainerRuntime PointsContainer { get; protected set; }
     public TextRuntime FRBPointsLabel { get; protected set; }
     public TextRuntime FRBPoints { get; protected set; }
@@ -38,7 +38,7 @@ public partial class GameScreenHudRuntime:Gum.Wireframe.BindableGue
     }
     public override void AfterFullCreation()
     {
-        ContainerInstance1 = this.GetGraphicalUiElementByName("ContainerInstance1") as ContainerRuntime;
+        GameScreenHudContainer = this.GetGraphicalUiElementByName("GameScreenHudContainer") as ContainerRuntime;
         PointsContainer = this.GetGraphicalUiElementByName("PointsContainer") as ContainerRuntime;
         FRBPointsLabel = this.GetGraphicalUiElementByName("FRBPointsLabel") as TextRuntime;
         FRBPoints = this.GetGraphicalUiElementByName("FRBPoints") as TextRuntime;

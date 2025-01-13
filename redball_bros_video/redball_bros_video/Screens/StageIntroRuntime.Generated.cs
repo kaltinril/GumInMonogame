@@ -23,7 +23,7 @@ public partial class StageIntroRuntime:Gum.Wireframe.BindableGue
     public SpriteRuntime FRBManSprite { get; protected set; }
     public TextRuntime XText { get; protected set; }
     public TextRuntime LivesText { get; protected set; }
-    public ContainerRuntime ContainerInstance { get; protected set; }
+    public ContainerRuntime StageIntroContainer { get; protected set; }
 
     public StageIntroRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
     {
@@ -39,7 +39,7 @@ public partial class StageIntroRuntime:Gum.Wireframe.BindableGue
         FRBManSprite = this.GetGraphicalUiElementByName("FRBManSprite") as SpriteRuntime;
         XText = this.GetGraphicalUiElementByName("XText") as TextRuntime;
         LivesText = this.GetGraphicalUiElementByName("LivesText") as TextRuntime;
-        ContainerInstance = this.GetGraphicalUiElementByName("ContainerInstance") as ContainerRuntime;
+        StageIntroContainer = this.GetGraphicalUiElementByName("StageIntroContainer") as ContainerRuntime;
         CustomInitialize();
     }
     //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code

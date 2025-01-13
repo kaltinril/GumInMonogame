@@ -1029,6 +1029,62 @@
         "ElementType": "Components",
         "EventType": 1,
         "TimestampUtc": "2025-01-12T01:52:29.7015533Z"
+      },
+      {
+        "NewName": "GameScreenHud.GameScreenHudContainer",
+        "OldName": "GameScreenHud.ContainerInstance1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-12T07:49:54.9765393Z"
+      },
+      {
+        "NewName": "StageIntro.StageIntroContainer",
+        "OldName": "StageIntro.ContainerInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-12T07:50:03.0508472Z"
+      },
+      {
+        "NewName": "GameScreenHud.ContainerInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-13T02:19:54.472087Z"
+      },
+      {
+        "NewName": "GameScreenHud.SpriteInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-13T02:20:04.5614474Z"
+      },
+      {
+        "NewName": "GameScreenHud.BackgroundContainer",
+        "OldName": "GameScreenHud.ContainerInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-13T02:20:32.2906337Z"
+      },
+      {
+        "NewName": "GameScreenHud.BackgroundSprite",
+        "OldName": "GameScreenHud.SpriteInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-13T02:20:40.5899446Z"
+      },
+      {
+        "NewName": "StageIntro.ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-01-13T02:22:00.0949214Z"
+      },
+      {
+        "NewName": "StageIntro.StageIntroBackgroundRectangle",
+        "OldName": "StageIntro.ColoredRectangleInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2025-01-13T02:22:12.6389448Z"
       }
     ]
   }

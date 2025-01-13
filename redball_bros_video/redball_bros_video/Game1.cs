@@ -12,13 +12,8 @@ namespace redball_bros_video
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        // Add a root object we can change out from other classes
         public static GraphicalUiElement Root;
-        private Gum.DataTypes.ScreenSave StageIntro;
-        private Gum.DataTypes.ScreenSave GameScreenHud;
-
-        string activeScreen = "StageIntro";
-
-        Keys lastKeyDown = Keys.None;
 
         public Game1()
         {
@@ -31,15 +26,11 @@ namespace redball_bros_video
         {
             var gumProject = MonoGameGum.GumService.Default.Initialize(
                 this.GraphicsDevice,
-                // This is relative to Content:
-                "GumProject/GumProject.gumx");
+                "GumProject/GumProject.gumx");      // This is relative to Content directory
 
-
-            StageIntro = gumProject.Screens.Find(item => item.Name == "StageIntro");
-            Root = StageIntro.ToGraphicalUiElement(RenderingLibrary.SystemManagers.Default, addToManagers: true);
-            
-
-            GameScreenHud = gumProject.Screens.Find(item => item.Name == "GameScreenHud");
+            // Load the StageIntro screen, then convert that data into the Graphical UI layout
+            Gum.DataTypes.ScreenSave stageIntro = gumProject.Screens.Find(item => item.Name == "StageIntro");
+            Root = stageIntro.ToGraphicalUiElement(RenderingLibrary.SystemManagers.Default, addToManagers: true);
 
             base.Initialize();  
         }
@@ -47,8 +38,6 @@ namespace redball_bros_video
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-
-            // TODO: use this.Content to load your game content here
         }
 
         protected override void Update(GameTime gameTime)
@@ -56,9 +45,12 @@ namespace redball_bros_video
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-
+            // Update all components as needed
             MonoGameGum.GumService.Default.Update(this, gameTime);
 
+            // To create a common method on both "Screen" classes we create an interface
+            // and then each screen implements the interface (MonogameGumScreen)
+            // This allows us to call Update on them
             var convertedRoot = (MonogameGumScreen)Root;
             convertedRoot.Update(gameTime);
 
@@ -69,6 +61,7 @@ namespace redball_bros_video
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
+            // Draw all components that Gum is aware of (Root)
             MonoGameGum.GumService.Default.Draw();
 
             base.Draw(gameTime);
