@@ -11,6 +11,7 @@ partial class GameScreenHudRuntime : Gum.Wireframe.BindableGue, IMonogameGumScre
     int totalPoints = 0;
     double inputDelaySeconds = 0.2;
     double currentDelaySeconds = 0.0;
+    int secondsRemaining = 400;
     partial void CustomInitialize()
     {
         this.CoinsNumber.Text = totalCoins.ToString();
@@ -19,7 +20,12 @@ partial class GameScreenHudRuntime : Gum.Wireframe.BindableGue, IMonogameGumScre
     public void Update(GameTime gameTime)
     {
         currentDelaySeconds += gameTime.ElapsedGameTime.TotalSeconds;
-        this.TimeNumber.Text = ((int)gameTime.TotalGameTime.TotalSeconds).ToString("D3");
+
+        // NES seconds were calculated at about 1 "time" unit per 24 frames
+        double nesConversionRatio = 60.0d/ 24.0d;
+        double convertedSecondsPassed = (gameTime.TotalGameTime.TotalSeconds * nesConversionRatio);
+        int nesSecondsToDisplay = (int)(secondsRemaining - convertedSecondsPassed);
+        this.TimeNumber.Text = (nesSecondsToDisplay).ToString("D3");
 
         // Delay so we don't jump back and forth between screens when pressing enter.
         if (currentDelaySeconds < inputDelaySeconds)
