@@ -28,7 +28,7 @@ namespace redball_bros_video
                 this.GraphicsDevice,
                 "GumProject/GumProject.gumx");      // This is relative to Content directory
 
-            // Load the StageIntro screen, then convert that data into the Graphical UI layout
+            // Get the StageIntro screen, then convert that data into the Graphical UI layout
             Gum.DataTypes.ScreenSave stageIntro = gumProject.Screens.Find(item => item.Name == "StageIntro");
             Root = stageIntro.ToGraphicalUiElement(RenderingLibrary.SystemManagers.Default, addToManagers: true);
 

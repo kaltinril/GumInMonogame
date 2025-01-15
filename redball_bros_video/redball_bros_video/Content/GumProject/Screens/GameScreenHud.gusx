@@ -758,7 +758,7 @@
     <Variable>
       <Type>string</Type>
       <Name>TimeNumber.Text</Name>
-      <Value xsi:type="xsd:string">079</Value>
+      <Value xsi:type="xsd:string">400</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
