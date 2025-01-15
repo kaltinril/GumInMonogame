@@ -16,6 +16,7 @@ public partial class GameScreenHudRuntime:Gum.Wireframe.BindableGue
     {
         GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("GameScreenHud", typeof(GameScreenHudRuntime));
     }
+    public ContainerRuntime BackgroundContainer { get; protected set; }
     public ContainerRuntime GameScreenHudContainer { get; protected set; }
     public ContainerRuntime PointsContainer { get; protected set; }
     public TextRuntime FRBPointsLabel { get; protected set; }
@@ -30,6 +31,7 @@ public partial class GameScreenHudRuntime:Gum.Wireframe.BindableGue
     public TextRuntime TimeLabel { get; protected set; }
     public TextRuntime WorldNumber { get; protected set; }
     public TextRuntime TimeNumber { get; protected set; }
+    public SpriteRuntime BackgroundSprite { get; protected set; }
 
     public GameScreenHudRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
     {
@@ -38,6 +40,7 @@ public partial class GameScreenHudRuntime:Gum.Wireframe.BindableGue
     }
     public override void AfterFullCreation()
     {
+        BackgroundContainer = this.GetGraphicalUiElementByName("BackgroundContainer") as ContainerRuntime;
         GameScreenHudContainer = this.GetGraphicalUiElementByName("GameScreenHudContainer") as ContainerRuntime;
         PointsContainer = this.GetGraphicalUiElementByName("PointsContainer") as ContainerRuntime;
         FRBPointsLabel = this.GetGraphicalUiElementByName("FRBPointsLabel") as TextRuntime;
@@ -52,6 +55,7 @@ public partial class GameScreenHudRuntime:Gum.Wireframe.BindableGue
         TimeLabel = this.GetGraphicalUiElementByName("TimeLabel") as TextRuntime;
         WorldNumber = this.GetGraphicalUiElementByName("WorldNumber") as TextRuntime;
         TimeNumber = this.GetGraphicalUiElementByName("TimeNumber") as TextRuntime;
+        BackgroundSprite = this.GetGraphicalUiElementByName("BackgroundSprite") as SpriteRuntime;
         CustomInitialize();
     }
     //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
