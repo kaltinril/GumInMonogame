@@ -17,7 +17,7 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>FRBManSprite.Height Units</Name>
+      <Name>FRBManSprite.HeightUnits</Name>
       <Value xsi:type="xsd:int">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -36,19 +36,19 @@
     </Variable>
     <Variable>
       <Type>TextureAddress</Type>
-      <Name>FRBManSprite.Texture Address</Name>
+      <Name>FRBManSprite.TextureAddress</Name>
       <Value xsi:type="xsd:int">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>int</Type>
-      <Name>FRBManSprite.Texture Height</Name>
+      <Name>FRBManSprite.TextureHeight</Name>
       <Value xsi:type="xsd:int">32</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>int</Type>
-      <Name>FRBManSprite.Texture Width</Name>
+      <Name>FRBManSprite.TextureWidth</Name>
       <Value xsi:type="xsd:int">16</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -60,7 +60,7 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>FRBManSprite.Width Units</Name>
+      <Name>FRBManSprite.WidthUnits</Name>
       <Value xsi:type="xsd:int">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -79,7 +79,7 @@
     </Variable>
     <Variable>
       <Type>ChildrenLayout</Type>
-      <Name>LivesContainer.Children Layout</Name>
+      <Name>LivesContainer.ChildrenLayout</Name>
       <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -91,7 +91,7 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>LivesContainer.Height Units</Name>
+      <Name>LivesContainer.HeightUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -109,19 +109,19 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>LivesContainer.Width Units</Name>
+      <Name>LivesContainer.WidthUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>HorizontalAlignment</Type>
-      <Name>LivesContainer.X Origin</Name>
+      <Name>LivesContainer.XOrigin</Name>
       <Value xsi:type="xsd:int">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>LivesContainer.X Units</Name>
+      <Name>LivesContainer.XUnits</Name>
       <Value xsi:type="xsd:int">6</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -133,7 +133,7 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>LivesText.Height Units</Name>
+      <Name>LivesText.HeightUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -157,19 +157,19 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>LivesText.Width Units</Name>
+      <Name>LivesText.WidthUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>VerticalAlignment</Type>
-      <Name>LivesText.Y Origin</Name>
+      <Name>LivesText.YOrigin</Name>
       <Value xsi:type="xsd:int">3</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>LivesText.Y Units</Name>
+      <Name>LivesText.YUnits</Name>
       <Value xsi:type="xsd:int">5</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -193,7 +193,7 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>StageIntroBackgroundRectangle.Height Units</Name>
+      <Name>StageIntroBackgroundRectangle.HeightUnits</Name>
       <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -211,37 +211,37 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>StageIntroBackgroundRectangle.Width Units</Name>
+      <Name>StageIntroBackgroundRectangle.WidthUnits</Name>
       <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>HorizontalAlignment</Type>
-      <Name>StageIntroBackgroundRectangle.X Origin</Name>
+      <Name>StageIntroBackgroundRectangle.XOrigin</Name>
       <Value xsi:type="xsd:int">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>StageIntroBackgroundRectangle.X Units</Name>
+      <Name>StageIntroBackgroundRectangle.XUnits</Name>
       <Value xsi:type="xsd:int">6</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>VerticalAlignment</Type>
-      <Name>StageIntroBackgroundRectangle.Y Origin</Name>
+      <Name>StageIntroBackgroundRectangle.YOrigin</Name>
       <Value xsi:type="xsd:int">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>StageIntroBackgroundRectangle.Y Units</Name>
+      <Name>StageIntroBackgroundRectangle.YUnits</Name>
       <Value xsi:type="xsd:int">7</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>ChildrenLayout</Type>
-      <Name>StageIntroContainer.Children Layout</Name>
+      <Name>StageIntroContainer.ChildrenLayout</Name>
       <Value xsi:type="xsd:int">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -253,7 +253,7 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>StageIntroContainer.Height Units</Name>
+      <Name>StageIntroContainer.HeightUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -265,31 +265,31 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>StageIntroContainer.Width Units</Name>
+      <Name>StageIntroContainer.WidthUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>HorizontalAlignment</Type>
-      <Name>StageIntroContainer.X Origin</Name>
+      <Name>StageIntroContainer.XOrigin</Name>
       <Value xsi:type="xsd:int">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>StageIntroContainer.X Units</Name>
+      <Name>StageIntroContainer.XUnits</Name>
       <Value xsi:type="xsd:int">6</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>VerticalAlignment</Type>
-      <Name>StageIntroContainer.Y Origin</Name>
+      <Name>StageIntroContainer.YOrigin</Name>
       <Value xsi:type="xsd:int">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>StageIntroContainer.Y Units</Name>
+      <Name>StageIntroContainer.YUnits</Name>
       <Value xsi:type="xsd:int">7</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -307,7 +307,7 @@
     </Variable>
     <Variable>
       <Type>ChildrenLayout</Type>
-      <Name>WorldContainer.Children Layout</Name>
+      <Name>WorldContainer.ChildrenLayout</Name>
       <Value xsi:type="xsd:int">3</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -319,7 +319,7 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>WorldContainer.Height Units</Name>
+      <Name>WorldContainer.HeightUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -337,7 +337,7 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>WorldContainer.Width Units</Name>
+      <Name>WorldContainer.WidthUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -349,7 +349,7 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>WorldLabel.Height Units</Name>
+      <Name>WorldLabel.HeightUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -385,19 +385,19 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>WorldLabel.Width Units</Name>
+      <Name>WorldLabel.WidthUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>VerticalAlignment</Type>
-      <Name>WorldLabel.Y Origin</Name>
+      <Name>WorldLabel.YOrigin</Name>
       <Value xsi:type="xsd:int">3</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>WorldLabel.Y Units</Name>
+      <Name>WorldLabel.YUnits</Name>
       <Value xsi:type="xsd:int">5</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -409,7 +409,7 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>WorldNumber.Height Units</Name>
+      <Name>WorldNumber.HeightUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -445,31 +445,31 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>WorldNumber.Width Units</Name>
+      <Name>WorldNumber.WidthUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>HorizontalAlignment</Type>
-      <Name>WorldNumber.X Origin</Name>
+      <Name>WorldNumber.XOrigin</Name>
       <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>WorldNumber.X Units</Name>
+      <Name>WorldNumber.XUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>VerticalAlignment</Type>
-      <Name>WorldNumber.Y Origin</Name>
+      <Name>WorldNumber.YOrigin</Name>
       <Value xsi:type="xsd:int">3</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>WorldNumber.Y Units</Name>
+      <Name>WorldNumber.YUnits</Name>
       <Value xsi:type="xsd:int">5</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -481,7 +481,7 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>XText.Height Units</Name>
+      <Name>XText.HeightUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -517,19 +517,19 @@
     </Variable>
     <Variable>
       <Type>DimensionUnitType</Type>
-      <Name>XText.Width Units</Name>
+      <Name>XText.WidthUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>VerticalAlignment</Type>
-      <Name>XText.Y Origin</Name>
+      <Name>XText.YOrigin</Name>
       <Value xsi:type="xsd:int">3</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>XText.Y Units</Name>
+      <Name>XText.YUnits</Name>
       <Value xsi:type="xsd:int">5</Value>
       <SetsValue>true</SetsValue>
     </Variable>
