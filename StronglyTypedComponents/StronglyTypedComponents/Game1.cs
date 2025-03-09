@@ -33,6 +33,8 @@ namespace StronglyTypedComponents
 
             Root = new CharacterStatsRuntime();
             Root.AddToManagers();
+
+            Root.Health = 600;
         }
 
         protected override void Update(GameTime gameTime)
@@ -41,6 +43,8 @@ namespace StronglyTypedComponents
                 Exit();
 
             MonoGameGum.GumService.Default.Update(this, gameTime, Root);
+
+            Root.Health++;
 
             base.Update(gameTime);
         }

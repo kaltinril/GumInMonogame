@@ -1,4 +1,5 @@
 //Code for Elements/PercentBarIcon (Container)
+using GumRuntime;
 using StronglyTypedComponents.Components;
 using Gum.Converters;
 using Gum.DataTypes;
@@ -14,6 +15,11 @@ namespace StronglyTypedComponents.Components
 {
     public partial class PercentBarIconRuntime:ContainerRuntime
     {
+        [System.Runtime.CompilerServices.ModuleInitializer]
+        public static void RegisterRuntimeType()
+        {
+            GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Elements/PercentBarIcon", typeof(PercentBarIconRuntime));
+        }
         public enum BarDecorCategory
         {
             None,
@@ -21,31 +27,21 @@ namespace StronglyTypedComponents.Components
             VerticalLines,
         }
 
-        BarDecorCategory mBarDecorCategoryState;
         public BarDecorCategory BarDecorCategoryState
         {
-            get => mBarDecorCategoryState;
             set
             {
-                mBarDecorCategoryState = value;
-                var appliedDynamically = false;
-                if(!appliedDynamically)
+                if(Categories.ContainsKey("BarDecorCategory"))
                 {
-                    switch (value)
-                    {
-                        case BarDecorCategory.None:
-                            this.CautionLinesInstance.Visible = false;
-                            this.VerticalLinesInstance.Visible = false;
-                            break;
-                        case BarDecorCategory.CautionLines:
-                            this.CautionLinesInstance.Visible = true;
-                            this.VerticalLinesInstance.Visible = false;
-                            break;
-                        case BarDecorCategory.VerticalLines:
-                            this.CautionLinesInstance.Visible = false;
-                            this.VerticalLinesInstance.Visible = true;
-                            break;
-                    }
+                    var category = Categories["BarDecorCategory"];
+                    var state = category.States.Find(item => item.Name == value.ToString());
+                    this.ApplyState(state);
+                }
+                else
+                {
+                    var category = ((Gum.DataTypes.ElementSave)this.Tag).Categories.FirstOrDefault(item => item.Name == "BarDecorCategory");
+                    var state = category.States.Find(item => item.Name == value.ToString());
+                    this.ApplyState(state);
                 }
             }
         }
@@ -81,93 +77,25 @@ namespace StronglyTypedComponents.Components
         {
             if(fullInstantiation)
             {
-
-                this.Height = 16f;
-                 
-                this.Width = 128f;
-
-                InitializeInstances();
-
-                ApplyDefaultVariables();
-                AssignParents();
-                CustomInitialize();
+                var element = ObjectFinder.Self.GetElementSave("Elements/PercentBarIcon");
+                element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+                AfterFullCreation();
             }
+
+
+
         }
-        protected virtual void InitializeInstances()
+        public override void AfterFullCreation()
         {
-            Background = new NineSliceRuntime();
-            Background.Name = "Background";
-            IconInstance = new IconRuntime();
-            IconInstance.Name = "IconInstance";
-            BarContainer = new NineSliceRuntime();
-            BarContainer.Name = "BarContainer";
-            Bar = new NineSliceRuntime();
-            Bar.Name = "Bar";
-            CautionLinesInstance = new CautionLinesRuntime();
-            CautionLinesInstance.Name = "CautionLinesInstance";
-            VerticalLinesInstance = new VerticalLinesRuntime();
-            VerticalLinesInstance.Name = "VerticalLinesInstance";
+            Background = this.GetGraphicalUiElementByName("Background") as NineSliceRuntime;
+            IconInstance = this.GetGraphicalUiElementByName("IconInstance") as IconRuntime;
+            BarContainer = this.GetGraphicalUiElementByName("BarContainer") as NineSliceRuntime;
+            Bar = this.GetGraphicalUiElementByName("Bar") as NineSliceRuntime;
+            CautionLinesInstance = this.GetGraphicalUiElementByName("CautionLinesInstance") as CautionLinesRuntime;
+            VerticalLinesInstance = this.GetGraphicalUiElementByName("VerticalLinesInstance") as VerticalLinesRuntime;
+            CustomInitialize();
         }
-        protected virtual void AssignParents()
-        {
-            this.Children.Add(Background);
-            this.Children.Add(IconInstance);
-            this.Children.Add(BarContainer);
-            BarContainer.Children.Add(Bar);
-            Bar.Children.Add(CautionLinesInstance);
-            Bar.Children.Add(VerticalLinesInstance);
-        }
-        private void ApplyDefaultVariables()
-        {
-Background.SetProperty("ColorCategoryState", "DarkGray");
-Background.SetProperty("StyleCategoryState", "Bordered");
-
-this.IconInstance.IconCategoryState = IconRuntime.IconCategory.Heart;
-IconInstance.SetProperty("IconColor", "Danger");
-            this.IconInstance.Height = -4f;
-            this.IconInstance.HeightUnits = global::Gum.DataTypes.DimensionUnitType.RelativeToContainer;
-            this.IconInstance.Width = 100f;
-            this.IconInstance.WidthUnits = global::Gum.DataTypes.DimensionUnitType.PercentageOfOtherDimension;
-            this.IconInstance.X = 2f;
-            this.IconInstance.YOrigin = global::RenderingLibrary.Graphics.VerticalAlignment.Center;
-            this.IconInstance.YUnits = GeneralUnitType.PixelsFromMiddle;
-
-BarContainer.SetProperty("ColorCategoryState", "Black");
-BarContainer.SetProperty("StyleCategoryState", "Solid");
-            this.BarContainer.Height = -4f;
-            this.BarContainer.HeightUnits = global::Gum.DataTypes.DimensionUnitType.RelativeToContainer;
-            this.BarContainer.Width = -18f;
-            this.BarContainer.WidthUnits = global::Gum.DataTypes.DimensionUnitType.RelativeToContainer;
-            this.BarContainer.X = -2f;
-            this.BarContainer.XOrigin = global::RenderingLibrary.Graphics.HorizontalAlignment.Right;
-            this.BarContainer.XUnits = GeneralUnitType.PixelsFromLarge;
-            this.BarContainer.YOrigin = global::RenderingLibrary.Graphics.VerticalAlignment.Center;
-            this.BarContainer.YUnits = GeneralUnitType.PixelsFromMiddle;
-
-Bar.SetProperty("ColorCategoryState", "Danger");
-Bar.SetProperty("StyleCategoryState", "Solid");
-            this.Bar.Width = 25f;
-            this.Bar.WidthUnits = global::Gum.DataTypes.DimensionUnitType.Percentage;
-            this.Bar.XOrigin = global::RenderingLibrary.Graphics.HorizontalAlignment.Left;
-            this.Bar.XUnits = GeneralUnitType.PixelsFromSmall;
-
-CautionLinesInstance.SetProperty("LineColor", "Black");
-            this.CautionLinesInstance.Height = 0f;
-            this.CautionLinesInstance.HeightUnits = global::Gum.DataTypes.DimensionUnitType.RelativeToContainer;
-            this.CautionLinesInstance.LineAlpha = 50;
-            this.CautionLinesInstance.Visible = false;
-            this.CautionLinesInstance.Width = 0f;
-            this.CautionLinesInstance.WidthUnits = global::Gum.DataTypes.DimensionUnitType.RelativeToContainer;
-
-VerticalLinesInstance.SetProperty("LineColor", "Black");
-            this.VerticalLinesInstance.Height = 0f;
-            this.VerticalLinesInstance.HeightUnits = global::Gum.DataTypes.DimensionUnitType.RelativeToContainer;
-            this.VerticalLinesInstance.LineAlpha = 50;
-            this.VerticalLinesInstance.Visible = false;
-            this.VerticalLinesInstance.Width = 0f;
-            this.VerticalLinesInstance.WidthUnits = global::Gum.DataTypes.DimensionUnitType.RelativeToContainer;
-
-        }
+        //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
         partial void CustomInitialize();
     }
 }
