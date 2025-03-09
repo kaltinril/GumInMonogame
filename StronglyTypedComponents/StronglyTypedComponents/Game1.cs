@@ -1,8 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-
+using RenderingLibrary;
 using StronglyTypedComponents.Components;
+using System.Diagnostics;
 
 namespace StronglyTypedComponents
 {
@@ -12,6 +13,7 @@ namespace StronglyTypedComponents
         private SpriteBatch _spriteBatch;
 
         CharacterStatsRuntime Root;
+        double timeSinceHealthRegen = 0;
 
         public Game1()
         {
@@ -34,8 +36,12 @@ namespace StronglyTypedComponents
             Root = new CharacterStatsRuntime();
             Root.AddToManagers();
 
-            Root.Health = 600;
+            Root.Health = 100;
             Root.Experience = 0;
+            Root.Mana = 25;
+            Root.Level = 1;
+            Root.X = 20;
+            Root.Y = 20;
         }
 
         protected override void Update(GameTime gameTime)
@@ -45,7 +51,14 @@ namespace StronglyTypedComponents
 
             MonoGameGum.GumService.Default.Update(this, gameTime, Root);
 
-            Root.Health++;
+            timeSinceHealthRegen += gameTime.ElapsedGameTime.TotalSeconds;
+
+            if (timeSinceHealthRegen >= 1)
+            {
+                Root.Health++;
+                timeSinceHealthRegen -= 1;
+            }
+
 
             base.Update(gameTime);
         }

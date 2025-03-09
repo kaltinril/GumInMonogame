@@ -610,6 +610,202 @@
         "ElementType": "Components",
         "EventType": 5,
         "TimestampUtc": "2025-03-09T00:52:12.1820371Z"
+      },
+      {
+        "NewName": "ExampleScreen.ContainerInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:29:25.6004597Z"
+      },
+      {
+        "NewName": "ExampleScreen.ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:29:28.7536586Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ExampleScreen.Container ContainerInstance in ExampleScreen",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-09T01:30:06.569451Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ExampleScreen.ColoredRectangle ColoredRectangleInstance in ExampleScreen",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-09T01:30:06.6382906Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).HealthPercentBar1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:32:36.273674Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LabelInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:32:36.3012988Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ContainerInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:32:36.3449293Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/CharacterStats (Container).Elements/PercentBarIcon HealthPercentBar1 in Custom/CharacterStats (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-09T01:32:38.2361165Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/CharacterStats (Container).Elements/Label LabelInstance1 in Custom/CharacterStats (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-09T01:32:40.035622Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LabelInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:32:51.4794094Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ContainerInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:34:34.0749297Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ManaPercentBar1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:34:34.1180555Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LabelInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:34:34.1485506Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/CharacterStats (Container).Elements/PercentBarIcon ManaPercentBar1 in Custom/CharacterStats (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-09T01:34:36.4711524Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).HealthBarLabel",
+        "OldName": "Custom/CharacterStats (Container).LabelInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:35:47.7712801Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ManaBarLabel",
+        "OldName": "Custom/CharacterStats (Container).LabelInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:35:53.8418792Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ExpBarLabel",
+        "OldName": "Custom/CharacterStats (Container).LabelInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:35:59.4988685Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ManaBarContainer",
+        "OldName": "Custom/CharacterStats (Container).ContainerInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:36:09.0366633Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).HealthBarContainer",
+        "OldName": "Custom/CharacterStats (Container).ContainerInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:36:16.1971034Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ExpBarContainer",
+        "OldName": "Custom/CharacterStats (Container).ContainerInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:36:22.3032152Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:39:32.2095747Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LevelContainer",
+        "OldName": "Custom/CharacterStats (Container).ContainerInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:39:38.514849Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LabelInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:39:49.5161702Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LabelInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:39:51.3996954Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LevelLabel",
+        "OldName": "Custom/CharacterStats (Container).LabelInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:41:26.4046109Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LevelAmountLabel",
+        "OldName": "Custom/CharacterStats (Container).LabelInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:41:44.1514887Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:42:01.5170612Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:42:09.4419463Z"
       }
     ]
   }

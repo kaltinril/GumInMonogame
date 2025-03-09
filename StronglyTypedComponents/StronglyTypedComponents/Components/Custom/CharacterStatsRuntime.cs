@@ -58,7 +58,7 @@ namespace StronglyTypedComponents.Components
 
         // Easy properties for setting health, mana, and experience at the root component level
         private int _health = 0;
-        private int maxHealth = 1000;
+        private int maxHealth = 100;
         public int Health
         {
             get => _health;
@@ -66,6 +66,7 @@ namespace StronglyTypedComponents.Components
             {
                 _health = Math.Clamp(value, 0, maxHealth);
                 this.HealthPercentBar.BarPercent = (_health / (float)maxHealth) * 100;
+                HealthBarLabel.LabelText = ((int)this.HealthPercentBar.BarPercent).ToString() + "%";
             }
         }
 
@@ -78,10 +79,21 @@ namespace StronglyTypedComponents.Components
             {
                 _mana = Math.Clamp(value, 0, maxMana);
                 this.ManaPercentBar.BarPercent = (_mana / (float)maxMana) * 100;
+                ManaBarLabel.LabelText = ((int)this.ManaPercentBar.BarPercent).ToString() + "%";
             }
         }
 
         private int _level = 1;
+        public int Level
+        {
+            get => _level;
+            set
+            {
+                _level = value;
+                LevelAmountLabel.LabelText = _level.ToString();
+            }
+        }
+
         private int _experience = 0;
         private int _expToNextLevel = 100;
         public int Experience
@@ -89,16 +101,16 @@ namespace StronglyTypedComponents.Components
             get => _experience;
             set
             {
-                Debug.WriteLine($"{_experience} {value}");
                 _experience = value;
                 if (_experience > _expToNextLevel)
-                { 
-                    _level++;
-                    _experience = 0;
+                {
+                    Level++;
+                    _experience -= _expToNextLevel;
                 }
 
 
                 this.ExpPercentBar.BarPercent = _experience;
+                ExpBarLabel.LabelText = ((int)this.ExpPercentBar.BarPercent).ToString() + "%";
             }
         }
 
