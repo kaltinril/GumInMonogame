@@ -35,6 +35,7 @@ namespace StronglyTypedComponents
             Root.AddToManagers();
 
             Root.Health = 600;
+            Root.Experience = 0;
         }
 
         protected override void Update(GameTime gameTime)

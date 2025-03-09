@@ -21,6 +21,8 @@ namespace StronglyTypedComponents.Components
             GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Custom/CharacterStats", typeof(CharacterStatsRuntime));
         }
         public PercentBarIconRuntime HealthPercentBar { get; protected set; }
+        public LabelRuntime LabelInstance { get; protected set; }
+        public ContainerRuntime ContainerInstance { get; protected set; }
         public ButtonStandardRuntime HealthPotionButton { get; protected set; }
         public ButtonStandardRuntime TakeDamageButton { get; protected set; }
         public PercentBarIconRuntime ManaPercentBar { get; protected set; }
@@ -38,7 +40,6 @@ namespace StronglyTypedComponents.Components
             {
                 var element = ObjectFinder.Self.GetElementSave("Custom/CharacterStats");
                 element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
-                AfterFullCreation();
             }
 
 
@@ -47,6 +48,8 @@ namespace StronglyTypedComponents.Components
         public override void AfterFullCreation()
         {
             HealthPercentBar = this.GetGraphicalUiElementByName("HealthPercentBar") as PercentBarIconRuntime;
+            LabelInstance = this.GetGraphicalUiElementByName("LabelInstance") as LabelRuntime;
+            ContainerInstance = this.GetGraphicalUiElementByName("ContainerInstance") as ContainerRuntime;
             HealthPotionButton = this.GetGraphicalUiElementByName("HealthPotionButton") as ButtonStandardRuntime;
             TakeDamageButton = this.GetGraphicalUiElementByName("TakeDamageButton") as ButtonStandardRuntime;
             ManaPercentBar = this.GetGraphicalUiElementByName("ManaPercentBar") as PercentBarIconRuntime;

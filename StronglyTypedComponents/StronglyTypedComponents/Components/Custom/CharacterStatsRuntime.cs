@@ -17,32 +17,42 @@ namespace StronglyTypedComponents.Components
     {
         partial void CustomInitialize()
         {
+            HealthPotionButton.Click += UseHealthPotion;
+            TakeDamageButton.Click += ApplyDamage;
+
             AddManaButton.Click += AddManaClicked;
             UseManaButton.Click += UseManaClicked;
+            
             AddExpButton.Click += GainExperienceClicked;
+
+        }
+
+        private void ApplyDamage(object sender, EventArgs e)
+        {
+            Health -= 10;
+        }
+
+        private void UseHealthPotion(object sender, EventArgs e)
+        {
+            Health += (int)(maxHealth * 0.30f);
         }
 
         private void GainExperienceClicked(object sender, EventArgs e)
         {
-            Experience += 7;
-            Debug.WriteLine("+7 Exp");
+            Experience = Experience + 7;
         }
 
         private void UseManaClicked(object sender, EventArgs e)
         {
-            Debug.WriteLine((sender as GraphicalUiElement).Parent.Children);
-            if (Mana > 30)
+            if (Mana > 10)
             {
-                Mana -= 30;
-                Debug.WriteLine("30 mana used");
+                Mana -= 10;
             }
-            
         }
 
         private void AddManaClicked(object sender, EventArgs e)
         {
             Mana += 10;
-            Debug.WriteLine("+10 Mana");
         }
 
 
@@ -79,9 +89,14 @@ namespace StronglyTypedComponents.Components
             get => _experience;
             set
             {
-                _experience += value;
+                Debug.WriteLine($"{_experience} {value}");
+                _experience = value;
                 if (_experience > _expToNextLevel)
+                { 
                     _level++;
+                    _experience = 0;
+                }
+
 
                 this.ExpPercentBar.BarPercent = _experience;
             }

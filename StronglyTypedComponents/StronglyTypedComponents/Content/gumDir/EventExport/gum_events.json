@@ -596,6 +596,20 @@
         "ElementType": "Screens",
         "EventType": 5,
         "TimestampUtc": "2025-03-08T22:28:59.0206107Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LabelInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T00:52:06.2880103Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T00:52:12.1820371Z"
       }
     ]
   }
