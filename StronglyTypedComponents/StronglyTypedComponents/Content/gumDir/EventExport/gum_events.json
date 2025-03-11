@@ -1,0 +1,812 @@
+{
+  "UserEvents": {
+    "jerem": [],
+    "ff194557eb3929da013e504725882c5c5e59e2652f9fbf88b199c40a47d9f781": [
+      {
+        "NewName": "StatusIndicator",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-03-08T05:03:17.1933727Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:03:23.4391496Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:03:38.0348698Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:03:51.457536Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:05:33.8502603Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "StatusIndicator (Container).ColoredRectangle ColoredRectangleInstance in StatusIndicator (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T05:05:43.7549592Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "StatusIndicator (Container).Circle CircleInstance1 in StatusIndicator (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T05:18:21.7478073Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:19:26.5248744Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance4",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:19:32.7663374Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:19:35.6733366Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:19:42.7045064Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:19:45.7660132Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance6",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:19:50.3229623Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance7",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:19:56.2238361Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance8",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:20:04.2301982Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance9",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:21:36.2010874Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance10",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:21:36.2060885Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance11",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:21:36.2120881Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance12",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:21:36.2180881Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance13",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:21:36.2220873Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance14",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:21:36.2270881Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).CircleInstance15",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:21:36.2310875Z"
+      },
+      {
+        "NewName": "StatusIndicator (Container).PolygonInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T05:23:20.5635616Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "StatusIndicator",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2025-03-08T19:38:13.6573411Z"
+      },
+      {
+        "NewName": "Custom/TestComp1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-03-08T21:46:41.2504252Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ButtonStandardInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:46:51.4012452Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ButtonStandardInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:46:54.9757918Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ButtonStandardInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:46:59.9596264Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:47:12.5899301Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:47:17.1956464Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Container ContainerInstance in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:47:29.7488737Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).ColoredRectangle ColoredRectangleInstance in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:47:31.0030651Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).PercentBarIconInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:47:42.7190463Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:47:48.2679085Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).StatsContainer",
+        "OldName": "Custom/TestComp1 (Container).ContainerInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T21:48:04.1568148Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:48:11.9399789Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).PercentBarIconInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:48:37.7181612Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).PercentBarIconInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:48:40.6993502Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ContainerInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:49:35.8786015Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).HealthRowContainer",
+        "OldName": "Custom/TestComp1 (Container).ContainerInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T21:49:46.047275Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Container ContainerInstance in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:49:59.1806158Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Controls/ButtonStandard ButtonStandardInstance1 in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:49:59.3074699Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Controls/ButtonStandard ButtonStandardInstance2 in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:49:59.3089766Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Container StatsContainer in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:50:01.3809008Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Elements/PercentBarIcon PercentBarIconInstance1 in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:50:01.458734Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Elements/PercentBarIcon PercentBarIconInstance2 in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:50:01.459237Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ButtonStandardInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:50:03.7724066Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).PercentBarIconInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:50:03.7854709Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).HealthRowContainer1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:50:03.787703Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ButtonStandardInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:50:05.5866653Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).PercentBarIconInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:50:05.5876715Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).HealthRowContainer2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:50:05.5988709Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Container HealthRowContainer1 in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:50:30.2452803Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Container HealthRowContainer1 in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:50:35.5003147Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Controls/ButtonStandard ButtonStandardInstance1 in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:50:35.6163705Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Elements/PercentBarIcon PercentBarIconInstance1 in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:50:35.6178752Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Container HealthRowContainer2 in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:50:37.3793912Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Controls/ButtonStandard ButtonStandardInstance2 in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:50:37.4737447Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Elements/PercentBarIcon PercentBarIconInstance2 in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T21:50:37.4752533Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ButtonStandardInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:50:40.1235495Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).PercentBarIconInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:50:40.1245486Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).HealthRowContainer1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:50:40.1350835Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ButtonStandardInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:50:41.7874843Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).PercentBarIconInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:50:41.797028Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).HealthRowContainer2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T21:50:41.8020462Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ManaRowContainer",
+        "OldName": "Custom/TestComp1 (Container).HealthRowContainer2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:00:14.7644621Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ExpRowContainer",
+        "OldName": "Custom/TestComp1 (Container).HealthRowContainer1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:00:19.6342587Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).TakeDamageButton",
+        "OldName": "Custom/TestComp1 (Container).ButtonStandardInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:04:14.3573338Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ManaPercentBar",
+        "OldName": "Custom/TestComp1 (Container).PercentBarIconInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:04:23.9831955Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).HealthPercentBar",
+        "OldName": "Custom/TestComp1 (Container).PercentBarIconInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:04:30.3111548Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ExpPercentBar",
+        "OldName": "Custom/TestComp1 (Container).PercentBarIconInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:04:35.6388059Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).HealthPotionButton",
+        "OldName": "Custom/TestComp1 (Container).TakeDamageButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:05:47.8189492Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).UseManaButton",
+        "OldName": "Custom/TestComp1 (Container).ButtonStandardInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:06:00.7516573Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).AddExpButton",
+        "OldName": "Custom/TestComp1 (Container).ButtonStandardInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:08:10.0028806Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).HealthPotionButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T22:08:40.8644281Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).Take Damage",
+        "OldName": "Custom/TestComp1 (Container).HealthPotionButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:08:50.644821Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).TakeDamageButton",
+        "OldName": "Custom/TestComp1 (Container).Take Damage",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:08:58.4958136Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).UseManaButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T22:09:10.6000274Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).AddMana",
+        "OldName": "Custom/TestComp1 (Container).UseManaButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:09:26.218623Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).AddManaButton",
+        "OldName": "Custom/TestComp1 (Container).AddMana",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-08T22:09:30.653459Z"
+      },
+      {
+        "NewName": "Custom/TestComp1 (Container).ButtonIconInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T22:15:42.3487216Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/TestComp1 (Container).Controls/ButtonIcon ButtonIconInstance in Custom/TestComp1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-08T22:19:47.1379711Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats",
+        "OldName": "Custom/TestComp1",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2025-03-08T22:25:10.5599052Z"
+      },
+      {
+        "NewName": "ExampleScreen",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2025-03-08T22:28:40.0895499Z"
+      },
+      {
+        "NewName": "ExampleScreen.CharacterStatsInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-08T22:28:59.0206107Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LabelInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T00:52:06.2880103Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T00:52:12.1820371Z"
+      },
+      {
+        "NewName": "ExampleScreen.ContainerInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:29:25.6004597Z"
+      },
+      {
+        "NewName": "ExampleScreen.ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:29:28.7536586Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ExampleScreen.Container ContainerInstance in ExampleScreen",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-09T01:30:06.569451Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "ExampleScreen.ColoredRectangle ColoredRectangleInstance in ExampleScreen",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-09T01:30:06.6382906Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).HealthPercentBar1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:32:36.273674Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LabelInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:32:36.3012988Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ContainerInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:32:36.3449293Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/CharacterStats (Container).Elements/PercentBarIcon HealthPercentBar1 in Custom/CharacterStats (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-09T01:32:38.2361165Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/CharacterStats (Container).Elements/Label LabelInstance1 in Custom/CharacterStats (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-09T01:32:40.035622Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LabelInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:32:51.4794094Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ContainerInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:34:34.0749297Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ManaPercentBar1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:34:34.1180555Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LabelInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:34:34.1485506Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/CharacterStats (Container).Elements/PercentBarIcon ManaPercentBar1 in Custom/CharacterStats (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-03-09T01:34:36.4711524Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).HealthBarLabel",
+        "OldName": "Custom/CharacterStats (Container).LabelInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:35:47.7712801Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ManaBarLabel",
+        "OldName": "Custom/CharacterStats (Container).LabelInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:35:53.8418792Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ExpBarLabel",
+        "OldName": "Custom/CharacterStats (Container).LabelInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:35:59.4988685Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ManaBarContainer",
+        "OldName": "Custom/CharacterStats (Container).ContainerInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:36:09.0366633Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).HealthBarContainer",
+        "OldName": "Custom/CharacterStats (Container).ContainerInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:36:16.1971034Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ExpBarContainer",
+        "OldName": "Custom/CharacterStats (Container).ContainerInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:36:22.3032152Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:39:32.2095747Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LevelContainer",
+        "OldName": "Custom/CharacterStats (Container).ContainerInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:39:38.514849Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LabelInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:39:49.5161702Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LabelInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:39:51.3996954Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LevelLabel",
+        "OldName": "Custom/CharacterStats (Container).LabelInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:41:26.4046109Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).LevelAmountLabel",
+        "OldName": "Custom/CharacterStats (Container).LabelInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-03-09T01:41:44.1514887Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:42:01.5170612Z"
+      },
+      {
+        "NewName": "Custom/CharacterStats (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-03-09T01:42:09.4419463Z"
+      }
+    ]
+  }
+}
