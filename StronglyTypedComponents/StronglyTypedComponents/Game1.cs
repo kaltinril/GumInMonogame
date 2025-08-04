@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using RenderingLibrary;
 using StronglyTypedComponents.Components;
-using StronglyTypedComponents.Components.Custom;
+//using StronglyTypedComponents.Components.Custom;
 using System.Diagnostics;
 
 namespace StronglyTypedComponents
