@@ -11,6 +11,10 @@ Using the GUM TOOL to create a health, mana, Experience, and Level indicator.  A
 
 # Quick UI in MonoGame
 
+Showing how to setup CODE ONLY GUM for MonoGame
+
 # GumStyles
 
 ## GumGlobalStyle
+
+Going to focus on how to configure and modify the global STYLING object to modify GUM CODE ONLY objects.
