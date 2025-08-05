@@ -1,6 +1,5 @@
 ﻿using Gum.DataTypes;
 using Gum.DataTypes.Variables;
-using Gum.Forms;
 using Gum.Forms.Controls;
 using Gum.Forms.DefaultVisuals;
 using Gum.Managers;
@@ -10,8 +9,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using MonoGameGum;
 using MonoGameGum.GueDeriving;
-using RenderingLibrary.Graphics;
-using RenderingLibrary.Graphics.Fonts;
+using RenderingLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,18 +37,36 @@ namespace GumGlobalStyling
         Dictionary<string, Action> fonts;
         string currentFontName = "Arial";
 
+        
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+
+            // Make this larger so the video is easier to see
+            _graphics.PreferredBackBufferWidth = 1900;
+            _graphics.PreferredBackBufferHeight = 1200;
+            _graphics.ApplyChanges();
+
         }
+
 
         protected override void Initialize()
         {
             GumUI.Initialize(this, MonoGameGum.Forms.DefaultVisualsVersion.V2);
+
+            // Zoom everything up times 2 so it's easier to see
+            var camera = SystemManagers.Default.Renderer.Camera;
+            camera.Zoom = 2f;
+            GraphicalUiElement.CanvasWidth = 1900 / camera.Zoom;
+            GraphicalUiElement.CanvasHeight = 1200 / camera.Zoom;
+
+            // Store the original style before we start messing with things
             defaultStyle = Styling.ActiveStyle;
 
+            // Setup some of the objects we'll use to make the menu system
             fontNames = new List<string>();
             fonts = new Dictionary<string, Action>();
 
