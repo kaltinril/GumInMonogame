@@ -1,0 +1,2911 @@
+{
+  "UserEvents": {
+    "ff194557eb3929da013e504725882c5c5e59e2652f9fbf88b199c40a47d9f781": [
+      {
+        "NewName": "HyTaleComponents",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-10T20:45:36.8828709Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2026-01-10T20:45:45.2712904Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HotBar",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-10T20:47:03.3706442Z"
+      },
+      {
+        "NewName": "HyTaleComponents/ItemSlot",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-10T20:47:10.1239092Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HotBarItems",
+        "OldName": "HyTaleComponents/HotBar",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-10T20:49:08.8151899Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HotBar",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-10T20:49:12.1919624Z"
+      },
+      {
+        "NewName": "HyTaleComponents/Inventory",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-10T20:49:16.4040649Z"
+      },
+      {
+        "NewName": "HyTaleComponents/InventoryHeaderRow",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-10T20:49:37.9873079Z"
+      },
+      {
+        "NewName": "HyTaleComponents/ItemSlot (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-10T20:50:09.2568009Z"
+      },
+      {
+        "NewName": "HyTaleComponents/ItemSlot (Container).ItemSPrite",
+        "OldName": "HyTaleComponents/ItemSlot (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-10T20:50:17.2099945Z"
+      },
+      {
+        "NewName": "HyTaleComponents/ItemSlot (Container).ItemSprite",
+        "OldName": "HyTaleComponents/ItemSlot (Container).ItemSPrite",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-10T20:50:21.5507418Z"
+      },
+      {
+        "NewName": "HyTaleComponents/SlotNumber",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-10T20:57:20.6506347Z"
+      },
+      {
+        "NewName": "HyTaleComponents/SlotNumber (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-10T20:57:41.1998783Z"
+      },
+      {
+        "NewName": "HyTaleComponents/SlotNumber (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-10T20:57:44.9020631Z"
+      },
+      {
+        "NewName": "HyTaleComponents/InventoryItem",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-10T23:39:13.0360343Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/InventoryItem",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2026-01-10T23:39:24.0849723Z"
+      },
+      {
+        "NewName": "HyTaleComponents/ItemSlot (Container).SlotNumberInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-10T23:39:37.4395361Z"
+      },
+      {
+        "NewName": "HyTaleComponents/SlotNumber (Container).NineSliceInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-11T07:27:41.5084083Z"
+      },
+      {
+        "NewName": "HyTaleComponents/ItemSlot (Container).NineSliceInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-11T07:27:45.4640029Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/SlotNumber (Container).NineSlice NineSliceInstance1 in HyTaleComponents/SlotNumber (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-11T07:27:55.0434675Z"
+      },
+      {
+        "NewName": "HyTaleComponents/SlotNumber (Container).NineSliceInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-11T07:28:28.7253146Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/SlotNumber (Container).NineSlice NineSliceInstance1 in HyTaleComponents/SlotNumber (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-11T07:28:51.2555829Z"
+      },
+      {
+        "NewName": "HyTaleComponents/SlotNumber (Container).NineSliceInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-11T07:29:14.1755804Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/ItemSlot (Container).NineSlice NineSliceInstance1 in HyTaleComponents/ItemSlot (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-11T07:29:38.7840378Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/SlotNumber (Container).NineSlice NineSliceInstance1 in HyTaleComponents/SlotNumber (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-11T07:29:41.0396324Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot",
+        "OldName": "HyTaleComponents/ItemSlot",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-11T07:30:23.4181637Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar",
+        "OldName": "HyTaleComponents/HotBar",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-11T07:30:38.4054459Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotBarItems",
+        "OldName": "HyTaleComponents/HotBarItems",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-11T07:30:42.7885258Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory",
+        "OldName": "HyTaleComponents/Inventory",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-11T07:30:47.2907672Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow",
+        "OldName": "HyTaleComponents/InventoryHeaderRow",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-11T07:30:56.171533Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleSlotNumber",
+        "OldName": "HyTaleComponents/SlotNumber",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-11T07:31:00.2690864Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-11T07:32:53.2002842Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HyTaleItemSlotBackground",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-11T07:33:10.0271932Z"
+      },
+      {
+        "NewName": "True",
+        "OldName": "Yes",
+        "ElementType": "Components",
+        "EventType": 3,
+        "TimestampUtc": "2026-01-11T21:07:58.5865618Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HotBarSlotNumberInstance",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).SlotNumberInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-11T21:14:17.2432131Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HotBarSlotNumberInstance",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).SlotNumberInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-11T21:14:17.2443944Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HotBarSlotNumberInstance",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).SlotNumberInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-11T21:14:17.2514439Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HotBarSlotNumberInstance",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).HotBarSlotNumberInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-11T21:14:24.4396955Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HotBarSlotNumberInstance",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).HotBarSlotNumberInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-11T21:14:24.4403768Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HotBarSlotNumberInstance",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).HotBarSlotNumberInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-11T21:14:24.4474287Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleSlotNumber (Container).Background",
+        "OldName": "HyTaleComponents/HyTaleSlotNumber (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-11T21:14:42.7423515Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleSlotNumber (Container).SlotNumberText",
+        "OldName": "HyTaleComponents/HyTaleSlotNumber (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-11T21:14:51.6420221Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleDurabilityBar",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-12T00:43:14.9484477Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleDurabilityBar (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T00:43:19.9105637Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleDurabilityBar (Container).ColoredRectangleInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T00:43:27.5308023Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleDurabilityBar (Container).BackgroundBlack",
+        "OldName": "HyTaleComponents/HyTaleDurabilityBar (Container).ColoredRectangleInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T00:46:39.2873545Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleDurabilityBar (Container).BarPercent",
+        "OldName": "HyTaleComponents/HyTaleDurabilityBar (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T00:46:47.0855808Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HyTaleDurabilityBarInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T00:47:21.7074681Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T00:51:21.6448991Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T00:58:39.2404928Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).OutsideBorder",
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T00:59:38.8654954Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T01:00:57.0101825Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).T",
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).ContainerInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T01:01:00.3440848Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).TitleContainer",
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).T",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T01:01:05.2439738Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T01:01:15.8495708Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T01:01:26.6901499Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).StackContainer",
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).ContainerInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T01:01:30.9748227Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T01:02:04.2172583Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T01:33:44.9683005Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).Container ContainerInstance in HyTaleComponents/HyTaleInventoryHeaderRow (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T01:33:57.6504712Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryTitleItem",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-12T01:34:25.2843719Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryTitleItem (Container).TitleContainer",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T01:34:32.0464115Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryTitleItem (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T01:34:32.0771196Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryTitleItem (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T01:34:32.1088963Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventoryTitleItem (Container).Text TextInstance in HyTaleComponents/HyTaleInventoryTitleItem (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T01:34:36.9769405Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryTitleItem (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T01:34:44.1212046Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventoryTitleItem (Container).Sprite SpriteInstance in HyTaleComponents/HyTaleInventoryTitleItem (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T01:35:17.4380839Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryTitleItem (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T01:35:21.7012573Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).HyTaleInventoryTitleItemInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:41:29.8798695Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).HyTaleInventoryTitleItemInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:50:03.0648532Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryTitleItem (Container).IconSprite",
+        "OldName": "HyTaleComponents/HyTaleInventoryTitleItem (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T02:50:47.28198Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryTitleItem (Container).Background",
+        "OldName": "HyTaleComponents/HyTaleInventoryTitleItem (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T02:50:59.4657675Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).SwordFilterIcon",
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).HyTaleInventoryTitleItemInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T02:52:20.1590034Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).FilterIconSword",
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).SwordFilterIcon",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T02:52:26.4695777Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).FilterIconArmor",
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).HyTaleInventoryTitleItemInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T02:52:34.1302791Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).FilterIconWeapons",
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).FilterIconSword",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T02:52:37.809286Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).FilterIconArmor1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:52:44.0717959Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).FilterIconIngots",
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).FilterIconArmor1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T02:53:05.2288097Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleAutoSortButton",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-12T02:56:24.2356411Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleAutoSortButton",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2026-01-12T02:56:47.8431502Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleAutoSortButton",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-12T02:56:54.3450734Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleAutoSortButton (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:57:00.0647756Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleAutoSortButton (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:57:00.1140568Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:57:52.2035479Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).Container ContainerInstance in HyTaleComponents/HyTaleInventoryHeaderRow (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T02:58:04.7846043Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).TitleContainer1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:58:09.4959294Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).NineSliceInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:58:19.5222987Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).TextInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:58:19.5570821Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).TitleContainer2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:59:02.0255099Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).NineSliceInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:59:02.0765042Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).TextInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:59:02.110961Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).Text TextInstance2 in HyTaleComponents/HyTaleInventoryHeaderRow (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T02:59:06.8893212Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventoryHeaderRow (Container).IconSprite",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T02:59:15.357617Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleInventoryHeaderRowInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:06:01.9081331Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:06:41.5062658Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:07:15.7614538Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).ContainerInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:07:52.1055257Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:09:15.5161313Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:09:16.0080371Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:09:16.4917591Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance4",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:09:16.87153Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:09:17.2363097Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance6",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:09:17.8723404Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance7",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:09:18.5666016Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance8",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:09:19.0480341Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:11:48.2289832Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).ContainerInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:13:08.8898616Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).ContainerInstance3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:19:08.1288758Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance9",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:19:08.1947923Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance10",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:19:08.2568886Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance11",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:19:08.2926804Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance12",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:19:08.3280522Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance13",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:19:08.3641268Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance14",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:19:08.3998472Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance15",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:19:08.4350017Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance16",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:19:08.4700088Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance17",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:19:08.5049911Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).ContainerInstance4",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:39.3339147Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance18",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:39.3749264Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance19",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:39.4112814Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance20",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:39.4576424Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance21",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:39.4957357Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance22",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:39.5326159Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance23",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:39.5710193Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance24",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:39.6079041Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance25",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:39.6483971Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance26",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:39.6835613Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).ContainerInstance5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:41.3915457Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance27",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:41.429702Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance28",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:41.5199734Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance29",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:41.5648289Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance30",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:41.603125Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance31",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:41.6417961Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance32",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:41.6799962Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance33",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:41.7205285Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance34",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:41.7581788Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance35",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:20:41.7946234Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).ContainerInstance6",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:02.4276059Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance36",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:02.472768Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance37",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:02.5248365Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance38",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:02.5647287Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance39",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:02.6048194Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance40",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:02.6449397Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance41",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:02.6844259Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance42",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:02.7259285Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance43",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:02.7660313Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance44",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:02.8043368Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).ContainerInstance3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:09.9818398Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance9",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:10.0186611Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance10",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:10.0526281Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance11",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:10.095735Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance12",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:10.129586Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance13",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:10.1640175Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance14",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:10.1977306Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance15",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:10.2326484Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance16",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:10.26758Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance17",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:10.3033077Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).Container ContainerInstance6 in HyTaleComponents/HyTaleInventory (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:21:26.4959996Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleComponents/HyTaleItemSlot HyTaleItemSlotInstance36 in HyTaleComponents/HyTaleInventory (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:21:26.6930626Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleComponents/HyTaleItemSlot HyTaleItemSlotInstance37 in HyTaleComponents/HyTaleInventory (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:21:26.7042947Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleComponents/HyTaleItemSlot HyTaleItemSlotInstance38 in HyTaleComponents/HyTaleInventory (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:21:26.7143315Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleComponents/HyTaleItemSlot HyTaleItemSlotInstance39 in HyTaleComponents/HyTaleInventory (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:21:26.7231185Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleComponents/HyTaleItemSlot HyTaleItemSlotInstance40 in HyTaleComponents/HyTaleInventory (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:21:26.7320305Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleComponents/HyTaleItemSlot HyTaleItemSlotInstance41 in HyTaleComponents/HyTaleInventory (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:21:26.740826Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleComponents/HyTaleItemSlot HyTaleItemSlotInstance42 in HyTaleComponents/HyTaleInventory (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:21:26.7503068Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleComponents/HyTaleItemSlot HyTaleItemSlotInstance43 in HyTaleComponents/HyTaleInventory (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:21:26.7596202Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleComponents/HyTaleItemSlot HyTaleItemSlotInstance44 in HyTaleComponents/HyTaleInventory (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:21:26.7686947Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HJyTaleHotBarInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:21:34.636849Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).InventoryRow1",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).ContainerInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:23:12.3529709Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).InventoryRow2",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).ContainerInstance3",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:23:16.0627006Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).InventoryRow3",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).ContainerInstance4",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:23:58.9082721Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).InventoryRow4",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).ContainerInstance5",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:24:29.3033878Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HotBarRow",
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).ContainerInstance3",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:25:34.1278942Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HotBarItem1",
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance9",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:25:40.1141765Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HotBarItem2",
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance10",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:25:44.6760545Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HotBarItem3",
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance11",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:25:48.3552069Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HotBarItem4",
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance12",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:25:52.2213047Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HotBarItem5",
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance13",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:25:59.2995232Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HotBarItem6",
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance14",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:26:05.4508153Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HotBarItem7",
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance15",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:26:09.7988391Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HotBarItem8",
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance16",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:26:14.7064135Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HotBarItem9",
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleItemSlotInstance17",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:26:19.5041035Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotbarRow",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-12T03:31:53.4959451Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HotBarRowContainer",
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HotBarRow",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:31:58.3782774Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotbarRow (Container).HotBarRowContainer",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:32:04.0522623Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleHotbarRow (Container).Container HotBarRowContainer in HyTaleComponents/HyTaleHotbarRow (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:32:48.5840099Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleHotBarItems",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2026-01-12T03:33:16.2843205Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotbarRow (Container).HotBarRowContainer",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:33:31.6603261Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotbarRow (Container).HotBarItem1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:33:31.6996658Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotbarRow (Container).HotBarItem2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:33:31.7515732Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotbarRow (Container).HotBarItem3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:33:31.7880581Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotbarRow (Container).HotBarItem4",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:33:31.8257138Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotbarRow (Container).HotBarItem5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:33:31.8638994Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotbarRow (Container).HotBarItem6",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:33:31.9019238Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotbarRow (Container).HotBarItem7",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:33:31.9393367Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotbarRow (Container).HotBarItem8",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:33:31.9762465Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotbarRow (Container).HotBarItem9",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:33:32.0137041Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).Container HotBarRowContainer in HyTaleComponents/HJyTaleHotBar (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:33:39.4460809Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleComponents/HyTaleItemSlot HotBarItem1 in HyTaleComponents/HJyTaleHotBar (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:33:39.5036607Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleComponents/HyTaleItemSlot HotBarItem2 in HyTaleComponents/HJyTaleHotBar (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:33:39.514774Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleComponents/HyTaleItemSlot HotBarItem3 in HyTaleComponents/HJyTaleHotBar (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:33:39.5239229Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleComponents/HyTaleItemSlot HotBarItem4 in HyTaleComponents/HJyTaleHotBar (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:33:39.5329484Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleComponents/HyTaleItemSlot HotBarItem5 in HyTaleComponents/HJyTaleHotBar (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:33:39.5418566Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleComponents/HyTaleItemSlot HotBarItem6 in HyTaleComponents/HJyTaleHotBar (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:33:39.5505203Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleComponents/HyTaleItemSlot HotBarItem7 in HyTaleComponents/HJyTaleHotBar (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:33:39.559433Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleComponents/HyTaleItemSlot HotBarItem8 in HyTaleComponents/HJyTaleHotBar (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:33:39.5680828Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleComponents/HyTaleItemSlot HotBarItem9 in HyTaleComponents/HJyTaleHotBar (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:33:39.5762774Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).HyTaleHotbarRowInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:34:00.4516798Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleComponents/HJyTaleHotBar HJyTaleHotBarInstance in HyTaleComponents/HyTaleInventory (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T03:34:31.6019252Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleHotbarRowInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:34:36.9813032Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HJyTaleHotBar (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:34:54.6963841Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HJyTaleHotBar",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2026-01-12T03:36:43.5290698Z"
+      },
+      {
+        "NewName": "HyTaleComponents/Pieces/HyTaleAutoSortButton",
+        "OldName": "HyTaleComponents/HyTaleAutoSortButton",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-12T03:37:00.6996097Z"
+      },
+      {
+        "NewName": "HyTaleComponents/Pieces/HyTaleInventoryTitleItem",
+        "OldName": "HyTaleComponents/HyTaleInventoryTitleItem",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-12T03:37:10.2891419Z"
+      },
+      {
+        "NewName": "HyTaleComponents/Pieces/HyTaleSlotNumber",
+        "OldName": "HyTaleComponents/HyTaleSlotNumber",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-12T03:37:14.4459992Z"
+      },
+      {
+        "NewName": "HyTaleComponents/Pieces/HyTaleDurabilityBar",
+        "OldName": "HyTaleComponents/HyTaleDurabilityBar",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-12T03:37:24.5796142Z"
+      },
+      {
+        "NewName": "HyTaleComponents/Pieces/HyTaleInventoryHeaderRow",
+        "OldName": "HyTaleComponents/HyTaleInventoryHeaderRow",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-12T03:37:33.3388492Z"
+      },
+      {
+        "NewName": "HyTaleHotbarScreen",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-12T03:40:51.7221512Z"
+      },
+      {
+        "NewName": "HyTaleHotbarScreen.ExitButton",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:41:07.9249372Z"
+      },
+      {
+        "NewName": "HyTaleHotbarScreen.StatusInfo",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:41:07.9619091Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotBar",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-12T03:41:34.1325126Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleHotBar (Container).HyTaleHotbarRowInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:42:30.4592509Z"
+      },
+      {
+        "NewName": "HyTaleHotbarScreen.HyTaleHotBarInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:42:44.6273594Z"
+      },
+      {
+        "NewName": "MainMenu.FrbClicker1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:46:35.8087515Z"
+      },
+      {
+        "NewName": "MainMenu.InventoryHyTale",
+        "OldName": "MainMenu.FrbClicker1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:46:47.6804267Z"
+      },
+      {
+        "NewName": "MainMenu.InventoryHyTale1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:46:54.2452696Z"
+      },
+      {
+        "NewName": "MainMenu.HotbarHyTale",
+        "OldName": "MainMenu.InventoryHyTale1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T03:47:02.3013951Z"
+      },
+      {
+        "NewName": "HyTaleInventoryScreen",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-12T03:49:34.3462717Z"
+      },
+      {
+        "NewName": "HyTaleInventoryScreen.HyTaleInventoryInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T03:49:54.1899711Z"
+      },
+      {
+        "NewName": "HyTaleComponents/Pieces/HyTaleHotbarRow",
+        "OldName": "HyTaleComponents/HyTaleHotbarRow",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-12T03:52:34.144882Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T04:23:19.3023108Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:14.192351Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:14.1933617Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:14.2012362Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:14.2073947Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:14.2332967Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:14.2346031Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:14.2428077Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:14.2486215Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:14.2547563Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSlice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:19.7847745Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSlice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:19.7862008Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSlice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:19.7954531Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSlice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:19.8026341Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSlice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:19.8093425Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSlice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:19.8157501Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSlice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:19.8226123Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSlice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:19.829812Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSlice",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).HighlightNineSLice",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:24:19.836679Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).QuantityValueText",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:46:57.8542196Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).QuantityValueText",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:46:57.8566349Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).QuantityValueText",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:46:57.8644907Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).QuantityValueText",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:46:57.8719429Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).QuantityValueText",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:46:57.8792171Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).QuantityValueText",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:46:57.8860088Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).QuantityValueText",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:46:57.8928705Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).QuantityValueText",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:46:57.9006446Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).QuantityValueText",
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T04:46:57.9076099Z"
+      },
+      {
+        "NewName": "HyTaleComponents/Pieces/HyTaleItemIcon",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-12T05:50:10.5668758Z"
+      },
+      {
+        "NewName": "HyTaleComponents/Pieces/HyTaleItemIcon (Container).ItemSprite",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T05:50:16.8411085Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleItemSlot (Container).HyTaleItemIconInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-12T05:50:58.3869645Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleItemSlot (Container).Sprite ItemSprite in HyTaleComponents/HyTaleItemSlot (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T05:51:51.8871176Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance36",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance35",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:21:22.2525365Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance35",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance34",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:21:25.6094744Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance34",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance33",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:21:37.1349077Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance33",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance32",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:21:41.381264Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance32",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance31",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:21:43.9488427Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance31",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance30",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:21:46.5442551Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance30",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance29",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:21:49.5908379Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance29",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance28",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:21:51.9502741Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance28",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance27",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:21:59.0763709Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance27",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance26",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:13.2428478Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance26",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance25",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:16.821923Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance25",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance24",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:19.1117472Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance24",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance23",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:23.0043646Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance23",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance22",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:25.2332312Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance22",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance21",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:27.7642787Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance21",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance20",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:31.6972128Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance20",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance19",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:34.5130415Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance19",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance18",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:37.6942096Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance18",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance17",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:40.5933443Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance17",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance16",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:43.5578875Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance16",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance15",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:46.0939091Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance15",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance14",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:49.0256292Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance14",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance13",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:51.9250314Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance13",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance12",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:54.1126866Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance12",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance11",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:56.5952357Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance11",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance10",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:22:58.5320172Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance10",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance9",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:23:00.8518547Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance9",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance8",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:23:03.2368618Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance8",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance7",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:23:06.2181456Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance7",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance6",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:23:11.0772497Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance6",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance5",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:23:14.0116091Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance5",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance4",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:23:17.2392518Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance4",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance3",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:23:19.1122935Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance3",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:23:25.3321918Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance2",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:23:27.5346141Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance1",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).HyTaleItemSlotInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-12T06:23:30.9017113Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-12T06:30:14.5925797Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory1 (Container).Controls/StackPanel InventoryRow1 in HyTaleComponents/HyTaleInventory1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T06:30:29.4128659Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory1 (Container).Controls/StackPanel InventoryRow2 in HyTaleComponents/HyTaleInventory1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T06:30:46.1997407Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory1 (Container).Controls/StackPanel InventoryRow3 in HyTaleComponents/HyTaleInventory1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T06:30:46.2007343Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory1 (Container).Controls/StackPanel InventoryRow4 in HyTaleComponents/HyTaleInventory1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-12T06:30:52.5742018Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory1",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2026-01-12T06:33:59.3763425Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-13T01:51:43.8151536Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory1 (Container).Controls/StackPanel InventoryRow4 in HyTaleComponents/HyTaleInventory1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-13T01:52:53.4327855Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory1 (Container).Controls/StackPanel InventoryRow3 in HyTaleComponents/HyTaleInventory1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-13T01:52:53.4350601Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory1 (Container).Controls/StackPanel InventoryRow2 in HyTaleComponents/HyTaleInventory1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-13T01:52:53.4429541Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "HyTaleComponents/HyTaleInventory1 (Container).Controls/StackPanel InventoryRow1 in HyTaleComponents/HyTaleInventory1 (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-13T01:52:53.4502883Z"
+      },
+      {
+        "NewName": "HyTaleComponents/HyTaleInventory (Container).MainGrid",
+        "OldName": "HyTaleComponents/HyTaleInventory (Container).ContainerInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-13T05:31:56.3182094Z"
+      },
+      {
+        "NewName": "HyTaleInventoryScreen.ExitButton",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-14T05:25:20.7005486Z"
+      },
+      {
+        "NewName": "HyTaleInventoryScreen.ExitButton1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-14T05:25:21.2753758Z"
+      },
+      {
+        "NewName": "HyTaleInventoryScreen.Random",
+        "OldName": "HyTaleInventoryScreen.ExitButton1",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-14T05:25:33.7865797Z"
+      },
+      {
+        "NewName": "HyTaleInventoryScreen.RandomButton",
+        "OldName": "HyTaleInventoryScreen.Random",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-14T05:49:32.8289206Z"
+      },
+      {
+        "NewName": "HotbarScreen",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-14T07:51:04.7880306Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-16T06:49:29.6925604Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemIcon",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-16T06:49:36.1003465Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/SlotNumber",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-16T06:49:41.3304246Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/DurabilityIndicator",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-16T06:49:59.0003042Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemIcon (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T04:11:19.9695392Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/SlotNumber (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T04:15:02.6710562Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/SlotNumber (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T04:15:05.6922429Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/SlotNumber (Container).Background",
+        "OldName": "Hytale/PIeces/SlotNumber (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T04:15:12.0554474Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/SlotNumber (Container).SlotNumerText",
+        "OldName": "Hytale/PIeces/SlotNumber (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T04:15:25.9713123Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/SlotNumber (Container).SlotNubmerText",
+        "OldName": "Hytale/PIeces/SlotNumber (Container).SlotNumerText",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T04:36:05.6289041Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/DurabilityIndicator (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T04:42:38.6105509Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/DurabilityIndicator (Container).ColoredRectangleInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T04:42:39.9672956Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/DurabilityIndicator (Container).Background",
+        "OldName": "Hytale/PIeces/DurabilityIndicator (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T04:42:42.4520675Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/DurabilityIndicator (Container).BarPercent",
+        "OldName": "Hytale/PIeces/DurabilityIndicator (Container).ColoredRectangleInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T04:42:45.4474347Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/DurabilityIndicator (Container).ForegroundBar",
+        "OldName": "Hytale/PIeces/DurabilityIndicator (Container).BarPercent",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T04:45:22.0640163Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/DurabilityIndicator (Container).BackgroundBar",
+        "OldName": "Hytale/PIeces/DurabilityIndicator (Container).Background",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T04:45:35.1575268Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T04:51:22.4809763Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).Background",
+        "OldName": "Hytale/ItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T04:51:28.8800195Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).SlotBackground",
+        "OldName": "Hytale/ItemSlot (Container).Background",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T04:51:39.7722069Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).ItemIconInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T04:51:47.0802442Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).SlotNumberInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T04:51:55.6113202Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).DurabilityIndicatorInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T04:51:57.3352378Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T04:52:10.2588024Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).QuantityText",
+        "OldName": "Hytale/ItemSlot (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T04:52:14.5286787Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).QuantityTextInstance",
+        "OldName": "Hytale/ItemSlot (Container).QuantityText",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T04:52:22.3200611Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T04:52:41.5635809Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).HighlightIndicator",
+        "OldName": "Hytale/ItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T04:52:47.9547102Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemQualityBackground",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-17T05:01:18.0204045Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemQualityBackground (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T05:01:25.4482212Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemQualityBackground (Container).Background",
+        "OldName": "Hytale/PIeces/ItemQualityBackground (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T05:51:40.3340356Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemQualityBackground (Container).Background",
+        "OldName": "Hytale/PIeces/ItemQualityBackground (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T05:51:40.3355586Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemQualityBackground (Container).Background",
+        "OldName": "Hytale/PIeces/ItemQualityBackground (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T05:51:40.3445331Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemQualityBackground (Container).Background",
+        "OldName": "Hytale/PIeces/ItemQualityBackground (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T05:51:40.3531379Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemQualityBackground (Container).Background",
+        "OldName": "Hytale/PIeces/ItemQualityBackground (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T05:51:40.3631483Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemQualityBackground (Container).Background",
+        "OldName": "Hytale/PIeces/ItemQualityBackground (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T05:51:40.3733911Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemQualityBackground (Container).Background",
+        "OldName": "Hytale/PIeces/ItemQualityBackground (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T05:51:40.381561Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemQuality",
+        "OldName": "Hytale/PIeces/ItemQualityBackground",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-17T05:52:02.2088837Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemQualityBackground",
+        "OldName": "Hytale/PIeces/ItemQuality",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-17T05:52:13.1218246Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemRarityBackground",
+        "OldName": "Hytale/PIeces/ItemQualityBackground",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-17T05:57:25.6389846Z"
+      },
+      {
+        "NewName": "RarityCategory",
+        "OldName": "QualityCategory",
+        "ElementType": "Components",
+        "EventType": 4,
+        "TimestampUtc": "2026-01-17T05:57:33.8742107Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).ItemRarityBackgroundInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T06:07:41.3838869Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Hytale/ItemSlot (Container).NineSlice SlotBackground in Hytale/ItemSlot (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-17T06:07:54.0404479Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-17T06:43:59.978934Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).StackPanelInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T06:46:58.2059338Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).InnerContainer",
+        "OldName": "Hytale/Hotbar (Container).StackPanelInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T06:47:05.8666214Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).InnerStackPanel",
+        "OldName": "Hytale/Hotbar (Container).InnerContainer",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-17T06:47:11.8403495Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T06:48:06.8039732Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T06:48:08.2253192Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T06:48:10.4523714Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T06:48:49.1895455Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance4",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T06:48:50.4436822Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T06:48:51.6851628Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance6",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T06:48:53.0221599Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance7",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T06:48:54.3379198Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance8",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T06:48:55.6564329Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance9",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T06:48:57.0467921Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Hytale/Hotbar (Container).Hytale/ItemSlot ItemSlotInstance in Hytale/Hotbar (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-17T06:48:58.8442999Z"
+      },
+      {
+        "NewName": "HotbarScreen.HotbarInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-17T07:36:20.379781Z"
+      },
+      {
+        "NewName": "HotbarScreen",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-18T02:38:23.3993829Z"
+      },
+      {
+        "NewName": "Hytale/Pieces",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-18T02:52:47.2333448Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Hytale/Pieces",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2026-01-18T02:57:04.7801398Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemIcon",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-18T02:58:34.1683678Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemIcon (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T02:58:43.4798417Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/SlotNumber",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-18T03:03:08.6382233Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/SlotNumber (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:03:55.0458281Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/SlotNumber (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:03:57.9941428Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/SlotNumber (Container).Background",
+        "OldName": "Hytale/PIeces/SlotNumber (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-18T03:04:13.288687Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/SlotNumber (Container).SlotNumberText",
+        "OldName": "Hytale/PIeces/SlotNumber (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-18T03:04:19.1963064Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/DurabilityIndicator",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-18T03:07:22.8843992Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/DurabilityIndicator (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:07:47.1785413Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/DurabilityIndicator (Container).ColoredRectangleInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:07:48.8436838Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/DurabilityIndicator (Container).BackgroundBar",
+        "OldName": "Hytale/PIeces/DurabilityIndicator (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-18T03:07:54.282844Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/DurabilityIndicator (Container).ForegroundBar",
+        "OldName": "Hytale/PIeces/DurabilityIndicator (Container).ColoredRectangleInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-18T03:07:58.5253748Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemRarityBackground",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-18T03:11:27.3934132Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemRarityBackground (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:11:53.8567975Z"
+      },
+      {
+        "NewName": "Hytale/PIeces/ItemRarityBackground (Container).Background",
+        "OldName": "Hytale/PIeces/ItemRarityBackground (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-18T03:12:18.3651697Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-18T03:19:28.5823574Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).ItemRarityBackgroundInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:20:04.7516996Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).ItemIconInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:20:49.2015789Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).SlotNumberInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:22:05.4306216Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).DurabilityIndicatorInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:23:02.4093575Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:24:19.2467417Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).QuantityTextInstance",
+        "OldName": "Hytale/ItemSlot (Container).TextInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-18T03:24:28.187729Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:26:20.4138612Z"
+      },
+      {
+        "NewName": "Hytale/ItemSlot (Container).HighlightIndicator",
+        "OldName": "Hytale/ItemSlot (Container).NineSliceInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-18T03:26:27.673016Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-18T03:35:05.6400504Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).StackPanelInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:35:30.0854638Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).InnerStackPanel",
+        "OldName": "Hytale/Hotbar (Container).StackPanelInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-18T03:35:46.789277Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:36:44.666897Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:36:46.2765943Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:36:47.5845172Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:36:48.8123883Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance4",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:36:50.0859357Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:36:51.2213373Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance6",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:36:52.3962458Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance7",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:36:53.8889412Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance8",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:36:55.6606931Z"
+      },
+      {
+        "NewName": "Hytale/Hotbar (Container).ItemSlotInstance9",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:37:04.0579517Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Hytale/Hotbar (Container).Hytale/ItemSlot ItemSlotInstance in Hytale/Hotbar (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-18T03:37:08.6754023Z"
+      },
+      {
+        "NewName": "HotbarScreen.HotbarInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-18T03:38:40.9159572Z"
+      }
+    ]
+  }
+}
