@@ -1,1076 +1,586 @@
 {
   "UserEvents": {
-    "jerem": [
+    "ff194557eb3929da013e504725882c5c5e59e2652f9fbf88b199c40a47d9f781": [
       {
-        "NewName": "comp1",
+        "NewName": "GameHud/WeaponSelectHud",
         "OldName": null,
         "ElementType": "Components",
         "EventType": 0,
-        "TimestampUtc": "2025-01-30T05:51:13.0009143Z"
+        "TimestampUtc": "2025-09-29T02:19:25.7502641Z"
       },
       {
-        "NewName": "comp1 (Container).ColoredRectangleInstance",
+        "NewName": "GameHud/WeaponSelectHud (Container).WeaponContainer",
         "OldName": null,
         "ElementType": "Components",
         "EventType": 5,
-        "TimestampUtc": "2025-01-30T05:51:15.0043225Z"
+        "TimestampUtc": "2025-09-29T02:21:01.1159432Z"
       },
       {
-        "NewName": "Comp2",
+        "NewName": "GameHud/WeaponSwapHud",
         "OldName": null,
         "ElementType": "Components",
         "EventType": 0,
-        "TimestampUtc": "2025-01-30T06:41:10.1914186Z"
+        "TimestampUtc": "2025-09-29T02:22:56.1003544Z"
       },
       {
-        "NewName": "Screen1",
-        "OldName": null,
-        "ElementType": "Screens",
-        "EventType": 0,
-        "TimestampUtc": "2025-01-30T06:41:14.4774237Z"
-      },
-      {
-        "NewName": "Comp1",
-        "OldName": "comp1",
+        "NewName": "GameHud/WeaponDisplay",
+        "OldName": "GameHud/WeaponSwapHud",
         "ElementType": "Components",
         "EventType": 2,
-        "TimestampUtc": "2025-01-30T06:41:19.5437023Z"
-      },
-      {
-        "NewName": "Comp2 (Container).ColoredRectangleInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2025-01-30T06:41:25.6334173Z"
-      },
-      {
-        "NewName": "Comp1 (Container).cr1",
-        "OldName": "Comp1 (Container).ColoredRectangleInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2025-01-30T06:41:31.2745085Z"
-      },
-      {
-        "NewName": "Comp2 (Container).cr2",
-        "OldName": "Comp2 (Container).ColoredRectangleInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2025-01-30T06:41:34.6148746Z"
+        "TimestampUtc": "2025-09-29T02:23:17.0692738Z"
       },
       {
         "NewName": null,
-        "OldName": ".ColoredRectangle ColoredRectangleInstance",
-        "ElementType": null,
-        "EventType": 6,
-        "TimestampUtc": "2025-01-31T01:21:39.3491464Z"
-      },
-      {
-        "NewName": null,
-        "OldName": ".ColoredRectangle ColoredRectangleInstance2",
-        "ElementType": null,
-        "EventType": 6,
-        "TimestampUtc": "2025-01-31T01:24:55.1716574Z"
-      },
-      {
-        "NewName": null,
-        "OldName": ".ColoredRectangle ColoredRectangleInstance",
-        "ElementType": null,
-        "EventType": 6,
-        "TimestampUtc": "2025-01-31T01:24:56.5769634Z"
-      },
-      {
-        "NewName": null,
-        "OldName": ".ColoredRectangle ColoredRectangleInstance",
-        "ElementType": null,
-        "EventType": 6,
-        "TimestampUtc": "2025-01-31T01:24:57.9003164Z"
-      },
-      {
-        "NewName": null,
-        "OldName": ".ColoredRectangle ColoredRectangleInstance1",
-        "ElementType": null,
-        "EventType": 6,
-        "TimestampUtc": "2025-01-31T01:24:59.0772294Z"
-      },
-      {
-        "NewName": null,
-        "OldName": ".ColoredRectangle ColoredRectangleInstance1",
-        "ElementType": null,
-        "EventType": 6,
-        "TimestampUtc": "2025-01-31T01:25:32.2576134Z"
-      },
-      {
-        "NewName": "Comp2 (Container).TextInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2025-01-31T06:00:25.5578315Z"
-      },
-      {
-        "NewName": "Comp2 (Container).a",
-        "OldName": "Comp2 (Container).TextInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2025-01-31T06:03:42.4580352Z"
-      },
-      {
-        "NewName": "Comp2 (Container).another",
-        "OldName": "Comp2 (Container).a",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2025-01-31T06:04:03.4994814Z"
-      },
-      {
-        "NewName": "Comp2 (Container).abc",
-        "OldName": "Comp2 (Container).cr2",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2025-01-31T06:06:45.3724817Z"
-      },
-      {
-        "NewName": "Comp2 (Container).cr2",
-        "OldName": "Comp2 (Container).abc",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2025-01-31T06:07:24.4248344Z"
-      },
-      {
-        "NewName": "Comp2 (Container).coloredRect",
-        "OldName": "Comp2 (Container).cr2",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2025-01-31T06:08:14.4227846Z"
-      },
-      {
-        "NewName": "Comp2 (Container).cr2",
-        "OldName": "Comp2 (Container).coloredRect",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2025-01-31T06:13:59.7790085Z"
-      },
-      {
-        "NewName": null,
-        "OldName": "Comp2 (Container).ColoredRectangle cr2 in Comp2 (Container)",
+        "OldName": "GameHud/WeaponDisplay (Container).TechTree/UnlockRequirement Weapon2 in GameHud/WeaponDisplay (Container)",
         "ElementType": "Components",
         "EventType": 6,
-        "TimestampUtc": "2025-01-31T06:14:04.037918Z"
-      },
-      {
-        "NewName": "Sub/Comp3",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2025-01-31T06:14:23.9753172Z"
-      },
-      {
-        "NewName": "Sub/Comp3 (Container).cr2",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2025-01-31T06:14:26.6628685Z"
+        "TimestampUtc": "2025-09-29T02:23:44.7914928Z"
       },
       {
         "NewName": null,
-        "OldName": "Sub/Comp3 (Container).ColoredRectangle cr2 in Sub/Comp3 (Container)",
-        "ElementType": "Components",
-        "EventType": 6,
-        "TimestampUtc": "2025-01-31T06:14:31.0184422Z"
-      },
-      {
-        "NewName": "Sub/Comp3 (Container).cr2",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2025-01-31T06:14:49.4420334Z"
-      },
-      {
-        "NewName": null,
-        "OldName": "Sub/Comp3 (Container).ColoredRectangle cr2 in Sub/Comp3 (Container)",
-        "ElementType": "Components",
-        "EventType": 6,
-        "TimestampUtc": "2025-01-31T06:15:10.1075982Z"
-      },
-      {
-        "NewName": null,
-        "OldName": "Sub/Comp3",
+        "OldName": "GameHud/WeaponDisplay",
         "ElementType": "Components",
         "EventType": 1,
-        "TimestampUtc": "2025-01-31T06:15:12.0093316Z"
+        "TimestampUtc": "2025-09-29T02:24:13.6629842Z"
       },
       {
-        "NewName": "Sub/Comp1",
-        "OldName": "Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:15:23.7863285Z"
-      },
-      {
-        "NewName": "Comp1",
-        "OldName": "Sub/Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:15:59.1116997Z"
-      },
-      {
-        "NewName": "Sub/Comp1",
-        "OldName": "Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:17:00.4664035Z"
-      },
-      {
-        "NewName": "Comp1",
-        "OldName": "Sub/Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:17:19.6803217Z"
-      },
-      {
-        "NewName": "Sub/Comp1",
-        "OldName": "Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:17:30.9783934Z"
-      },
-      {
-        "NewName": "CompMover",
+        "NewName": "GameHud/UnlockRequirement",
         "OldName": null,
         "ElementType": "Components",
         "EventType": 0,
-        "TimestampUtc": "2025-01-31T06:17:48.2495137Z"
+        "TimestampUtc": "2025-09-29T02:24:21.2963309Z"
       },
       {
-        "NewName": "Sub/CompMover",
-        "OldName": "CompMover",
+        "NewName": "GameHud/WeaponDisplay",
+        "OldName": "GameHud/UnlockRequirement",
         "ElementType": "Components",
         "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:17:50.9314995Z"
+        "TimestampUtc": "2025-09-29T02:24:26.4360351Z"
       },
       {
-        "NewName": "CompMover",
-        "OldName": "Sub/CompMover",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:17:56.4696998Z"
-      },
-      {
-        "NewName": "CompMover (Container).ColoredRectangleInstance",
+        "NewName": "GameHud/WeaponDisplay (Container).WeaponIconInstance",
         "OldName": null,
         "ElementType": "Components",
         "EventType": 5,
-        "TimestampUtc": "2025-01-31T06:17:58.6178594Z"
+        "TimestampUtc": "2025-09-29T02:35:36.287238Z"
       },
       {
-        "NewName": "Sub/CompMover",
-        "OldName": "CompMover",
+        "NewName": null,
+        "OldName": "GameHud/WeaponDisplay (Container).Sprite WeaponSpriteInstance in GameHud/WeaponDisplay (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-09-29T02:35:44.4765465Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponSelectHud (Container).Container WeaponContainer in GameHud/WeaponSelectHud (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-09-29T02:51:28.2804938Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponSelectHud",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2025-09-29T02:51:30.0671536Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponWheel (Container).Rectangle RectangleInstance in GameHud/WeaponWheel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-09-29T02:53:31.9743497Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponWheel (Container).ColoredRectangle ColoredRectangleInstance in GameHud/WeaponWheel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-09-29T02:53:33.5975232Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponWheel (Container).ColoredCircle ColoredCircleInstance in GameHud/WeaponWheel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-09-29T02:53:41.1109832Z"
+      },
+      {
+        "NewName": "GameHud/WeaponWheel (Container).WheelBackground",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-09-29T03:07:00.7014799Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponWheel (Container).Sprite WheelBackground in GameHud/WeaponWheel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-09-29T03:08:15.1320189Z"
+      },
+      {
+        "NewName": "GameHud/WeaponSprite1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-09-29T03:08:32.7620696Z"
+      },
+      {
+        "NewName": "GameHud/WeaponWheel (Container).WeaponSprite1Instance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-09-29T03:08:34.6698967Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponWheel (Container).GameHud/WeaponSprite1 WeaponSprite1Instance in GameHud/WeaponWheel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-09-29T03:08:37.4960994Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponSprite1",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2025-09-29T03:08:39.9780373Z"
+      },
+      {
+        "NewName": "GameHud/WeaponWheel (Container).WeaponSpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-09-29T03:08:41.9608187Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponSprite (Container).Text TextInstance in GameHud/WeaponSprite (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-09-29T03:09:29.5390161Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponSprite (Container).Container ContainerInstance in GameHud/WeaponSprite (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-09-29T03:09:34.9727573Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponSprite (Container).ColoredRectangle ColoredRectangleInstance in GameHud/WeaponSprite (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-09-29T03:09:37.4741492Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponWheel (Container).Sprite WheelBackground in GameHud/WeaponWheel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-09-29T03:12:01.9426445Z"
+      },
+      {
+        "NewName": "GameHud/WeaponWheel (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-09-29T03:12:06.8765316Z"
+      },
+      {
+        "NewName": "GameHud/WeaponDisplay (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-09-29T03:18:05.0523311Z"
+      },
+      {
+        "NewName": "GameHud/test",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-09-29T03:56:03.4805817Z"
+      },
+      {
+        "NewName": "GameHud/test (Container).WeaponContainer",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-09-29T03:56:13.2747346Z"
+      },
+      {
+        "NewName": "GameHud/WeaponDisplay1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-09-29T03:56:18.4817844Z"
+      },
+      {
+        "NewName": "GameHud/WeaponDisplay2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-09-29T03:56:19.2157189Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponDisplay2",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2025-09-29T03:56:26.5109062Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponDisplay1",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2025-09-29T03:56:28.9410769Z"
+      },
+      {
+        "NewName": "GameHud/WeaponDisplay1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-09-29T03:56:43.2827374Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponDisplay1",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2025-09-29T03:56:46.7171958Z"
+      },
+      {
+        "NewName": "GameHud/WeaponDisplay1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-09-29T03:56:53.4053269Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponDisplay1",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2025-09-29T03:56:56.3552346Z"
+      },
+      {
+        "NewName": "GameHud/test (Container).WeaponDisplayInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-09-29T03:57:03.6749045Z"
+      },
+      {
+        "NewName": "GameHud/test (Container).WeaponDisplayInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-09-29T03:57:06.3765656Z"
+      },
+      {
+        "NewName": "GameHud/test (Container).WeaponDisplayInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-09-29T03:57:08.9333058Z"
+      },
+      {
+        "NewName": "GameHud/WeaponWheelTestg",
+        "OldName": "GameHud/test",
         "ElementType": "Components",
         "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:18:02.6638898Z"
+        "TimestampUtc": "2025-09-29T03:59:55.0936312Z"
       },
       {
-        "NewName": "Comp1",
-        "OldName": "Sub/Comp1",
+        "NewName": "GameHud/WeaponWheelTest",
+        "OldName": "GameHud/WeaponWheelTestg",
         "ElementType": "Components",
         "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:18:06.6191571Z"
+        "TimestampUtc": "2025-09-29T03:59:59.3730224Z"
       },
       {
-        "NewName": "Sub/Comp1",
-        "OldName": "Comp1",
+        "NewName": "GameHud/WeaponWheelTest (Container).SpriteInstance",
+        "OldName": null,
         "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:18:11.4430986Z"
+        "EventType": 5,
+        "TimestampUtc": "2025-09-29T04:00:08.6848614Z"
       },
       {
-        "NewName": "Comp1",
-        "OldName": "Sub/Comp1",
+        "NewName": null,
+        "OldName": "GameHud/WeaponWheelTest (Container).GameHud/WeaponDisplay WeaponDisplayInstance2 in GameHud/WeaponWheelTest (Container)",
         "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:18:27.7587442Z"
+        "EventType": 6,
+        "TimestampUtc": "2025-09-29T04:28:38.339392Z"
       },
       {
-        "NewName": "CompMover",
-        "OldName": "Sub/CompMover",
+        "NewName": "GameHud/WeaponDisplay (Container).SpriteInstance1",
+        "OldName": null,
         "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:18:30.7786025Z"
+        "EventType": 5,
+        "TimestampUtc": "2025-09-29T04:34:48.2033769Z"
       },
       {
-        "NewName": "Sub/Comp2",
-        "OldName": "Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:18:33.8646637Z"
-      },
-      {
-        "NewName": "Sub/CompMover",
-        "OldName": "CompMover",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:05.7980481Z"
-      },
-      {
-        "NewName": "Sub/Comp1",
-        "OldName": "Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:08.8159915Z"
-      },
-      {
-        "NewName": "Comp2",
-        "OldName": "Sub/Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:13.3479234Z"
-      },
-      {
-        "NewName": "Comp1",
-        "OldName": "Sub/Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:15.7904085Z"
-      },
-      {
-        "NewName": "CompMover",
-        "OldName": "Sub/CompMover",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:17.7682565Z"
-      },
-      {
-        "NewName": "Sub/Comp1",
-        "OldName": "Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:20.2968182Z"
-      },
-      {
-        "NewName": "Sub/Comp2",
-        "OldName": "Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:25.1774489Z"
-      },
-      {
-        "NewName": "Sub/CompMover",
-        "OldName": "CompMover",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:28.3186642Z"
-      },
-      {
-        "NewName": "Comp2",
-        "OldName": "Sub/Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:33.9281242Z"
-      },
-      {
-        "NewName": "Sub/Comp2",
-        "OldName": "Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:36.6758444Z"
-      },
-      {
-        "NewName": "Comp2",
-        "OldName": "Sub/Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:39.6158643Z"
-      },
-      {
-        "NewName": "CompMover",
-        "OldName": "Sub/CompMover",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:41.9626502Z"
-      },
-      {
-        "NewName": "Comp1",
-        "OldName": "Sub/Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:44.6933814Z"
-      },
-      {
-        "NewName": "Sub/CompMover",
-        "OldName": "CompMover",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:47.3775622Z"
-      },
-      {
-        "NewName": "CompMover",
-        "OldName": "Sub/CompMover",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:49.9281928Z"
-      },
-      {
-        "NewName": "CompMover (Container).cr3",
-        "OldName": "CompMover (Container).ColoredRectangleInstance",
+        "NewName": "GameHud/WeaponDisplay (Container).HighlightSprite",
+        "OldName": "GameHud/WeaponDisplay (Container).SpriteInstance1",
         "ElementType": "Components",
         "EventType": 7,
-        "TimestampUtc": "2025-01-31T06:19:55.5130885Z"
+        "TimestampUtc": "2025-09-29T04:39:52.1096125Z"
       },
       {
-        "NewName": "Sub/CompMover",
-        "OldName": "CompMover",
+        "NewName": "GameHud/WeaponDisplay (Container).HighlightSprite",
+        "OldName": "GameHud/WeaponDisplay (Container).SpriteInstance1",
         "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:19:59.4580415Z"
+        "EventType": 7,
+        "TimestampUtc": "2025-09-29T04:39:52.1116146Z"
       },
       {
-        "NewName": "CompMover",
-        "OldName": "Sub/CompMover",
+        "NewName": "GameHud/WeaponDisplay (Container).HighlightSprite",
+        "OldName": "GameHud/WeaponDisplay (Container).SpriteInstance1",
         "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:20:02.6729697Z"
+        "EventType": 7,
+        "TimestampUtc": "2025-09-29T04:39:52.1186137Z"
       },
       {
-        "NewName": "Sub/Comp1",
-        "OldName": "Comp1",
+        "NewName": "GameHud/WeaponDisplay (Container).HighlightSprite",
+        "OldName": "GameHud/WeaponDisplay (Container).SpriteInstance1",
         "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:20:46.2565728Z"
-      },
-      {
-        "NewName": "Comp1",
-        "OldName": "Sub/Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:20:53.3279683Z"
-      },
-      {
-        "NewName": "Sub/Comp2",
-        "OldName": "Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:20:55.7704499Z"
-      },
-      {
-        "NewName": "Comp2",
-        "OldName": "Sub/Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:21:00.2210524Z"
-      },
-      {
-        "NewName": "Sub/CompMover",
-        "OldName": "CompMover",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:21:03.3032692Z"
-      },
-      {
-        "NewName": "CompMover",
-        "OldName": "Sub/CompMover",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:21:06.1618026Z"
-      },
-      {
-        "NewName": "Comp3",
-        "OldName": "CompMover",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:21:10.9609349Z"
-      },
-      {
-        "NewName": "Sub/Comp3",
-        "OldName": "Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:21:13.8516188Z"
-      },
-      {
-        "NewName": "Comp3",
-        "OldName": "Sub/Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-01-31T06:21:16.460639Z"
-      },
-      {
-        "NewName": "Screen1.Comp1Instance",
-        "OldName": null,
-        "ElementType": "Screens",
-        "EventType": 5,
-        "TimestampUtc": "2025-01-31T08:14:38.2484903Z"
-      },
-      {
-        "NewName": "comp1",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2025-02-02T01:00:11.32398Z"
-      },
-      {
-        "NewName": "fold1/comp2",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2025-02-02T01:00:20.186693Z"
-      },
-      {
-        "NewName": "Sub/Comp3",
-        "OldName": "Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:01:17.0917785Z"
-      },
-      {
-        "NewName": "Comp3",
-        "OldName": "Sub/Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:01:20.7942592Z"
-      },
-      {
-        "NewName": "Sub/Comp3",
-        "OldName": "Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:03:56.7168829Z"
-      },
-      {
-        "NewName": "Comp3",
-        "OldName": "Sub/Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:03:59.6057756Z"
-      },
-      {
-        "NewName": "Sub/Comp3",
-        "OldName": "Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:04:03.1313699Z"
-      },
-      {
-        "NewName": "Comp3",
-        "OldName": "Sub/Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:04:05.8601717Z"
-      },
-      {
-        "NewName": "Sub/Comp1",
-        "OldName": "Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:04:10.1631741Z"
-      },
-      {
-        "NewName": "Sub/Comp2",
-        "OldName": "Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:04:22.4496504Z"
-      },
-      {
-        "NewName": "Sub/Comp3",
-        "OldName": "Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:04:27.2295323Z"
-      },
-      {
-        "NewName": "Comp3",
-        "OldName": "Sub/Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:04:30.1979269Z"
-      },
-      {
-        "NewName": "Comp2",
-        "OldName": "Sub/Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:04:33.0726872Z"
-      },
-      {
-        "NewName": "Comp1",
-        "OldName": "Sub/Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:04:35.6513791Z"
-      },
-      {
-        "NewName": "Sub/Comp1",
-        "OldName": "Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:04:37.9713689Z"
-      },
-      {
-        "NewName": "Comp1",
-        "OldName": "Sub/Comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:04:41.5942552Z"
-      },
-      {
-        "NewName": "fold1/comp1",
-        "OldName": "comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:06:55.0624915Z"
-      },
-      {
-        "NewName": "comp1",
-        "OldName": "fold1/comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:06:57.3710561Z"
-      },
-      {
-        "NewName": "comp2",
-        "OldName": "fold1/comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:06:59.3334373Z"
-      },
-      {
-        "NewName": "comp1 (Container).ColoredRectangleInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2025-02-02T01:07:01.6372971Z"
-      },
-      {
-        "NewName": "fold1/comp1",
-        "OldName": "comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:07:04.1646165Z"
-      },
-      {
-        "NewName": "comp1",
-        "OldName": "fold1/comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:07:10.2842623Z"
-      },
-      {
-        "NewName": "fold1/comp2",
-        "OldName": "comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:07:13.6546135Z"
-      },
-      {
-        "NewName": "comp2",
-        "OldName": "fold1/comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:07:16.046171Z"
-      },
-      {
-        "NewName": "comp2 (Container).ColoredRectangleInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2025-02-02T01:07:17.5991275Z"
-      },
-      {
-        "NewName": "fold1/comp2",
-        "OldName": "comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:07:20.1700095Z"
-      },
-      {
-        "NewName": "comp2",
-        "OldName": "fold1/comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:07:23.674957Z"
-      },
-      {
-        "NewName": "fold1/comp1",
-        "OldName": "comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:07:41.1851174Z"
-      },
-      {
-        "NewName": "comp1",
-        "OldName": "fold1/comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:07:45.4558989Z"
-      },
-      {
-        "NewName": "Comp3",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2025-02-02T01:07:49.061008Z"
-      },
-      {
-        "NewName": "fold1/Comp3",
-        "OldName": "Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:07:52.9964243Z"
-      },
-      {
-        "NewName": "Comp3",
-        "OldName": "fold1/Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:07:55.2953866Z"
-      },
-      {
-        "NewName": "Comp3 (Container).ColoredRectangleInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2025-02-02T01:07:56.9367439Z"
-      },
-      {
-        "NewName": "fold1/Comp3",
-        "OldName": "Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:07:59.5232511Z"
-      },
-      {
-        "NewName": "fold1/comp2",
-        "OldName": "comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:08:02.4375267Z"
-      },
-      {
-        "NewName": "fold1/comp1",
-        "OldName": "comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:08:04.7775473Z"
-      },
-      {
-        "NewName": "comp1",
-        "OldName": "fold1/comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:08:08.1137122Z"
-      },
-      {
-        "NewName": "comp2",
-        "OldName": "fold1/comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:08:10.2510928Z"
-      },
-      {
-        "NewName": "Comp3",
-        "OldName": "fold1/Comp3",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:08:12.6975541Z"
-      },
-      {
-        "NewName": "fold1/comp1",
-        "OldName": "comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:08:15.3459898Z"
-      },
-      {
-        "NewName": "comp1",
-        "OldName": "fold1/comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T01:08:18.9865008Z"
-      },
-      {
-        "NewName": "Comp2",
-        "OldName": "comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T02:07:36.2827949Z"
-      },
-      {
-        "NewName": "fold1/Comp2",
-        "OldName": "Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T02:07:38.3315143Z"
-      },
-      {
-        "NewName": "Comp2",
-        "OldName": "fold1/Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T02:07:43.2001362Z"
-      },
-      {
-        "NewName": "Screen1",
-        "OldName": null,
-        "ElementType": "Screens",
-        "EventType": 0,
-        "TimestampUtc": "2025-02-02T02:08:22.2458926Z"
-      },
-      {
-        "NewName": "Screen2",
-        "OldName": null,
-        "ElementType": "Screens",
-        "EventType": 0,
-        "TimestampUtc": "2025-02-02T02:08:28.5583899Z"
-      },
-      {
-        "NewName": "Fold1/Screen1",
-        "OldName": "Screen1",
-        "ElementType": "Screens",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T02:08:30.9656692Z"
-      },
-      {
-        "NewName": "Fold1/Screen2",
-        "OldName": "Screen2",
-        "ElementType": "Screens",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T02:08:33.3685945Z"
-      },
-      {
-        "NewName": "Screen1",
-        "OldName": "Fold1/Screen1",
-        "ElementType": "Screens",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T02:08:35.9617513Z"
-      },
-      {
-        "NewName": "Screen2",
-        "OldName": "Fold1/Screen2",
-        "ElementType": "Screens",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T02:08:39.2775582Z"
-      },
-      {
-        "NewName": "Screen1.comp1Instance",
-        "OldName": null,
-        "ElementType": "Screens",
-        "EventType": 5,
-        "TimestampUtc": "2025-02-02T02:08:40.5765534Z"
-      },
-      {
-        "NewName": "Screen1.Comp3Instance",
-        "OldName": null,
-        "ElementType": "Screens",
-        "EventType": 5,
-        "TimestampUtc": "2025-02-02T02:08:42.5785255Z"
-      },
-      {
-        "NewName": "Screen1.Comp2Instance",
-        "OldName": null,
-        "ElementType": "Screens",
-        "EventType": 5,
-        "TimestampUtc": "2025-02-02T02:08:44.2895028Z"
-      },
-      {
-        "NewName": "Fold1/Screen1",
-        "OldName": "Screen1",
-        "ElementType": "Screens",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T02:08:46.0434473Z"
-      },
-      {
-        "NewName": "Screen1",
-        "OldName": "Fold1/Screen1",
-        "ElementType": "Screens",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T02:08:48.5394112Z"
-      },
-      {
-        "NewName": "Screen2.Comp3Instance",
-        "OldName": null,
-        "ElementType": "Screens",
-        "EventType": 5,
-        "TimestampUtc": "2025-02-02T02:10:42.2112894Z"
+        "EventType": 7,
+        "TimestampUtc": "2025-09-29T04:39:52.1246121Z"
       },
       {
         "NewName": null,
-        "OldName": "Screen2.Comp3 Comp3Instance in Screen2",
-        "ElementType": "Screens",
-        "EventType": 6,
-        "TimestampUtc": "2025-02-02T02:10:48.7118911Z"
-      },
-      {
-        "NewName": "Screen1Component5",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2025-02-02T02:28:15.6149292Z"
-      },
-      {
-        "NewName": "Screen1Component3",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2025-02-02T02:28:27.5300572Z"
-      },
-      {
-        "NewName": "comp1 (Container).a",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2025-02-02T02:29:27.9920353Z"
-      },
-      {
-        "NewName": "comp1 (Container).dddd",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2025-02-02T02:29:55.2696876Z"
-      },
-      {
-        "NewName": "comp1 (Container).bbbbb",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2025-02-02T02:29:59.344577Z"
-      },
-      {
-        "NewName": "fold1/comp1",
-        "OldName": "comp1",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T02:30:09.0145494Z"
-      },
-      {
-        "NewName": "fold1/comp1 (Container).ccccccccccccccccccccc",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2025-02-02T02:30:15.1512026Z"
-      },
-      {
-        "NewName": null,
-        "OldName": "fold1/comp1 (Container).Container ccccccccccccccccccccc in fold1/comp1 (Container)",
+        "OldName": "GameHud/WeaponWheelTest (Container).GameHud/WeaponDisplay WeaponDisplayInstance1 in GameHud/WeaponWheelTest (Container)",
         "ElementType": "Components",
         "EventType": 6,
-        "TimestampUtc": "2025-02-02T02:30:36.0671642Z"
+        "TimestampUtc": "2025-09-29T05:11:45.6660605Z"
       },
       {
         "NewName": null,
-        "OldName": "fold1/comp1 (Container).Container bbbbb in fold1/comp1 (Container)",
+        "OldName": "GameHud/WeaponWheelTest (Container).GameHud/WeaponDisplay WeaponDisplayInstance in GameHud/WeaponWheelTest (Container)",
         "ElementType": "Components",
         "EventType": 6,
-        "TimestampUtc": "2025-02-02T02:30:42.1343969Z"
+        "TimestampUtc": "2025-09-29T05:11:47.2289259Z"
       },
       {
         "NewName": null,
-        "OldName": "fold1/comp1 (Container).Container dddd in fold1/comp1 (Container)",
+        "OldName": "GameHud/WeaponWheelTest (Container).Container WeaponContainer in GameHud/WeaponWheelTest (Container)",
         "ElementType": "Components",
         "EventType": 6,
-        "TimestampUtc": "2025-02-02T02:30:42.164396Z"
+        "TimestampUtc": "2025-09-29T05:11:48.6878947Z"
       },
       {
         "NewName": null,
-        "OldName": "fold1/comp1 (Container).Text a in fold1/comp1 (Container)",
+        "OldName": "GameHud/WeaponWheelTest (Container).Sprite SpriteInstance in GameHud/WeaponWheelTest (Container)",
         "ElementType": "Components",
         "EventType": 6,
-        "TimestampUtc": "2025-02-02T02:30:42.1653959Z"
+        "TimestampUtc": "2025-09-29T05:11:50.1284777Z"
       },
       {
         "NewName": null,
-        "OldName": "fold1/comp1",
+        "OldName": "GameHud/WeaponWheelTest",
         "ElementType": "Components",
         "EventType": 1,
-        "TimestampUtc": "2025-02-02T02:32:11.1388967Z"
+        "TimestampUtc": "2025-09-29T05:11:51.5548558Z"
       },
       {
-        "NewName": null,
-        "OldName": "Screen1.fold1/comp1 comp1Instance in Screen1",
-        "ElementType": "Screens",
-        "EventType": 6,
-        "TimestampUtc": "2025-02-02T02:32:23.8222112Z"
-      },
-      {
-        "NewName": null,
-        "OldName": "Screen1Component3 (Container).fold1/comp1 comp1Instance in Screen1Component3 (Container)",
-        "ElementType": "Components",
-        "EventType": 6,
-        "TimestampUtc": "2025-02-02T02:32:30.4296487Z"
-      },
-      {
-        "NewName": null,
-        "OldName": "Screen1Component5 (Container).fold1/comp1 comp1Instance in Screen1Component5 (Container)",
-        "ElementType": "Components",
-        "EventType": 6,
-        "TimestampUtc": "2025-02-02T02:32:31.7951909Z"
-      },
-      {
-        "NewName": "1/Comp2",
-        "OldName": "Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T02:32:36.3194133Z"
-      },
-      {
-        "NewName": "1/Comp2Copy",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2025-02-02T02:32:59.0840673Z"
-      },
-      {
-        "NewName": null,
-        "OldName": "1/Comp2",
-        "ElementType": "Components",
-        "EventType": 1,
-        "TimestampUtc": "2025-02-02T02:33:03.6389132Z"
-      },
-      {
-        "NewName": null,
-        "OldName": "1/Comp2Copy",
-        "ElementType": "Components",
-        "EventType": 1,
-        "TimestampUtc": "2025-02-02T02:33:08.8827615Z"
-      },
-      {
-        "NewName": "1/Comp1",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2025-02-02T02:33:14.3364873Z"
-      },
-      {
-        "NewName": "1/Comp2",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2025-02-02T02:33:19.5603717Z"
-      },
-      {
-        "NewName": "Comp2",
-        "OldName": "1/Comp2",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2025-02-02T02:33:24.7351085Z"
-      },
-      {
-        "NewName": "Screen1.Comp3Instance1",
-        "OldName": null,
-        "ElementType": "Screens",
-        "EventType": 5,
-        "TimestampUtc": "2025-02-02T02:36:19.8771374Z"
-      },
-      {
-        "NewName": null,
-        "OldName": ".ColoredRectangle ColoredRectangleInstance",
-        "ElementType": null,
-        "EventType": 6,
-        "TimestampUtc": "2025-02-02T02:36:37.0550273Z"
-      },
-      {
-        "NewName": "1/Comp1 (Container).ArcInstance",
+        "NewName": "GameHud/WeaponDisplay (Container).ColoredRectangleInstance",
         "OldName": null,
         "ElementType": "Components",
         "EventType": 5,
-        "TimestampUtc": "2025-02-02T02:43:49.0761205Z"
+        "TimestampUtc": "2025-10-02T04:38:27.6880749Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponDisplay (Container).ColoredRectangle ColoredRectangleInstance in GameHud/WeaponDisplay (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-10-02T04:38:35.6005572Z"
+      },
+      {
+        "NewName": "GameHud/WeaponWheel (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-02T04:38:43.6735391Z"
+      },
+      {
+        "NewName": "GameHud/SilhouetteBulletIcon",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-10-02T04:41:19.194682Z"
+      },
+      {
+        "NewName": "GameHud/SilhouetteBulletIcon (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-02T04:41:29.0334606Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameHud/WeaponWheel (Container).ColoredRectangle ColoredRectangleInstance in GameHud/WeaponWheel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-10-02T04:41:32.3352432Z"
+      },
+      {
+        "NewName": "GameHud/SilhouetteBulletIcon (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-02T04:41:34.7919472Z"
+      },
+      {
+        "NewName": "GameHud/SilhouetteBulletIcon (Container).BulletIcon",
+        "OldName": "GameHud/SilhouetteBulletIcon (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-10-02T04:41:49.5940482Z"
+      },
+      {
+        "NewName": "GameHud/SilhouetteBulletIcon (Container).SilhouetteColoredRect",
+        "OldName": "GameHud/SilhouetteBulletIcon (Container).ColoredRectangleInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2025-10-02T04:42:07.3844791Z"
+      },
+      {
+        "NewName": "GameHud/WeaponWheel (Container).SilhouetteBulletIconInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-02T04:49:08.3926107Z"
+      },
+      {
+        "NewName": "Selected",
+        "OldName": "FirstSelected",
+        "ElementType": "Components",
+        "EventType": 3,
+        "TimestampUtc": "2025-10-02T04:55:10.8883164Z"
+      },
+      {
+        "NewName": "LeftToRight",
+        "OldName": "Left",
+        "ElementType": "Components",
+        "EventType": 3,
+        "TimestampUtc": "2025-10-03T20:17:46.2898866Z"
+      },
+      {
+        "NewName": "example",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-10-04T21:47:49.3790064Z"
+      },
+      {
+        "NewName": "example (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-04T21:47:55.4668925Z"
+      },
+      {
+        "NewName": "TTRPG",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2025-10-04T21:52:42.0779849Z"
+      },
+      {
+        "NewName": "CharacterScreen",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2025-10-04T21:53:13.2878795Z"
+      },
+      {
+        "NewName": "CharacterScreen (Container).NineSliceInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-04T21:53:31.5024189Z"
+      },
+      {
+        "NewName": "CharacterScreen (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-04T21:53:58.6292572Z"
+      },
+      {
+        "NewName": "CharacterScreen (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-04T21:54:00.5783634Z"
+      },
+      {
+        "NewName": "CharacterScreen (Container).StackPanelInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-04T21:54:22.3477837Z"
+      },
+      {
+        "NewName": "CharacterScreen (Container).TextInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-04T21:56:24.0674363Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "CharacterScreen (Container).Text TextInstance1 in CharacterScreen (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-10-04T21:56:35.8142405Z"
+      },
+      {
+        "NewName": "CharacterScreen (Container).LabelInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-04T21:56:39.7614086Z"
+      },
+      {
+        "NewName": "CharacterScreen (Container).TextBoxInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-04T21:58:26.1046257Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "CharacterScreen (Container).Controls/Label LabelInstance in CharacterScreen (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2025-10-04T21:59:09.5167505Z"
+      },
+      {
+        "NewName": "CharacterScreen (Container).TextInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-04T21:59:11.1882645Z"
+      },
+      {
+        "NewName": "CharacterScreen (Container).TextInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-04T22:00:06.7907756Z"
+      },
+      {
+        "NewName": "CharacterScreen (Container).TextBoxInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2025-10-04T22:00:06.83715Z"
       }
     ]
   }

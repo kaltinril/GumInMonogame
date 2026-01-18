@@ -212,14 +212,61 @@ namespace GumGlobalStyling
 
         private void SetFontFamily(string fontName)
         {
-            var normalFont = Styling.ActiveStyle.Text.Normal.Variables.Where(f => f.Name == "Font").FirstOrDefault();
-            normalFont.Value = fontName;
+            //var normalFont = Styling.ActiveStyle.Text.Normal.Variables.Where(f => f.Name == "Font").FirstOrDefault();
+            //normalFont.Value = fontName;
 
-            var boldFont = Styling.ActiveStyle.Text.Strong.Variables.Where(f => f.Name == "Font").FirstOrDefault();
-            boldFont.Value = fontName;
+            //var boldFont = Styling.ActiveStyle.Text.Strong.Variables.Where(f => f.Name == "Font").FirstOrDefault();
+            //boldFont.Value = fontName;
 
-            var italicFont = Styling.ActiveStyle.Text.Emphasis.Variables.Where(f => f.Name == "Font").FirstOrDefault();
-            italicFont.Value = fontName;
+            //var italicFont = Styling.ActiveStyle.Text.Emphasis.Variables.Where(f => f.Name == "Font").FirstOrDefault();
+            //italicFont.Value = fontName;
+            ExpandedExampleSetFontFamily(fontName);
+        }
+
+        // Here I am assuming that all fonts have a BOLD and an ITALIC font version
+        // I am then creating a new Key/Value pair set with (Font, FontSize, IsBold, IsItalic)
+        // I then overwrite the Normal, Strong, and Emphasis styling
+        private void ExpandedExampleSetFontFamily(string fontName)
+        {
+
+            var normalFont = ExpandedExampleCreateFontKVPs(fontName, 18, false, false);
+            var boldFont = ExpandedExampleCreateFontKVPs(fontName, 18, true, false);
+            var italicFont = ExpandedExampleCreateFontKVPs(fontName, 18, false, true);
+
+            Styling.ActiveStyle.Text.Normal = normalFont;
+            Styling.ActiveStyle.Text.Strong = boldFont;
+            Styling.ActiveStyle.Text.Emphasis = italicFont;
+        }
+
+        private StateSave ExpandedExampleCreateFontKVPs(string fontName, int fontSize, bool isBold, bool isItalic)
+        {
+            StateSave stateSave = new StateSave();
+
+            VariableSave vsFontName = new VariableSave();
+            vsFontName.Name = "Font";
+            vsFontName.Type = "string";
+            vsFontName.Value = fontName;
+            stateSave.Variables.Add(vsFontName);
+
+            VariableSave vsFontSize = new VariableSave();
+            vsFontSize.Name = "FontSize";
+            vsFontSize.Type = "int";
+            vsFontSize.Value = fontSize;
+            stateSave.Variables.Add(vsFontSize);
+
+            VariableSave vsFontBold = new VariableSave();
+            vsFontBold.Name = "IsBold";
+            vsFontBold.Type = "bool";
+            vsFontBold.Value = isBold;
+            stateSave.Variables.Add(vsFontBold);
+
+            VariableSave vsFontItalic = new VariableSave();
+            vsFontItalic.Name = "IsItalic";
+            vsFontItalic.Type = "bool";
+            vsFontItalic.Value = isItalic;
+            stateSave.Variables.Add(vsFontItalic);
+
+            return stateSave;
         }
 
         private void UseLoadedFontExample()
@@ -229,7 +276,8 @@ namespace GumGlobalStyling
                 Variables = new()
                 {
                     new () { Name = "UseCustomFont", Type = "bool", Value = true },
-                    new () { Name = "CustomFontFile ", Type = "string", Value = "FontCache/Font18Press_Start_2P.fnt" }
+                    new () { Name = "CustomFontFile", Type = "string", Value = "FontCache/Font18Press_Start_2P.fnt" }
+                    //new () { Name = "FontScale", Type = "float", Value = 3f },
                 }
             };
 
@@ -238,7 +286,7 @@ namespace GumGlobalStyling
                 Variables = new()
                 {
                     new () { Name = "UseCustomFont", Type = "bool", Value = true },
-                    new () { Name = "CustomFontFile ", Type = "string", Value = "FontCache/Font18Press_Start_2P_Bold.fnt" }
+                    new () { Name = "CustomFontFile", Type = "string", Value = "FontCache/Font18Press_Start_2P_Bold.fnt" }
                 }
             };
 
@@ -247,7 +295,7 @@ namespace GumGlobalStyling
                 Variables = new()
                 {
                     new () { Name = "UseCustomFont", Type = "bool", Value = true },
-                    new () { Name = "CustomFontFile ", Type = "string", Value = "FontCache/Font18Press_Start_2P_Italic.fnt" }
+                    new () { Name = "CustomFontFile", Type = "string", Value = "FontCache/Font18Press_Start_2P_Italic.fnt" }
                 }
             };
         }
