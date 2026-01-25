@@ -1,18 +1,15 @@
 //Code for HotbarScreen
-using GumRuntime;
-using System.Linq;
-using MonoGameGum;
-using MonoGameGum.GueDeriving;
-using HytaleHotbar.Components.Hytale;
 using Gum.Converters;
 using Gum.DataTypes;
 using Gum.Managers;
 using Gum.Wireframe;
-
+using GumRuntime;
+using HytaleHotbar.Components.Controls;
+using HytaleHotbar.Components.Hytale;
+using MonoGameGum;
+using MonoGameGum.GueDeriving;
 using RenderingLibrary.Graphics;
-
 using System.Linq;
-
 namespace HytaleHotbar.Screens;
 partial class HotbarScreen : global::Gum.Forms.Controls.FrameworkElement
 {
@@ -42,6 +39,8 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
         });
     }
     public Hotbar HotbarInstance { get; protected set; }
+    public ButtonStandard Randomize { get; protected set; }
+    public Label StatusInfo { get; protected set; }
 
     public HotbarScreen(InteractiveGue visual) : base(visual)
     {
@@ -56,6 +55,8 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
     {
         base.ReactToVisualChanged();
         HotbarInstance = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Hotbar>(this.Visual,"HotbarInstance");
+        Randomize = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<ButtonStandard>(this.Visual,"Randomize");
+        StatusInfo = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"StatusInfo");
         CustomInitialize();
     }
     //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code

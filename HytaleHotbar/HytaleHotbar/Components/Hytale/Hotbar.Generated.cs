@@ -1,19 +1,15 @@
 //Code for Hytale/Hotbar (Container)
-using GumRuntime;
-using System.Linq;
-using MonoGameGum;
-using MonoGameGum.GueDeriving;
-using HytaleHotbar.Components.Hytale;
-using HytaleHotbar.Components.Controls;
 using Gum.Converters;
 using Gum.DataTypes;
 using Gum.Managers;
 using Gum.Wireframe;
-
+using GumRuntime;
+using HytaleHotbar.Components.Controls;
+using HytaleHotbar.Components.Hytale;
+using MonoGameGum;
+using MonoGameGum.GueDeriving;
 using RenderingLibrary.Graphics;
-
 using System.Linq;
-
 namespace HytaleHotbar.Components.Hytale;
 partial class Hotbar : global::Gum.Forms.Controls.FrameworkElement
 {

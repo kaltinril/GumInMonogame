@@ -41,6 +41,12 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>bool</Type>
+      <Name>ExposeChildrenEvents</Name>
+      <Value xsi:type="xsd:boolean">false</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>HasDamage</Type>
       <Name>HasDamageState</Name>
       <SetsValue>true</SetsValue>
@@ -193,6 +199,7 @@
       <Type>string</Type>
       <Name>QuantityTextInstance.Text</Name>
       <Value xsi:type="xsd:string">54</Value>
+      <ExposedAsName>Quantity</ExposedAsName>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -336,16 +343,16 @@
       <Name>True</Name>
       <Variable>
         <Type>bool</Type>
-        <Name>SlotNumberInstance.Visible</Name>
+        <Name>HighlightIndicator.Visible</Name>
         <Value xsi:type="xsd:boolean">true</Value>
-        <Category>States and Visibility</Category>
+        <ExposedAsName>Selected</ExposedAsName>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
         <Type>bool</Type>
-        <Name>HighlightIndicator.Visible</Name>
+        <Name>SlotNumberInstance.Visible</Name>
         <Value xsi:type="xsd:boolean">true</Value>
-        <ExposedAsName>Selected</ExposedAsName>
+        <Category>States and Visibility</Category>
         <SetsValue>true</SetsValue>
       </Variable>
     </State>
