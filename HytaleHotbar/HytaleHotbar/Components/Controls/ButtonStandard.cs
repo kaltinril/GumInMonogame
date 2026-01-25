@@ -7,9 +7,9 @@ using RenderingLibrary.Graphics;
 
 using System.Linq;
 
-namespace HytaleHotbar.Components.Hytale.PIeces
+namespace HytaleHotbar.Components.Controls
 {
-    public partial class ItemRarityBackground
+    partial class ButtonStandard
     {
         partial void CustomInitialize()
         {

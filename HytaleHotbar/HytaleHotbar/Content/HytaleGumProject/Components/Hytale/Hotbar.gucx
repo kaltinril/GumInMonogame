@@ -54,8 +54,20 @@
     </Variable>
     <Variable>
       <Type>string</Type>
+      <Name>ItemSlotInstance1.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
       <Name>ItemSlotInstance1.Parent</Name>
       <Value xsi:type="xsd:string">InnerStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance2.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -66,14 +78,32 @@
     </Variable>
     <Variable>
       <Type>string</Type>
+      <Name>ItemSlotInstance3.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">3</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
       <Name>ItemSlotInstance3.Parent</Name>
       <Value xsi:type="xsd:string">InnerStackPanel</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>string</Type>
+      <Name>ItemSlotInstance4.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
       <Name>ItemSlotInstance4.Parent</Name>
       <Value xsi:type="xsd:string">InnerStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance5.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">5</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -90,14 +120,32 @@
     </Variable>
     <Variable>
       <Type>string</Type>
+      <Name>ItemSlotInstance7.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">7</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
       <Name>ItemSlotInstance7.Parent</Name>
       <Value xsi:type="xsd:string">InnerStackPanel</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>string</Type>
+      <Name>ItemSlotInstance8.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">8</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
       <Name>ItemSlotInstance8.Parent</Name>
       <Value xsi:type="xsd:string">InnerStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance9.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">9</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>

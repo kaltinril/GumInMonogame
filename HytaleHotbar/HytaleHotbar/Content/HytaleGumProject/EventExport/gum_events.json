@@ -2,125 +2,6 @@
   "UserEvents": {
     "ff194557eb3929da013e504725882c5c5e59e2652f9fbf88b199c40a47d9f781": [
       {
-        "NewName": "HyTaleComponents",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2026-01-10T20:45:36.8828709Z"
-      },
-      {
-        "NewName": null,
-        "OldName": "HyTaleComponents",
-        "ElementType": "Components",
-        "EventType": 1,
-        "TimestampUtc": "2026-01-10T20:45:45.2712904Z"
-      },
-      {
-        "NewName": "HyTaleComponents/HotBar",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2026-01-10T20:47:03.3706442Z"
-      },
-      {
-        "NewName": "HyTaleComponents/ItemSlot",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2026-01-10T20:47:10.1239092Z"
-      },
-      {
-        "NewName": "HyTaleComponents/HotBarItems",
-        "OldName": "HyTaleComponents/HotBar",
-        "ElementType": "Components",
-        "EventType": 2,
-        "TimestampUtc": "2026-01-10T20:49:08.8151899Z"
-      },
-      {
-        "NewName": "HyTaleComponents/HotBar",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2026-01-10T20:49:12.1919624Z"
-      },
-      {
-        "NewName": "HyTaleComponents/Inventory",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2026-01-10T20:49:16.4040649Z"
-      },
-      {
-        "NewName": "HyTaleComponents/InventoryHeaderRow",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2026-01-10T20:49:37.9873079Z"
-      },
-      {
-        "NewName": "HyTaleComponents/ItemSlot (Container).SpriteInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-01-10T20:50:09.2568009Z"
-      },
-      {
-        "NewName": "HyTaleComponents/ItemSlot (Container).ItemSPrite",
-        "OldName": "HyTaleComponents/ItemSlot (Container).SpriteInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-01-10T20:50:17.2099945Z"
-      },
-      {
-        "NewName": "HyTaleComponents/ItemSlot (Container).ItemSprite",
-        "OldName": "HyTaleComponents/ItemSlot (Container).ItemSPrite",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-01-10T20:50:21.5507418Z"
-      },
-      {
-        "NewName": "HyTaleComponents/SlotNumber",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2026-01-10T20:57:20.6506347Z"
-      },
-      {
-        "NewName": "HyTaleComponents/SlotNumber (Container).NineSliceInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-01-10T20:57:41.1998783Z"
-      },
-      {
-        "NewName": "HyTaleComponents/SlotNumber (Container).TextInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-01-10T20:57:44.9020631Z"
-      },
-      {
-        "NewName": "HyTaleComponents/InventoryItem",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2026-01-10T23:39:13.0360343Z"
-      },
-      {
-        "NewName": null,
-        "OldName": "HyTaleComponents/InventoryItem",
-        "ElementType": "Components",
-        "EventType": 1,
-        "TimestampUtc": "2026-01-10T23:39:24.0849723Z"
-      },
-      {
-        "NewName": "HyTaleComponents/ItemSlot (Container).SlotNumberInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-01-10T23:39:37.4395361Z"
-      },
-      {
         "NewName": "HyTaleComponents/SlotNumber (Container).NineSliceInstance1",
         "OldName": null,
         "ElementType": "Components",
@@ -2905,6 +2786,34 @@
         "ElementType": "Screens",
         "EventType": 5,
         "TimestampUtc": "2026-01-18T03:38:40.9159572Z"
+      },
+      {
+        "NewName": "HotbarScreen.ButtonStandardInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-24T23:09:27.6563425Z"
+      },
+      {
+        "NewName": "HotbarScreen.LabelInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-24T23:09:30.5253592Z"
+      },
+      {
+        "NewName": "HotbarScreen.Randomize",
+        "OldName": "HotbarScreen.ButtonStandardInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-24T23:09:57.4782014Z"
+      },
+      {
+        "NewName": "HotbarScreen.StatusInfo",
+        "OldName": "HotbarScreen.LabelInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-24T23:10:00.7881176Z"
       }
     ]
   }
