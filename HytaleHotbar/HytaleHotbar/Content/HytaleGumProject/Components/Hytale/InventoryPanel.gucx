@@ -1,0 +1,718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ComponentSave xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Hytale/InventoryPanel</Name>
+  <BaseType>Container</BaseType>
+  <State>
+    <Name>Default</Name>
+    <Variable>
+      <Type>string</Type>
+      <Name>Background.Parent</Name>
+      <Value xsi:type="xsd:string">MainContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>Background.SourceFile</Name>
+      <Value xsi:type="xsd:string">Components\Hytale\hytale.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>Background.TextureHeight</Name>
+      <Value xsi:type="xsd:int">24</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>Background.TextureLeft</Name>
+      <Value xsi:type="xsd:int">240</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>Background.TextureTop</Name>
+      <Value xsi:type="xsd:int">72</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>Background.TextureWidth</Name>
+      <Value xsi:type="xsd:int">24</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>HorizontalAlignment</Type>
+      <Name>Background.XOrigin</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>Background.XUnits</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>VerticalAlignment</Type>
+      <Name>Background.YOrigin</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>Background.YUnits</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>ChildrenLayout</Type>
+      <Name>ChildrenLayout</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>Height</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>HeightUnits</Name>
+      <Value xsi:type="xsd:int">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance1.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance10.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance11.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance12.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance13.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance14.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance15.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance16.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance17.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance18.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance19.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance2.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance20.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance21.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance22.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance23.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance24.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance25.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance26.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance27.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance28.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance29.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance3.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance30.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance31.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance32.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance33.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance34.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance35.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance36.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance37.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance38.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance39.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance4.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance40.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance41.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance42.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance43.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance44.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance45.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance5.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance6.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance7.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance8.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance9.Parent</Name>
+      <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>ItemStackPanel.AutoGridHorizontalCells</Name>
+      <Value xsi:type="xsd:int">9</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>ItemStackPanel.AutoGridVerticalCells</Name>
+      <Value xsi:type="xsd:int">5</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>ChildrenLayout</Type>
+      <Name>ItemStackPanel.ChildrenLayout</Name>
+      <Value xsi:type="xsd:int">3</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>ItemStackPanel.Height</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>ItemStackPanel.HeightUnits</Name>
+      <Value xsi:type="xsd:int">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemStackPanel.Parent</Name>
+      <Value xsi:type="xsd:string">MainContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>ItemStackPanel.StackSpacing</Name>
+      <Value xsi:type="xsd:float">7</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>ItemStackPanel.Width</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>ItemStackPanel.WidthUnits</Name>
+      <Value xsi:type="xsd:int">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>HorizontalAlignment</Type>
+      <Name>ItemStackPanel.XOrigin</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>ItemStackPanel.XUnits</Name>
+      <Value xsi:type="xsd:int">6</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>ItemStackPanel.Y</Name>
+      <Value xsi:type="xsd:float">20</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>MainContainer.Height</Name>
+      <Value xsi:type="xsd:float">20</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>MainContainer.HeightUnits</Name>
+      <Value xsi:type="xsd:int">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>MainContainer.Width</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>MainContainer.WidthUnits</Name>
+      <Value xsi:type="xsd:int">2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>State</Type>
+      <Name>State</Name>
+      <Value xsi:type="xsd:string">Default</Value>
+      <Category>States and Visibility</Category>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>Width</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>WidthUnits</Name>
+      <Value xsi:type="xsd:int">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+  </State>
+  <Instance>
+    <Name>ItemSlotInstance1</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance2</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance3</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance4</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance5</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance6</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance7</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance8</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance9</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance10</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance11</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance12</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance13</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance14</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance15</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance16</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance17</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance18</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance19</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance20</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance21</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance22</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance23</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance24</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance25</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance26</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance27</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance28</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance29</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance30</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance31</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance32</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance33</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance34</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance35</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance36</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance37</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance38</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance39</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance40</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance41</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance42</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance43</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance44</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemSlotInstance45</Name>
+    <BaseType>Hytale/ItemSlot</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>Background</Name>
+    <BaseType>NineSlice</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>ItemStackPanel</Name>
+    <BaseType>Controls/StackPanel</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>InventoryTitleBarInstance</Name>
+    <BaseType>Hytale/PIeces/InventoryTitleBar</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>MainContainer</Name>
+    <BaseType>Container</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Behaviors />
+</ComponentSave>
