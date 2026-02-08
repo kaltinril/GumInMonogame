@@ -7,6 +7,8 @@ using HytaleHotbar.Components.Hytale.PIeces;
 using HytaleHotbar.Data;
 using HytaleHotbar.Services;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
+using MonoGameGum;
 using RenderingLibrary.Graphics;
 using System;
 using System.Linq;
@@ -41,9 +43,20 @@ namespace HytaleHotbar.Screens
 
         private void SetupRandomHotbar()
         {
-            for (int i = 0; i < 9; i++)
+            if (InventoryPanelInstance.IsVisible)
             {
-                SetSlotToRandomItem(HotbarInstance.Slot(i), i);
+                for (int i = 0; i < _inventoryService.HotbarStartIndex; i++)
+                {
+                    SetSlotToRandomItem(InventoryPanelInstance.Slot(i), i);
+                }
+                InventoryPanelInstance.UpdatePanelFromInventory();
+            }
+            else
+            {
+                for (int i = 0; i < 9; i++)
+                {
+                    SetSlotToRandomItem(HotbarInstance.Slot(i), i + _inventoryService.HotbarStartIndex);
+                }
             }
         }
 
@@ -61,7 +74,7 @@ namespace HytaleHotbar.Screens
             var item = new InventoryItem(itemDef.Name, _random.Next(64), _random.Next(100), randomEnumValue);
 
             // Update the inventory slot and the slot visual
-            _inventoryService.PlayerInventory[_inventoryService.HotbarStartIndex + index] = item;
+            _inventoryService.PlayerInventory[index] = item;
             slot.SetSlotToItem(item, itemDef);
         }
 
@@ -72,7 +85,20 @@ namespace HytaleHotbar.Screens
 
         public void Update(GameTime gameTime)
         {
+            HandleKeyboardInput();
+        }
+
+        private void HandleKeyboardInput()
+        {
+            var keyboard = GumService.Default.Keyboard;
             HotbarInstance.HandleKeyboardInput();
+
+            // Hide the hotbar and don't respond to input
+            if (keyboard.KeyPushed(Keys.I))
+            {
+                this.HotbarInstance.IsVisible = !this.HotbarInstance.IsVisible;
+                this.InventoryPanelInstance.IsVisible = !this.InventoryPanelInstance.IsVisible;
+            }
         }
     }
 }

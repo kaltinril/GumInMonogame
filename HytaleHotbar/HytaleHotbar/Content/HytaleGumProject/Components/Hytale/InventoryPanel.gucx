@@ -84,9 +84,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance1.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance1.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance10.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -96,9 +108,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance11.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance11.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance12.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -108,9 +132,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance13.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance13.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance14.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -120,9 +156,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance15.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance15.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance16.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -132,9 +180,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance17.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance17.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance18.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -144,9 +204,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance19.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance19.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance2.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -156,9 +228,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance20.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance20.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance21.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -168,9 +252,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance22.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance22.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance23.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -180,9 +276,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance24.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance24.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance25.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -192,9 +300,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance26.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance26.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance27.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -204,9 +324,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance28.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance28.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance29.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -216,9 +348,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance3.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance3.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance30.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -228,9 +372,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance31.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance31.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance32.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -240,9 +396,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance33.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance33.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance34.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -252,9 +420,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance35.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance35.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance36.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -265,8 +445,20 @@
     </Variable>
     <Variable>
       <Type>string</Type>
+      <Name>ItemSlotInstance37.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
       <Name>ItemSlotInstance37.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance38.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -277,8 +469,20 @@
     </Variable>
     <Variable>
       <Type>string</Type>
+      <Name>ItemSlotInstance39.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">3</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
       <Name>ItemSlotInstance39.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance4.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -289,8 +493,20 @@
     </Variable>
     <Variable>
       <Type>string</Type>
+      <Name>ItemSlotInstance40.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
       <Name>ItemSlotInstance40.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance41.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">5</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -307,8 +523,20 @@
     </Variable>
     <Variable>
       <Type>string</Type>
+      <Name>ItemSlotInstance43.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">7</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
       <Name>ItemSlotInstance43.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ItemSlotInstance44.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">8</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -319,8 +547,20 @@
     </Variable>
     <Variable>
       <Type>string</Type>
+      <Name>ItemSlotInstance45.HotbarSlotNumber</Name>
+      <Value xsi:type="xsd:string">9</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
       <Name>ItemSlotInstance45.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance5.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -330,9 +570,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance6.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance6.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance7.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -342,9 +594,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance8.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>ItemSlotInstance8.Parent</Name>
       <Value xsi:type="xsd:string">ItemStackPanel</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>IsOnHotbar</Type>
+      <Name>ItemSlotInstance9.IsOnHotbarState</Name>
+      <Value xsi:type="xsd:string">False</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>

@@ -17,7 +17,7 @@ namespace HytaleHotbar.Components.Hytale
 
         partial void CustomInitialize()
         {
-            this.Visual.Click += (_, args) => Click.Invoke(this, args);
+            this.Visual.Click += (_, args) => Click?.Invoke(this, args);
         }
 
         public void SetSlotToItem(InventoryItem item, InventoryItemDefinition itemDef)

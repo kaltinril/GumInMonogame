@@ -59,6 +59,11 @@ namespace HytaleHotbar.Components.Hytale
 
         internal void HandleKeyboardInput()
         {
+            if (!this.IsVisible)
+            {
+                return;
+            }
+
             var keyboard = GumService.Default.Keyboard;
             int? indexToSelect = null;
             if (keyboard.KeyPushed(Keys.D1)) indexToSelect = 0;

@@ -609,6 +609,13 @@
         "ElementType": "Components",
         "EventType": 7,
         "TimestampUtc": "2026-02-01T06:22:31.1899497Z"
+      },
+      {
+        "NewName": "HotbarScreen.InventoryPanelInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-02-07T09:05:04.169265Z"
       }
     ]
   }
