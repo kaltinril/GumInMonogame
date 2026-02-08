@@ -43,38 +43,38 @@
     </Variable>
     <Variable>
       <Type>ColorCategory</Type>
-      <Name>SlotNumberText.ColorCategoryState</Name>
+      <Name>SlotNubmerText.ColorCategoryState</Name>
       <Value xsi:type="xsd:string">Gray</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>string</Type>
-      <Name>SlotNumberText.Text</Name>
+      <Name>SlotNubmerText.Text</Name>
       <Value xsi:type="xsd:string">6</Value>
       <ExposedAsName>Text</ExposedAsName>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>HorizontalAlignment</Type>
-      <Name>SlotNumberText.XOrigin</Name>
+      <Name>SlotNubmerText.XOrigin</Name>
       <Value xsi:type="xsd:int">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>SlotNumberText.XUnits</Name>
+      <Name>SlotNubmerText.XUnits</Name>
       <Value xsi:type="xsd:int">6</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>VerticalAlignment</Type>
-      <Name>SlotNumberText.YOrigin</Name>
+      <Name>SlotNubmerText.YOrigin</Name>
       <Value xsi:type="xsd:int">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>SlotNumberText.YUnits</Name>
+      <Name>SlotNubmerText.YUnits</Name>
       <Value xsi:type="xsd:int">7</Value>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -98,7 +98,7 @@
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Instance>
-    <Name>SlotNumberText</Name>
+    <Name>SlotNubmerText</Name>
     <BaseType>Text</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>

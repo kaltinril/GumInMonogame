@@ -2,9 +2,8 @@
 
 namespace HytaleHotbar.Screens
 {
-    public interface IUpdateScreen
+    internal interface IUpdateScreen
     {
         void Update(GameTime gameTime);
     }
 }
-

@@ -83,7 +83,7 @@
     <Variable>
       <Type>int</Type>
       <Name>HighlightIndicator.TextureHeight</Name>
-      <Value xsi:type="xsd:int">23</Value>
+      <Value xsi:type="xsd:int">24</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -343,13 +343,6 @@
       <Name>True</Name>
       <Variable>
         <Type>bool</Type>
-        <Name>HighlightIndicator.Visible</Name>
-        <Value xsi:type="xsd:boolean">true</Value>
-        <ExposedAsName>Selected</ExposedAsName>
-        <SetsValue>true</SetsValue>
-      </Variable>
-      <Variable>
-        <Type>bool</Type>
         <Name>SlotNumberInstance.Visible</Name>
         <Value xsi:type="xsd:boolean">true</Value>
         <Category>States and Visibility</Category>
@@ -358,13 +351,6 @@
     </State>
     <State>
       <Name>False</Name>
-      <Variable>
-        <Type>bool</Type>
-        <Name>HighlightIndicator.Visible</Name>
-        <Value xsi:type="xsd:boolean">false</Value>
-        <ExposedAsName>Selected</ExposedAsName>
-        <SetsValue>true</SetsValue>
-      </Variable>
       <Variable>
         <Type>bool</Type>
         <Name>SlotNumberInstance.Visible</Name>

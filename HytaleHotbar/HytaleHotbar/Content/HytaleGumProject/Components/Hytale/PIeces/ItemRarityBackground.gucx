@@ -65,32 +65,15 @@
     <State>
       <Name>None</Name>
       <Variable>
-        <Type>int</Type>
-        <Name>Background.TextureLeft</Name>
+        <Type>Blend</Type>
+        <Name>Background.Blend</Name>
         <Value xsi:type="xsd:int">0</Value>
+        <Category>Rendering</Category>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
         <Type>int</Type>
-        <Name>Background.TextureTop</Name>
-        <Value xsi:type="xsd:int">0</Value>
-        <SetsValue>true</SetsValue>
-      </Variable>
-      <Variable>
-        <Type>int</Type>
-        <Name>Background.TextureWidth</Name>
-        <Value xsi:type="xsd:int">96</Value>
-        <SetsValue>true</SetsValue>
-      </Variable>
-      <Variable>
-        <Type>int</Type>
-        <Name>Background.TextureHeight</Name>
-        <Value xsi:type="xsd:int">96</Value>
-        <SetsValue>true</SetsValue>
-      </Variable>
-      <Variable>
-        <Type>int</Type>
-        <Name>Background.Red</Name>
+        <Name>Background.Blue</Name>
         <Value xsi:type="xsd:int">255</Value>
         <Category>Rendering</Category>
         <SetsValue>true</SetsValue>
@@ -104,18 +87,21 @@
       </Variable>
       <Variable>
         <Type>int</Type>
-        <Name>Background.Blue</Name>
+        <Name>Background.Red</Name>
         <Value xsi:type="xsd:int">255</Value>
         <Category>Rendering</Category>
         <SetsValue>true</SetsValue>
       </Variable>
-    </State>
-    <State>
-      <Name>Common</Name>
+      <Variable>
+        <Type>int</Type>
+        <Name>Background.TextureHeight</Name>
+        <Value xsi:type="xsd:int">96</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
       <Variable>
         <Type>int</Type>
         <Name>Background.TextureLeft</Name>
-        <Value xsi:type="xsd:int">288</Value>
+        <Value xsi:type="xsd:int">0</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -130,16 +116,19 @@
         <Value xsi:type="xsd:int">96</Value>
         <SetsValue>true</SetsValue>
       </Variable>
+    </State>
+    <State>
+      <Name>Common</Name>
       <Variable>
-        <Type>int</Type>
-        <Name>Background.TextureHeight</Name>
-        <Value xsi:type="xsd:int">96</Value>
+        <Type>Blend</Type>
+        <Name>Background.Blend</Name>
+        <Value xsi:type="xsd:int">0</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
         <Type>int</Type>
-        <Name>Background.Red</Name>
-        <Value xsi:type="xsd:int">137</Value>
+        <Name>Background.Blue</Name>
+        <Value xsi:type="xsd:int">236</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -150,13 +139,16 @@
       </Variable>
       <Variable>
         <Type>int</Type>
-        <Name>Background.Blue</Name>
-        <Value xsi:type="xsd:int">236</Value>
+        <Name>Background.Red</Name>
+        <Value xsi:type="xsd:int">137</Value>
         <SetsValue>true</SetsValue>
       </Variable>
-    </State>
-    <State>
-      <Name>Uncommon</Name>
+      <Variable>
+        <Type>int</Type>
+        <Name>Background.TextureHeight</Name>
+        <Value xsi:type="xsd:int">96</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
       <Variable>
         <Type>int</Type>
         <Name>Background.TextureLeft</Name>
@@ -175,10 +167,28 @@
         <Value xsi:type="xsd:int">96</Value>
         <SetsValue>true</SetsValue>
       </Variable>
+    </State>
+    <State>
+      <Name>Uncommon</Name>
+      <Variable>
+        <Type>Blend</Type>
+        <Name>Background.Blend</Name>
+        <Value xsi:type="xsd:int">0</Value>
+        <Category>Rendering</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
       <Variable>
         <Type>int</Type>
-        <Name>Background.TextureHeight</Name>
-        <Value xsi:type="xsd:int">96</Value>
+        <Name>Background.Blue</Name>
+        <Value xsi:type="xsd:int">209</Value>
+        <Category>Rendering</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>int</Type>
+        <Name>Background.Green</Name>
+        <Value xsi:type="xsd:int">255</Value>
+        <Category>Rendering</Category>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -190,21 +200,10 @@
       </Variable>
       <Variable>
         <Type>int</Type>
-        <Name>Background.Green</Name>
-        <Value xsi:type="xsd:int">255</Value>
-        <Category>Rendering</Category>
+        <Name>Background.TextureHeight</Name>
+        <Value xsi:type="xsd:int">96</Value>
         <SetsValue>true</SetsValue>
       </Variable>
-      <Variable>
-        <Type>int</Type>
-        <Name>Background.Blue</Name>
-        <Value xsi:type="xsd:int">209</Value>
-        <Category>Rendering</Category>
-        <SetsValue>true</SetsValue>
-      </Variable>
-    </State>
-    <State>
-      <Name>Rare</Name>
       <Variable>
         <Type>int</Type>
         <Name>Background.TextureLeft</Name>
@@ -223,16 +222,20 @@
         <Value xsi:type="xsd:int">96</Value>
         <SetsValue>true</SetsValue>
       </Variable>
+    </State>
+    <State>
+      <Name>Rare</Name>
       <Variable>
-        <Type>int</Type>
-        <Name>Background.TextureHeight</Name>
-        <Value xsi:type="xsd:int">96</Value>
+        <Type>Blend</Type>
+        <Name>Background.Blend</Name>
+        <Value xsi:type="xsd:int">0</Value>
+        <Category>Rendering</Category>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
         <Type>int</Type>
-        <Name>Background.Red</Name>
-        <Value xsi:type="xsd:int">119</Value>
+        <Name>Background.Blue</Name>
+        <Value xsi:type="xsd:int">255</Value>
         <Category>Rendering</Category>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -245,14 +248,17 @@
       </Variable>
       <Variable>
         <Type>int</Type>
-        <Name>Background.Blue</Name>
-        <Value xsi:type="xsd:int">255</Value>
+        <Name>Background.Red</Name>
+        <Value xsi:type="xsd:int">119</Value>
         <Category>Rendering</Category>
         <SetsValue>true</SetsValue>
       </Variable>
-    </State>
-    <State>
-      <Name>Epic</Name>
+      <Variable>
+        <Type>int</Type>
+        <Name>Background.TextureHeight</Name>
+        <Value xsi:type="xsd:int">96</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
       <Variable>
         <Type>int</Type>
         <Name>Background.TextureLeft</Name>
@@ -271,16 +277,20 @@
         <Value xsi:type="xsd:int">96</Value>
         <SetsValue>true</SetsValue>
       </Variable>
+    </State>
+    <State>
+      <Name>Epic</Name>
       <Variable>
-        <Type>int</Type>
-        <Name>Background.TextureHeight</Name>
-        <Value xsi:type="xsd:int">96</Value>
+        <Type>Blend</Type>
+        <Name>Background.Blend</Name>
+        <Value xsi:type="xsd:int">0</Value>
+        <Category>Rendering</Category>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
         <Type>int</Type>
-        <Name>Background.Red</Name>
-        <Value xsi:type="xsd:int">211</Value>
+        <Name>Background.Blue</Name>
+        <Value xsi:type="xsd:int">255</Value>
         <Category>Rendering</Category>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -293,14 +303,17 @@
       </Variable>
       <Variable>
         <Type>int</Type>
-        <Name>Background.Blue</Name>
-        <Value xsi:type="xsd:int">255</Value>
+        <Name>Background.Red</Name>
+        <Value xsi:type="xsd:int">211</Value>
         <Category>Rendering</Category>
         <SetsValue>true</SetsValue>
       </Variable>
-    </State>
-    <State>
-      <Name>Legerndary</Name>
+      <Variable>
+        <Type>int</Type>
+        <Name>Background.TextureHeight</Name>
+        <Value xsi:type="xsd:int">96</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
       <Variable>
         <Type>int</Type>
         <Name>Background.TextureLeft</Name>
@@ -319,16 +332,20 @@
         <Value xsi:type="xsd:int">96</Value>
         <SetsValue>true</SetsValue>
       </Variable>
+    </State>
+    <State>
+      <Name>Legendary</Name>
       <Variable>
-        <Type>int</Type>
-        <Name>Background.TextureHeight</Name>
-        <Value xsi:type="xsd:int">96</Value>
+        <Type>Blend</Type>
+        <Name>Background.Blend</Name>
+        <Value xsi:type="xsd:int">0</Value>
+        <Category>Rendering</Category>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
         <Type>int</Type>
-        <Name>Background.Red</Name>
-        <Value xsi:type="xsd:int">255</Value>
+        <Name>Background.Blue</Name>
+        <Value xsi:type="xsd:int">126</Value>
         <Category>Rendering</Category>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -341,9 +358,33 @@
       </Variable>
       <Variable>
         <Type>int</Type>
-        <Name>Background.Blue</Name>
-        <Value xsi:type="xsd:int">126</Value>
+        <Name>Background.Red</Name>
+        <Value xsi:type="xsd:int">255</Value>
         <Category>Rendering</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>int</Type>
+        <Name>Background.TextureHeight</Name>
+        <Value xsi:type="xsd:int">96</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>int</Type>
+        <Name>Background.TextureLeft</Name>
+        <Value xsi:type="xsd:int">288</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>int</Type>
+        <Name>Background.TextureTop</Name>
+        <Value xsi:type="xsd:int">0</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>int</Type>
+        <Name>Background.TextureWidth</Name>
+        <Value xsi:type="xsd:int">96</Value>
         <SetsValue>true</SetsValue>
       </Variable>
     </State>

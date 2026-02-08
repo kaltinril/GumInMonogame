@@ -6,18 +6,18 @@ using Gum.Wireframe;
 using Microsoft.Xna.Framework.Input;
 using MonoGameGum;
 using MonoGameGum.ExtensionMethods;
+using HytaleHotbar.Services;
 using RenderingLibrary.Graphics;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
+
 
 namespace HytaleHotbar.Components.Hytale
 {
     partial class Hotbar
     {
         public event EventHandler SelectedIndexChanged;
-
-        public ItemSlot Slot(int i) => (ItemSlot)InnerStackPanel.Children[i];
 
         private int selectedIndex = -1;
         public int SelectedIndex
@@ -35,17 +35,61 @@ namespace HytaleHotbar.Components.Hytale
 
                     selectedIndex = value;
                     Slot(selectedIndex).Selected = true;
-
                     SelectedIndexChanged?.Invoke(this, EventArgs.Empty);
                 }
             }
         }
 
+        public ItemSlot Slot(int i) => (ItemSlot)InnerStackPanel.Children[i];
+
+
+        // We are overriding/hiding the real IsVisible so we can add our own functionality when hiding
+        // Downside, if something else sets the base IsVisible we have no "hook" into that.
+        new public bool IsVisible
+        {
+            get
+            {
+                return base.IsVisible;
+            }
+            set
+            {
+                // Don't make changes to visibility if it's the same
+                if (value == base.IsVisible)
+                {
+                    return;
+                }
+
+                // Update the Hotbar if we just got set to visible
+                if (value)
+                {
+                    UpdateHotbarFromInventory();
+                }
+
+                base.IsVisible = value;
+            }
+        }
+
+        InventoryService _inventoryService;
+
         partial void CustomInitialize()
         {
+            _inventoryService = Game1.ServiceContainer.GetService<InventoryService>();
+
             foreach (ItemSlot child in InnerStackPanel.Children)
             {
                 child.Click += HandleItemSlotClicked;
+            }
+        }
+
+        public void UpdateHotbarFromInventory()
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                // These 3 could be consolidated
+                var item = _inventoryService?.HotbarInventory(i);
+                var itemDef = item == null ? null : _inventoryService.ItemDefinitions[item.Name];
+                var slot = Slot(i);
+                slot.SetSlotToItem(item, itemDef);
             }
         }
 
@@ -53,12 +97,15 @@ namespace HytaleHotbar.Components.Hytale
         {
             ItemSlot itemSlot = (ItemSlot)sender;
             SelectedIndex = InnerStackPanel.Children.IndexOf(itemSlot);
-
-            Debug.WriteLine($"Clicked {itemSlot.Name}");
         }
 
         internal void HandleKeyboardInput()
         {
+            if (!this.IsVisible)
+            {
+                return;
+            }
+
             var keyboard = GumService.Default.Keyboard;
             int? indexToSelect = null;
             if (keyboard.KeyPushed(Keys.D1)) indexToSelect = 0;

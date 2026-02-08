@@ -5,40 +5,21 @@
   <State>
     <Name>Default</Name>
     <Variable>
+      <Type>ChildrenLayout</Type>
+      <Name>Autosort.ChildrenLayout</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>Autosort.Parent</Name>
       <Value xsi:type="xsd:string">StackPanelInstance</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <IsFile>true</IsFile>
-      <Type>string</Type>
-      <Name>Background.SourceFile</Name>
-      <Value xsi:type="xsd:string">Components\Hytale\hytale.png</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>int</Type>
-      <Name>Background.TextureHeight</Name>
-      <Value xsi:type="xsd:int">24</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>int</Type>
-      <Name>Background.TextureLeft</Name>
-      <Value xsi:type="xsd:int">192</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>int</Type>
-      <Name>Background.TextureTop</Name>
-      <Value xsi:type="xsd:int">72</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>int</Type>
-      <Name>Background.TextureWidth</Name>
-      <Value xsi:type="xsd:int">24</Value>
+      <Type>float</Type>
+      <Name>Autosort.StackSpacing</Name>
+      <Value xsi:type="xsd:float">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -62,7 +43,7 @@
     <Variable>
       <Type>string</Type>
       <Name>ChangeSort.Text</Name>
-      <Value xsi:type="xsd:string">\/</Value>
+      <Value xsi:type="xsd:string">V</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -92,7 +73,7 @@
     <Variable>
       <Type>int</Type>
       <Name>FilterItems.StartX</Name>
-      <Value xsi:type="xsd:int">192</Value>
+      <Value xsi:type="xsd:int">0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -120,6 +101,37 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>OutsidePanel.SourceFile</Name>
+      <Value xsi:type="xsd:string">Components\Hytale\hytale.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>OutsidePanel.TextureHeight</Name>
+      <Value xsi:type="xsd:int">24</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>OutsidePanel.TextureLeft</Name>
+      <Value xsi:type="xsd:int">192</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>OutsidePanel.TextureTop</Name>
+      <Value xsi:type="xsd:int">72</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>int</Type>
+      <Name>OutsidePanel.TextureWidth</Name>
+      <Value xsi:type="xsd:int">24</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>ChildrenLayout</Type>
       <Name>StackPanelInstance.ChildrenLayout</Name>
       <Value xsi:type="xsd:int">2</Value>
@@ -135,6 +147,11 @@
       <Type>DimensionUnitType</Type>
       <Name>StackPanelInstance.HeightUnits</Name>
       <Value xsi:type="xsd:int">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float?</Type>
+      <Name>StackPanelInstance.MaxWidth</Name>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -169,9 +186,21 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>ChildrenLayout</Type>
+      <Name>Title.ChildrenLayout</Name>
+      <Value xsi:type="xsd:int">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>string</Type>
       <Name>Title.Parent</Name>
       <Value xsi:type="xsd:string">StackPanelInstance</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>Title.StackSpacing</Name>
+      <Value xsi:type="xsd:float">1</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -230,7 +259,7 @@
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Instance>
-    <Name>Background</Name>
+    <Name>OutsidePanel</Name>
     <BaseType>NineSlice</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>

@@ -1,4 +1,4 @@
-﻿using FlatRedBall.Glue.StateInterpolation;
+﻿
 using HytaleHotbar.Components.Hytale.PIeces;
 
 namespace HytaleHotbar.Data
@@ -43,3 +43,4 @@ namespace HytaleHotbar.Data
         }
     }
 }
+

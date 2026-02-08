@@ -71,6 +71,11 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>string</Type>
+      <Name>ForegroundBar.Parent</Name>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>int</Type>
       <Name>ForegroundBar.Red</Name>
       <Value xsi:type="xsd:int">42</Value>

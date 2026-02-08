@@ -2,13 +2,12 @@
 using Gum.Forms.Controls;
 using Gum.Managers;
 using Gum.Wireframe;
-using HytaleHotbar.Screens;
-using HytaleHotbar.Services;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using MonoGameGum;
-using RenderingLibrary;
+using HytaleHotbar.Screens;
+using HytaleHotbar.Services;
 
 namespace HytaleHotbar
 {
@@ -24,8 +23,8 @@ namespace HytaleHotbar
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
-            _graphics.PreferredBackBufferWidth = 2400;
-            _graphics.PreferredBackBufferHeight = 1300;
+            _graphics.PreferredBackBufferWidth = 1280;
+            _graphics.PreferredBackBufferHeight = 720;
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
@@ -37,12 +36,7 @@ namespace HytaleHotbar
 
             GumUI.Initialize(this, "HytaleGumProject/HytaleGumProject.gumx");
 
-            // ZOOM IN but retain the same spots/perspective
-            Camera camera = SystemManagers.Default.Renderer.Camera;
-            camera.Zoom = 2.0f;
-            GraphicalUiElement.CanvasWidth = _graphics.PreferredBackBufferWidth / camera.Zoom;
-            GraphicalUiElement.CanvasHeight = _graphics.PreferredBackBufferHeight / camera.Zoom;
-
+            // This is a hack to snag the first screen
             var screen = ObjectFinder.Self.GumProjectSave.Screens[0].ToGraphicalUiElement();
             screen.AddToRoot();
 

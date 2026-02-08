@@ -2,613 +2,172 @@
   "UserEvents": {
     "ff194557eb3929da013e504725882c5c5e59e2652f9fbf88b199c40a47d9f781": [
       {
-        "NewName": "HotbarScreen.ButtonStandardInstance",
+        "NewName": "HotbarScreen.InventoryPanelInstance",
         "OldName": null,
         "ElementType": "Screens",
         "EventType": 5,
-        "TimestampUtc": "2026-01-24T23:09:27.6563425Z"
+        "TimestampUtc": "2026-02-01T23:06:50.5564994Z"
       },
       {
-        "NewName": "HotbarScreen.LabelInstance",
-        "OldName": null,
-        "ElementType": "Screens",
-        "EventType": 5,
-        "TimestampUtc": "2026-01-24T23:09:30.5253592Z"
-      },
-      {
-        "NewName": "HotbarScreen.Randomize",
-        "OldName": "HotbarScreen.ButtonStandardInstance",
-        "ElementType": "Screens",
-        "EventType": 7,
-        "TimestampUtc": "2026-01-24T23:09:57.4782014Z"
-      },
-      {
-        "NewName": "HotbarScreen.StatusInfo",
-        "OldName": "HotbarScreen.LabelInstance",
-        "ElementType": "Screens",
-        "EventType": 7,
-        "TimestampUtc": "2026-01-24T23:10:00.7881176Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBarIconButton",
-        "OldName": null,
+        "NewName": "Hytale/InventoryPanel5",
+        "OldName": "Hytale/InventoryPanel",
         "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2026-02-01T05:43:36.6937069Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBarIconButton (Container).NineSliceInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T05:44:39.1379493Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBarIconButton (Container).Background",
-        "OldName": "Hytale/PIeces/InventoryTitleBarIconButton (Container).NineSliceInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T05:44:46.2626763Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBarIconButton (Container).SpriteInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T05:48:00.2503986Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBarIconButton (Container).IconSprite",
-        "OldName": "Hytale/PIeces/InventoryTitleBarIconButton (Container).SpriteInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T05:48:06.9785404Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBarButton",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2026-02-01T05:52:54.3627963Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBarButton (Container).NineSliceInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T05:54:25.4984375Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBarButton (Container).Background",
-        "OldName": "Hytale/PIeces/InventoryTitleBarButton (Container).NineSliceInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T05:54:29.7194339Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBarIconButton (Container).TextInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T05:56:16.8724216Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBarButton (Container).TextInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T05:56:19.5094538Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBarButton (Container).TextInstance1",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T05:56:27.9991766Z"
-      },
-      {
-        "NewName": null,
-        "OldName": "Hytale/PIeces/InventoryTitleBarButton (Container).Text TextInstance1 in Hytale/PIeces/InventoryTitleBarButton (Container)",
-        "ElementType": "Components",
-        "EventType": 6,
-        "TimestampUtc": "2026-02-01T05:56:30.7426062Z"
-      },
-      {
-        "NewName": null,
-        "OldName": "Hytale/PIeces/InventoryTitleBarIconButton (Container).Text TextInstance in Hytale/PIeces/InventoryTitleBarIconButton (Container)",
-        "ElementType": "Components",
-        "EventType": 6,
-        "TimestampUtc": "2026-02-01T05:56:38.034953Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 0,
-        "TimestampUtc": "2026-02-01T06:00:51.0742959Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).NineSliceInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:01:20.5811366Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).Background",
-        "OldName": "Hytale/PIeces/InventoryTitleBar (Container).NineSliceInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T06:01:25.0758144Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).StackPanelInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:03:29.1409804Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).InventoryTitleBarButtonInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:04:26.9618459Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).Title",
-        "OldName": "Hytale/PIeces/InventoryTitleBar (Container).InventoryTitleBarButtonInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T06:04:32.4791944Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).InventoryTitleBarIconButtonInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:05:44.8182893Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).InventoryTitleBarIconButtonInstance1",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:05:46.1747595Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).InventoryTitleBarIconButtonInstance2",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:05:47.7392956Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).FilterWeapons",
-        "OldName": "Hytale/PIeces/InventoryTitleBar (Container).InventoryTitleBarIconButtonInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T06:06:19.359981Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).FilterArmor",
-        "OldName": "Hytale/PIeces/InventoryTitleBar (Container).InventoryTitleBarIconButtonInstance1",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T06:06:24.520709Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).FilterItems",
-        "OldName": "Hytale/PIeces/InventoryTitleBar (Container).InventoryTitleBarIconButtonInstance2",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T06:06:30.2118718Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).InventoryTitleBarButtonInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:06:41.4054107Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).Autosort",
-        "OldName": "Hytale/PIeces/InventoryTitleBar (Container).InventoryTitleBarButtonInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T06:06:49.4917423Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).InventoryTitleBarButtonInstance",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:07:12.0932963Z"
-      },
-      {
-        "NewName": "Hytale/PIeces/InventoryTitleBar (Container).ChangeSort",
-        "OldName": "Hytale/PIeces/InventoryTitleBar (Container).InventoryTitleBarButtonInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T06:07:17.3897436Z"
+        "EventType": 2,
+        "TimestampUtc": "2026-02-01T23:30:25.3367908Z"
       },
       {
         "NewName": "Hytale/InventoryPanel",
-        "OldName": null,
+        "OldName": "Hytale/InventoryPanel5",
         "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-02-01T23:31:18.8947788Z"
+      },
+      {
+        "NewName": "Hytale/InventoryPanel7",
+        "OldName": "Hytale/InventoryPanel",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-02-01T23:32:31.0714449Z"
+      },
+      {
+        "NewName": "Hytale/InventoryPanel",
+        "OldName": "Hytale/InventoryPanel7",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-02-01T23:33:28.7697935Z"
+      },
+      {
+        "NewName": "Hytale/InventoryPanel3",
+        "OldName": "Hytale/InventoryPanel",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-02-01T23:33:46.6804008Z"
+      },
+      {
+        "NewName": "Hytale/InventoryPanel",
+        "OldName": "Hytale/InventoryPanel3",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-02-01T23:33:55.8615064Z"
+      },
+      {
+        "NewName": "screen",
+        "OldName": null,
+        "ElementType": "Screens",
         "EventType": 0,
-        "TimestampUtc": "2026-02-01T06:15:31.7080845Z"
+        "TimestampUtc": "2026-02-02T00:26:10.373313Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).InventoryTitleBarInstance",
+        "NewName": "screen.MenuInstance",
         "OldName": null,
-        "ElementType": "Components",
+        "ElementType": "Screens",
         "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:16:25.4056158Z"
+        "TimestampUtc": "2026-02-02T00:26:35.3856661Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).ContainerInstance",
+        "NewName": "screen.ListBoxItemInstance",
         "OldName": null,
-        "ElementType": "Components",
+        "ElementType": "Screens",
         "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:16:37.2252231Z"
+        "TimestampUtc": "2026-02-02T00:26:38.5450772Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).MainContainer",
-        "OldName": "Hytale/InventoryPanel (Container).ContainerInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T06:16:43.0027303Z"
+        "NewName": null,
+        "OldName": "screen.Controls/ListBoxItem ListBoxItemInstance in screen",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2026-02-02T00:26:43.6752877Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).NineSliceInstance",
+        "NewName": "screen.MenuItemInstance",
         "OldName": null,
-        "ElementType": "Components",
+        "ElementType": "Screens",
         "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:17:29.6544875Z"
+        "TimestampUtc": "2026-02-02T00:26:47.2508516Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).Background",
-        "OldName": "Hytale/InventoryPanel (Container).NineSliceInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T06:17:39.2945506Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).StackPanelInstance",
+        "NewName": "screen",
         "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:19:37.0965688Z"
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2026-02-02T00:30:16.9888545Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).ItemStackPanel",
-        "OldName": "Hytale/InventoryPanel (Container).StackPanelInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T06:20:22.6037699Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance",
+        "NewName": "screen.MenuItemInstance1",
         "OldName": null,
-        "ElementType": "Components",
+        "ElementType": "Screens",
         "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:21:44.342538Z"
+        "TimestampUtc": "2026-02-02T00:32:19.3567406Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance1",
+        "NewName": "screen.MenuItemInstance2",
         "OldName": null,
-        "ElementType": "Components",
+        "ElementType": "Screens",
         "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:02.8038607Z"
+        "TimestampUtc": "2026-02-02T00:32:36.2558025Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance2",
+        "NewName": "screen.MenuItemInstance3",
         "OldName": null,
-        "ElementType": "Components",
+        "ElementType": "Screens",
         "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:03.8666797Z"
+        "TimestampUtc": "2026-02-02T00:32:52.004334Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance3",
+        "NewName": "screen.MenuItemInstance4",
         "OldName": null,
-        "ElementType": "Components",
+        "ElementType": "Screens",
         "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:04.144697Z"
+        "TimestampUtc": "2026-02-02T00:32:57.0568341Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance4",
+        "NewName": "Screen",
+        "OldName": "screen",
+        "ElementType": "Screens",
+        "EventType": 2,
+        "TimestampUtc": "2026-02-02T00:36:33.219299Z"
+      },
+      {
+        "NewName": "Screen.MenuItemInstance5",
         "OldName": null,
-        "ElementType": "Components",
+        "ElementType": "Screens",
         "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:04.4335362Z"
+        "TimestampUtc": "2026-02-02T00:46:25.345743Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance5",
+        "NewName": "Screen.MenuItemInstance6",
         "OldName": null,
-        "ElementType": "Components",
+        "ElementType": "Screens",
         "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:04.7100983Z"
+        "TimestampUtc": "2026-02-02T00:46:25.3731927Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance6",
+        "NewName": null,
+        "OldName": "Screen.Controls/MenuItem MenuItemInstance5 in Screen",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2026-02-02T00:46:27.2607184Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Screen.Controls/MenuItem MenuItemInstance6 in Screen",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2026-02-02T00:46:27.2616021Z"
+      },
+      {
+        "NewName": "Screen.MenuItemInstance5",
         "OldName": null,
-        "ElementType": "Components",
+        "ElementType": "Screens",
         "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:05.0195697Z"
+        "TimestampUtc": "2026-02-02T00:46:33.9900019Z"
       },
       {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance7",
+        "NewName": "Screen.MenuItemInstance6",
         "OldName": null,
-        "ElementType": "Components",
+        "ElementType": "Screens",
         "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:05.3204651Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance8",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:05.6336193Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance9",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:05.9395502Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance10",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:06.2527697Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance11",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:06.544323Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance12",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:06.8568445Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance13",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:07.2377608Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance14",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:07.5790963Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance15",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:07.9345079Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance16",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:12.3251111Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance17",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:12.6563925Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance18",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:12.971657Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance19",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:13.2964851Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance20",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:13.6251829Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance21",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:13.9758973Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance22",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:14.3238916Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance23",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:14.659942Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance24",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:15.0168651Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance25",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:15.348515Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance26",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:15.7021886Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance27",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:16.1429646Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance28",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:16.4798517Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance29",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:16.8225359Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance30",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:17.1640166Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance31",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:19.3962674Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance32",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:19.7321584Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance33",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:20.077519Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance34",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:20.4633228Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance35",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:20.8083727Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance36",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:21.1691035Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance37",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:21.5172193Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance38",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:21.8730605Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance39",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:22.2239558Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance40",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:22.601009Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance41",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:22.9754376Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance42",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:23.3274839Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance43",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:23.6888879Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance44",
-        "OldName": null,
-        "ElementType": "Components",
-        "EventType": 5,
-        "TimestampUtc": "2026-02-01T06:22:24.056629Z"
-      },
-      {
-        "NewName": "Hytale/InventoryPanel (Container).ItemSlotInstance45",
-        "OldName": "Hytale/InventoryPanel (Container).ItemSlotInstance",
-        "ElementType": "Components",
-        "EventType": 7,
-        "TimestampUtc": "2026-02-01T06:22:31.1899497Z"
+        "TimestampUtc": "2026-02-02T00:46:34.0222104Z"
       }
     ]
   }

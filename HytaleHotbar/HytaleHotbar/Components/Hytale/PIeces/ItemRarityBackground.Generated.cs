@@ -3,6 +3,8 @@ using GumRuntime;
 using System.Linq;
 using MonoGameGum;
 using MonoGameGum.GueDeriving;
+using Gum.StateAnimation.Runtime;
+using Gum.Wireframe;
 using Gum.Converters;
 using Gum.DataTypes;
 using Gum.Managers;
@@ -43,7 +45,7 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
         Uncommon,
         Rare,
         Epic,
-        Legerndary,
+        Legendary,
     }
 
     RarityCategory? _rarityCategoryState;

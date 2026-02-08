@@ -41,7 +41,7 @@
       <FriendlyName>4k</FriendlyName>
     </CustomCanvasSize>
   </CustomCanvasSizes>
-  <ShowOutlines>true</ShowOutlines>
+  <ShowOutlines>false</ShowOutlines>
   <ShowCanvasOutline>true</ShowCanvasOutline>
   <ShowRuler>true</ShowRuler>
   <ShowCheckerBackground>true</ShowCheckerBackground>

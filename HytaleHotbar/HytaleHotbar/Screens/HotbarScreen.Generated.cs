@@ -4,10 +4,10 @@ using Gum.DataTypes;
 using Gum.Managers;
 using Gum.Wireframe;
 using GumRuntime;
-using HytaleHotbar.Components.Controls;
-using HytaleHotbar.Components.Hytale;
 using MonoGameGum;
 using MonoGameGum.GueDeriving;
+using HytaleHotbar.Components.Controls;
+using HytaleHotbar.Components.Hytale;
 using RenderingLibrary.Graphics;
 using System.Linq;
 namespace HytaleHotbar.Screens;
@@ -38,6 +38,7 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
             return gue;
         });
     }
+    public InventoryPanel InventoryPanelInstance { get; protected set; }
     public Hotbar HotbarInstance { get; protected set; }
     public ButtonStandard Randomize { get; protected set; }
     public Label StatusInfo { get; protected set; }
@@ -54,6 +55,7 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
     protected override void ReactToVisualChanged()
     {
         base.ReactToVisualChanged();
+        InventoryPanelInstance = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<InventoryPanel>(this.Visual,"InventoryPanelInstance");
         HotbarInstance = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Hotbar>(this.Visual,"HotbarInstance");
         Randomize = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<ButtonStandard>(this.Visual,"Randomize");
         StatusInfo = global::Gum.Forms.GraphicalUiElementFormsExtensions.TryGetFrameworkElementByName<Label>(this.Visual,"StatusInfo");

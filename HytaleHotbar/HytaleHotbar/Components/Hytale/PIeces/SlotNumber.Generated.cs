@@ -37,12 +37,12 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
         });
     }
     public NineSliceRuntime Background { get; protected set; }
-    public TextRuntime SlotNumberText { get; protected set; }
+    public TextRuntime SlotNubmerText { get; protected set; }
 
     public string Text
     {
-        get => SlotNumberText.Text;
-        set => SlotNumberText.Text = value;
+        get => SlotNubmerText.Text;
+        set => SlotNubmerText.Text = value;
     }
 
     public SlotNumber(InteractiveGue visual) : base(visual)
@@ -58,7 +58,7 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
     {
         base.ReactToVisualChanged();
         Background = this.Visual?.GetGraphicalUiElementByName("Background") as global::MonoGameGum.GueDeriving.NineSliceRuntime;
-        SlotNumberText = this.Visual?.GetGraphicalUiElementByName("SlotNumberText") as global::MonoGameGum.GueDeriving.TextRuntime;
+        SlotNubmerText = this.Visual?.GetGraphicalUiElementByName("SlotNubmerText") as global::MonoGameGum.GueDeriving.TextRuntime;
         CustomInitialize();
     }
     //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code

@@ -5,56 +5,74 @@
     <Name>Default</Name>
     <Variable>
       <Type>float</Type>
-      <Name>HotbarInstance.X</Name>
-      <Value xsi:type="xsd:float">0</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>HorizontalAlignment</Type>
-      <Name>HotbarInstance.XOrigin</Name>
-      <Value xsi:type="xsd:int">1</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>PositionUnitType</Type>
-      <Name>HotbarInstance.XUnits</Name>
-      <Value xsi:type="xsd:int">6</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>float</Type>
       <Name>HotbarInstance.Y</Name>
       <Value xsi:type="xsd:float">-20</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>bool</Type>
+      <Name>InventoryPanelInstance.Visible</Name>
+      <Value xsi:type="xsd:boolean">false</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>InventoryPanelInstance.X</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>HorizontalAlignment</Type>
+      <Name>InventoryPanelInstance.XOrigin</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>InventoryPanelInstance.XUnits</Name>
+      <Value xsi:type="xsd:int">6</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>InventoryPanelInstance.Y</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>VerticalAlignment</Type>
-      <Name>HotbarInstance.YOrigin</Name>
+      <Name>InventoryPanelInstance.YOrigin</Name>
       <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>HotbarInstance.YUnits</Name>
+      <Name>InventoryPanelInstance.YUnits</Name>
       <Value xsi:type="xsd:int">5</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>Randomize.Text</Name>
+      <Value xsi:type="xsd:string">Randomize</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>float</Type>
       <Name>StatusInfo.Height</Name>
-      <Value xsi:type="xsd:float">114</Value>
+      <Value xsi:type="xsd:float">23</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>float</Type>
       <Name>StatusInfo.Width</Name>
-      <Value xsi:type="xsd:float">714</Value>
+      <Value xsi:type="xsd:float">326</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>float</Type>
       <Name>StatusInfo.X</Name>
-      <Value xsi:type="xsd:float">9</Value>
+      <Value xsi:type="xsd:float">14</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -64,6 +82,11 @@
       <SetsValue>true</SetsValue>
     </Variable>
   </State>
+  <Instance>
+    <Name>InventoryPanelInstance</Name>
+    <BaseType>Hytale/InventoryPanel</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
   <Instance>
     <Name>HotbarInstance</Name>
     <BaseType>Hytale/Hotbar</BaseType>

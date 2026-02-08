@@ -1,14 +1,18 @@
 //Code for Hytale/ItemSlot (Container)
+using GumRuntime;
+using System.Linq;
+using MonoGameGum;
+using MonoGameGum.GueDeriving;
+using HytaleHotbar.Components.Hytale.PIeces;
 using Gum.Converters;
 using Gum.DataTypes;
 using Gum.Managers;
 using Gum.Wireframe;
-using GumRuntime;
-using HytaleHotbar.Components.Hytale.PIeces;
-using MonoGameGum;
-using MonoGameGum.GueDeriving;
+
 using RenderingLibrary.Graphics;
+
 using System.Linq;
+
 namespace HytaleHotbar.Components.Hytale;
 partial class ItemSlot : global::Gum.Forms.Controls.FrameworkElement
 {
