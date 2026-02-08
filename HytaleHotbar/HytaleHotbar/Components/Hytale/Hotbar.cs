@@ -3,6 +3,7 @@ using Gum.DataTypes;
 using Gum.Forms.Controls;
 using Gum.Managers;
 using Gum.Wireframe;
+using HytaleHotbar.Services;
 using Microsoft.Xna.Framework.Input;
 using MonoGameGum;
 using MonoGameGum.ExtensionMethods;
@@ -18,6 +19,8 @@ namespace HytaleHotbar.Components.Hytale
         public event EventHandler SelectedIndexChanged;
 
         public ItemSlot Slot(int i) => (ItemSlot)InnerStackPanel.Children[i];
+
+        InventoryService _inventoryService;
 
         private int selectedIndex = -1;
         public int SelectedIndex
@@ -41,8 +44,35 @@ namespace HytaleHotbar.Components.Hytale
             }
         }
 
+        new public bool IsVisible
+        {
+            get
+            {
+                return base.IsVisible;
+            }
+            set
+            {
+                // Don't make changes to visibility if it's the same
+                if (value == base.IsVisible)
+                {
+                    return;
+                }
+
+                // Update the Hotbar if we just got set to visible
+                if (value)
+                {
+                    UpdateHotbarFromInventory();
+                }
+
+                base.IsVisible = value;
+            }
+        }
+
+
         partial void CustomInitialize()
         {
+            _inventoryService = Game1.ServiceContainer.GetService<InventoryService>();
+
             foreach (ItemSlot child in InnerStackPanel.Children)
             {
                 child.Click += HandleItemSlotClicked;
@@ -55,6 +85,19 @@ namespace HytaleHotbar.Components.Hytale
             SelectedIndex = InnerStackPanel.Children.IndexOf(itemSlot);
 
             Debug.WriteLine($"Clicked {itemSlot.Name}");
+        }
+
+
+        public void UpdateHotbarFromInventory()
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                // These 3 could be consolidated
+                var item = _inventoryService?.HotbarInventory(i);
+                var itemDef = item == null ? null : _inventoryService.ItemDefinitions[item.Name];
+                var slot = Slot(i);
+                slot.SetSlotToItem(item, itemDef);
+            }
         }
 
         internal void HandleKeyboardInput()
