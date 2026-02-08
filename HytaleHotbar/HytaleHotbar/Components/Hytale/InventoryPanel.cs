@@ -44,6 +44,30 @@ namespace HytaleHotbar.Components.Hytale
         partial void CustomInitialize()
         {
             _inventoryService = Game1.ServiceContainer.GetService<InventoryService>();
+
+            this.InventoryTitleBarInstance.Autosort.Visual.Click += (_, _) =>
+            {
+                _inventoryService.SortInventoryBy("name");
+                UpdatePanelFromInventory();
+            };
+
+            this.InventoryTitleBarInstance.FilterWeapons.Visual.Click += (_, _) =>
+            {
+                _inventoryService.SortInventoryBy("weapontype");
+                UpdatePanelFromInventory();
+            };
+
+            this.InventoryTitleBarInstance.FilterArmor.Visual.Click += (_, _) =>
+            {
+                _inventoryService.SortInventoryBy("armortype");
+                UpdatePanelFromInventory();
+            };
+
+            this.InventoryTitleBarInstance.FilterItems.Visual.Click += (_, _) =>
+            {
+                _inventoryService.SortInventoryBy("itemstype");
+                UpdatePanelFromInventory();
+            };
         }
 
         public void UpdatePanelFromInventory()
