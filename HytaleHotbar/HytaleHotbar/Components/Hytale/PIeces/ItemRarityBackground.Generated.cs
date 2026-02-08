@@ -1,17 +1,13 @@
 //Code for Hytale/PIeces/ItemRarityBackground (Container)
-using GumRuntime;
-using System.Linq;
-using MonoGameGum;
-using MonoGameGum.GueDeriving;
 using Gum.Converters;
 using Gum.DataTypes;
 using Gum.Managers;
 using Gum.Wireframe;
-
+using GumRuntime;
+using MonoGameGum;
+using MonoGameGum.GueDeriving;
 using RenderingLibrary.Graphics;
-
 using System.Linq;
-
 namespace HytaleHotbar.Components.Hytale.PIeces;
 partial class ItemRarityBackground : global::Gum.Forms.Controls.FrameworkElement
 {
@@ -43,7 +39,7 @@ if(element == null) throw new System.InvalidOperationException("Could not find a
         Uncommon,
         Rare,
         Epic,
-        Legerndary,
+        Legendary,
     }
 
     RarityCategory? _rarityCategoryState;

@@ -300,7 +300,7 @@
       </Variable>
     </State>
     <State>
-      <Name>Legerndary</Name>
+      <Name>Legendary</Name>
       <Variable>
         <Type>int</Type>
         <Name>Background.Blue</Name>

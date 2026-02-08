@@ -2,34 +2,6 @@
   "UserEvents": {
     "ff194557eb3929da013e504725882c5c5e59e2652f9fbf88b199c40a47d9f781": [
       {
-        "NewName": "HotbarScreen.ButtonStandardInstance",
-        "OldName": null,
-        "ElementType": "Screens",
-        "EventType": 5,
-        "TimestampUtc": "2026-01-24T23:09:27.6563425Z"
-      },
-      {
-        "NewName": "HotbarScreen.LabelInstance",
-        "OldName": null,
-        "ElementType": "Screens",
-        "EventType": 5,
-        "TimestampUtc": "2026-01-24T23:09:30.5253592Z"
-      },
-      {
-        "NewName": "HotbarScreen.Randomize",
-        "OldName": "HotbarScreen.ButtonStandardInstance",
-        "ElementType": "Screens",
-        "EventType": 7,
-        "TimestampUtc": "2026-01-24T23:09:57.4782014Z"
-      },
-      {
-        "NewName": "HotbarScreen.StatusInfo",
-        "OldName": "HotbarScreen.LabelInstance",
-        "ElementType": "Screens",
-        "EventType": 7,
-        "TimestampUtc": "2026-01-24T23:10:00.7881176Z"
-      },
-      {
         "NewName": "Hytale/PIeces/InventoryTitleBarIconButton",
         "OldName": null,
         "ElementType": "Components",
@@ -616,6 +588,13 @@
         "ElementType": "Screens",
         "EventType": 5,
         "TimestampUtc": "2026-02-07T09:05:04.169265Z"
+      },
+      {
+        "NewName": "Legendary",
+        "OldName": "Legerndary",
+        "ElementType": "Components",
+        "EventType": 3,
+        "TimestampUtc": "2026-02-08T00:59:12.7396767Z"
       }
     ]
   }
