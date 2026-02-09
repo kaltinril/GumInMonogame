@@ -248,7 +248,7 @@ Lets create a real Item class that we can pass into the slots to tell the slot w
                 }
             }
 
-            ublic ItemRarityBackground.RarityCategory Rarity;
+            public ItemRarityBackground.RarityCategory Rarity;
 
             public InventoryItem(string name, int quantity, int durability, ItemRarityBackground.RarityCategory rarity)
             {

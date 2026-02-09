@@ -5,35 +5,40 @@ namespace HytaleHotbar.Data
 
     public enum ItemCatergories
     {
-        Weapon,
-        Tool,
-        CraftingBench,
+        None,
         Block,
-        Ore,
-        Ingot,
-        Food,
         Container,
-        Item
+        CraftingBench,
+        Food,
+        Ingot,
+        Item,
+        Ore,
+        Tool,
+        Weapon,
     }
 
     public class InventoryItemDefinition
     {
         public string Name { get; set; }
         public Vector2 TextureTopLeft { get; set; }
-        public ItemCatergories ItemCatgegory { get; set; }
+        public ItemCatergories ItemCategory { get; set; }
+        public int MaxStackSize { get; }
+        public bool IsStackable => MaxStackSize > 1;
 
-        public InventoryItemDefinition(string name, int top, int left, ItemCatergories category)
+        public InventoryItemDefinition(string name, int top, int left, ItemCatergories category, int maxStackSize = 100)
         {
             Name = name;
             TextureTopLeft = new Vector2(left, top);
-            ItemCatgegory = category;
+            ItemCategory = category;
+            MaxStackSize = maxStackSize;
         }
 
-        public InventoryItemDefinition(string name, Vector2 topLeft, ItemCatergories category)
+        public InventoryItemDefinition(string name, Vector2 topLeft, ItemCatergories category, int maxStackSize = 100)
         {
             Name = name;
             TextureTopLeft = topLeft;
-            ItemCatgegory = category;
+            ItemCategory = category;
+            MaxStackSize = maxStackSize;
         }
     }
 }
