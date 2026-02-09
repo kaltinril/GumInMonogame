@@ -18,3 +18,7 @@ Showing how to setup CODE ONLY GUM for MonoGame
 ## GumGlobalStyle
 
 Going to focus on how to configure and modify the global STYLING object to modify GUM CODE ONLY objects.
+
+# Hytale in Monogame
+
+A 4 part mini series where we make a hotbar and inventory in gum, and then wire them up in monogame.
